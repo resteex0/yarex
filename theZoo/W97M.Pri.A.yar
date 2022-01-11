@@ -11,7 +11,7 @@ rule resteex_W97M_Pri_A {
 		 description= "W97M_Pri_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-24" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "20577952428b972fc5103d329b77f4b7"
 		 hash2= "44d7ef71a0c02a415f6ddf11ea976de0"
 		 hash3= "edbe88b73d582b38690570f032a3e249"

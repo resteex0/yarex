@@ -11,7 +11,7 @@ rule resteex_Win32_Narilam {
 		 description= "Win32_Narilam Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-12" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8e63c306e95843eccab53dad31b3a98b"
 
 	strings:

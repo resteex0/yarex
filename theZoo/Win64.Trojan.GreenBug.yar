@@ -11,7 +11,7 @@ rule resteex_Win64_Trojan_GreenBug {
 		 description= "Win64_Trojan_GreenBug Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-25" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "786e61331a1e84b7fe26c254de0280ad"
 
 	strings:

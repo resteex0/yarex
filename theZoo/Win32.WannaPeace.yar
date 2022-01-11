@@ -11,7 +11,7 @@ rule resteex_Win32_WannaPeace {
 		 description= "Win32_WannaPeace Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-09" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "eefa6f98681d78b63f15d7e58934c6cc"
 
 	strings:

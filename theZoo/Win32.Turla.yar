@@ -11,7 +11,7 @@ rule resteex_Win32_Turla {
 		 description= "Win32_Turla Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-34-53" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2b47ad7df9902aaa19474723064ee76f"
 		 hash2= "3c1a8991e96f4c56ae3e90fb6f0ae679"
 		 hash3= "5f8f3cf46719afa7eb5f761cdd18b63d"

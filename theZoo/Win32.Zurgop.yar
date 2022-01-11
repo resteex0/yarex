@@ -11,7 +11,7 @@ rule resteex_Win32_Zurgop {
 		 description= "Win32_Zurgop Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-23" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c1e5dae72a51a7b7219346c4a360d867"
 
 	strings:

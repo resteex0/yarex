@@ -11,7 +11,7 @@ rule resteex_Win32_Lephic {
 		 description= "Win32_Lephic Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-07" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "39192da38ad821d5e6cd6b68843dc81d"
 
 	strings:

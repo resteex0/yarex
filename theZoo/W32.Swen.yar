@@ -11,7 +11,7 @@ rule resteex_W32_Swen {
 		 description= "W32_Swen Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-20" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9d4f624495fb078d4aad32901a1bdf52"
 		 hash2= "9e4fd94e55753ea03584f2473f4a0d5e"
 

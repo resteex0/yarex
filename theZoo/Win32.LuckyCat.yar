@@ -11,7 +11,7 @@ rule resteex_Win32_LuckyCat {
 		 description= "Win32_LuckyCat Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-08" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9f9723c5ff4ec1b7f08eb2005632b8b1"
 		 hash2= "c1d73ce5bf0559a86bae0f9045a82e0a"
 

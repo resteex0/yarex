@@ -11,7 +11,7 @@ rule resteex_Trojan_Ransom_Petya {
 		 description= "Trojan_Ransom_Petya Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-48" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8ed9a60127aee45336102bf12059a850"
 
 	strings:

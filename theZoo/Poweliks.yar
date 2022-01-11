@@ -11,7 +11,7 @@ rule resteex_Poweliks {
 		 description= "Poweliks Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-14" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0181850239cd26b8fb8b72afb0e95eac"
 		 hash2= "02884b95d5c3fde46c8ecd6ca409abd4"
 		 hash3= "4a7ca7f2ad4cd92aa224485b687f52d9"

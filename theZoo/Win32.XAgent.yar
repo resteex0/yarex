@@ -11,7 +11,7 @@ rule resteex_Win32_XAgent {
 		 description= "Win32_XAgent Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-13" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2f6d1bed602a3ad749301e7aa3800139"
 
 	strings:

@@ -11,7 +11,7 @@ rule resteex_ZeusGameover_Feb2014 {
 		 description= "ZeusGameover_Feb2014 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-36-12" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "19c68862d3a53ea1746180b40bf32226"
 		 hash2= "7bc463a32d6c0fb888cd76cc07ee69b5"
 		 hash3= "7fe11cfcd7c66f7727cfc4613e755389"

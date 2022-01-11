@@ -11,7 +11,7 @@ rule resteex_W32_Elkern_B {
 		 description= "W32_Elkern_B Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-06" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a8a4950d9d71b448fde1f741608921e"
 		 hash2= "15eb3a656f9e83138cdb4c3a16b6ab60"
 

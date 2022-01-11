@@ -11,7 +11,7 @@ rule resteex_Somoto {
 		 description= "Somoto Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-01" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02e0b78e2876087f678f070ed60e4c30"
 
 	strings:

@@ -11,7 +11,7 @@ rule resteex_CryptoLocker_20Nov2013 {
 		 description= "CryptoLocker_20Nov2013 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-44" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "7f9c454a2e016e533e181d53eba113bc"
 
 	strings:

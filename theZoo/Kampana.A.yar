@@ -11,7 +11,7 @@ rule resteex_Kampana_A {
 		 description= "Kampana_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-13" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4f98b457b6fda6b68c88884d56713f6b"
 		 hash2= "aae344e3644f2702420c1fd3444e6ec1"
 

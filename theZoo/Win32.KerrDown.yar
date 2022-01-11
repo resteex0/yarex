@@ -11,7 +11,7 @@ rule resteex_Win32_KerrDown {
 		 description= "Win32_KerrDown Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-44" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "518f52aabd9a059d181bfe864097091e"
 		 hash2= "6aa3115fa1f3adb8f0539e93d2cf21ca"
 		 hash3= "70a64ae401c0a5f091b5382dea2432df"

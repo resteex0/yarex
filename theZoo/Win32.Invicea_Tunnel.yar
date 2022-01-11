@@ -11,7 +11,7 @@ rule resteex_Win32_Invicea_Tunnel {
 		 description= "Win32_Invicea_Tunnel Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-42" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ad44a7c5e18e9958dda66ccfc406cd44"
 
 	strings:

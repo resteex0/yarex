@@ -11,7 +11,7 @@ rule resteex_EquationGroup_EquationLaser {
 		 description= "EquationGroup_EquationLaser Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-54" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "752af597e6d9fd70396accc0b9013dbe"
 
 	strings:

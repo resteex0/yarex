@@ -11,7 +11,7 @@ rule resteex_W32_Nimda_A {
 		 description= "W32_Nimda_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-17" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "06f46062e7d56457252a9a3e3a73405a"
 		 hash2= "087b30cdde1487f4f90abd2659edd19d"
 		 hash3= "36d433dc87fdbffababde57ef3c3c130"

@@ -11,7 +11,7 @@ rule resteex_Ransomware_Unnamed_0 {
 		 description= "Ransomware_Unnamed_0 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-26" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "96afc9cdef3c623e0c5420e339c57283"
 
 	strings:

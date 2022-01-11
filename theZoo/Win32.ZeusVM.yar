@@ -11,7 +11,7 @@ rule resteex_Win32_ZeusVM {
 		 description= "Win32_ZeusVM Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-22" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "34875dcb19479c5df2b059cc967b76e7"
 		 hash2= "8a0c95be8a40ae5419f7d97bb3e91b2b"
 

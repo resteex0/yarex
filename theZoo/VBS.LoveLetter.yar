@@ -11,7 +11,7 @@ rule resteex_VBS_LoveLetter {
 		 description= "VBS_LoveLetter Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-56" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "072b90a954bb9349a8871fa749165596"
 		 hash2= "7812042921729e8f20dc3950ea52534a"
 		 hash3= "836a5abd025d60a7aa8550679dd556c9"

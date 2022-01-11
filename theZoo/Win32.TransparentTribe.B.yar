@@ -11,7 +11,7 @@ rule resteex_Win32_TransparentTribe_B {
 		 description= "Win32_TransparentTribe_B Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-58" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15da10765b7becfcca3325a91d90db37"
 		 hash2= "48476da4403243b342a166d8a6be7a3f"
 		 hash3= "53cd72147b0ef6bf6e64d266bf3ccafe"

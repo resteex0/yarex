@@ -11,7 +11,7 @@ rule resteex_Trojan_Bladabindi {
 		 description= "Trojan_Bladabindi Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-37" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "5a559b6d223c79f3736dc52794636cfd"
 
 	strings:

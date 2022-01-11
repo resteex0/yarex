@@ -11,7 +11,7 @@ rule resteex_Android_Skygofree {
 		 description= "Android_Skygofree Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-24-43" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "39fca709b416d8da592de3a3f714dce8"
 		 hash2= "708445b8d358c254e861effffd4f819b"
 

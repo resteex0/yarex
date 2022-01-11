@@ -11,7 +11,7 @@ rule resteex_EquationGroup_GROK {
 		 description= "EquationGroup_GROK Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-57" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "24a6ec8ebf9c0867ed1c097f4a653b8d"
 
 	strings:

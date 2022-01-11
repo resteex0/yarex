@@ -11,7 +11,7 @@ rule resteex_Jumper_B {
 		 description= "Jumper_B Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-06" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3235e962f69939e6a43fef3abf620d56"
 		 hash2= "de35afe288d64ea01f201e2a24f3a732"
 

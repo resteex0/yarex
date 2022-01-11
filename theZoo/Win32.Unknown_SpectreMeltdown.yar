@@ -11,7 +11,7 @@ rule resteex_Win32_Unknown_SpectreMeltdown {
 		 description= "Win32_Unknown_SpectreMeltdown Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-34-56" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b6b9c196d7a9b0058330b998f461ee52"
 
 	strings:

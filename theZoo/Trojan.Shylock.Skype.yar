@@ -11,7 +11,7 @@ rule resteex_Trojan_Shylock_Skype {
 		 description= "Trojan_Shylock_Skype Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-50" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8fbeb78b06985c3188562e2f1b82d57d"
 
 	strings:

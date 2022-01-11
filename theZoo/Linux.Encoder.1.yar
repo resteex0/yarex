@@ -11,7 +11,7 @@ rule resteex_Linux_Encoder_1 {
 		 description= "Linux_Encoder_1 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-26" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1e19b857a5f5a9680555fa9623a88e99"
 		 hash2= "22dc1db1a876721727cca37c21d31655"
 		 hash3= "60e0f1362da65e11bb268be5b1ad1053"

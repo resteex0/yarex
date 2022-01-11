@@ -11,7 +11,7 @@ rule resteex_Ransomware_RedBoot {
 		 description= "Ransomware_RedBoot Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-28-01" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e0340f456f76993fc047bc715dfdae6a"
 
 	strings:

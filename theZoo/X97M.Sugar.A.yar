@@ -11,7 +11,7 @@ rule resteex_X97M_Sugar_A {
 		 description= "X97M_Sugar_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-45" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "051f2f03d0ad1f8931d3ebaef24850d6"
 		 hash2= "4635b30179f9cf8fbf2e1e3f4bf1490b"
 		 hash3= "c441cafdba84b56b63004272caa037a4"

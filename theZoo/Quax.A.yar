@@ -11,7 +11,7 @@ rule resteex_Quax_A {
 		 description= "Quax_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-25" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "50a572e94c69b0644576519b182f67dd"
 		 hash2= "ba02f4502d6ca67ea5033aebce28a36d"
 

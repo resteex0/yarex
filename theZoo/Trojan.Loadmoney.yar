@@ -11,7 +11,7 @@ rule resteex_Trojan_Loadmoney {
 		 description= "Trojan_Loadmoney Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-43" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6c42954257ef80cc72266400236ea63c"
 
 	strings:

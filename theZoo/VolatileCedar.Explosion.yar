@@ -11,7 +11,7 @@ rule resteex_VolatileCedar_Explosion {
 		 description= "VolatileCedar_Explosion Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-59" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "034e4c62965f8d5dd5d5a2ce34a53ba9"
 		 hash2= "08c988d6cebdd55f3b123f2d9d5507a6"
 		 hash3= "184320a057e455555e3be22e67663722"

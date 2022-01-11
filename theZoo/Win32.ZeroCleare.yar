@@ -11,7 +11,7 @@ rule resteex_Win32_ZeroCleare {
 		 description= "Win32_ZeroCleare Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-15" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1a69a02b0cd10b1764521fec4b7376c9"
 		 hash2= "33f98b613b331b49e272512274669844"
 		 hash3= "8afa8a59eebf43ef223be52e08fcdc67"

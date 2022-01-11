@@ -11,7 +11,7 @@ rule resteex_PlugX {
 		 description= "PlugX Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-13" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3bc9e9b78ac6dee1a44436859849bbbf"
 		 hash2= "3c74a85c2cf883bd9d4b9f8b9746030f"
 		 hash3= "5f9f8ac1f749b0637eca6ef15910bf21"

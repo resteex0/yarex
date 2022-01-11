@@ -11,7 +11,7 @@ rule resteex_Ransomware_Petrwrap {
 		 description= "Ransomware_Petrwrap Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-45" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0487382a4daf8eb9660f1c67e30f8b25"
 		 hash2= "51c028cd5f3afe9bf179d81def8d7a8e"
 		 hash3= "65d9d04ea080e04e9d0aebf55aecd5d0"

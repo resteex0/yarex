@@ -11,7 +11,7 @@ rule resteex_Win32_RedDelta {
 		 description= "Win32_RedDelta Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-40" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2ec79d0605a4756f4732aba16ef41b22"
 		 hash2= "660d1132888b2a2ff83b695e65452f87"
 		 hash3= "83763fe02f41c1b3ce099f277391732a"

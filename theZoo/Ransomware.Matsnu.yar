@@ -11,7 +11,7 @@ rule resteex_Ransomware_Matsnu {
 		 description= "Ransomware_Matsnu Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-44" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1b2d2a4b97c7c2727d571bbf9376f54f"
 
 	strings:

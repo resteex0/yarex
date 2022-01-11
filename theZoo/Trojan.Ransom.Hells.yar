@@ -11,7 +11,7 @@ rule resteex_Trojan_Ransom_Hells {
 		 description= "Trojan_Ransom_Hells Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-47" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a158607e499d658b54d123daf0fdb1b6"
 
 	strings:

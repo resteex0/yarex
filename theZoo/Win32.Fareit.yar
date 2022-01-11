@@ -11,7 +11,7 @@ rule resteex_Win32_Fareit {
 		 description= "Win32_Fareit Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-29" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15540d149889539308135fa12bedbcbf"
 		 hash2= "1d34d800aa3320dc17a5786f8eec16ee"
 		 hash3= "301210d5557d9ba34f401d3ef7a7276f"

@@ -11,7 +11,7 @@ rule resteex_Skywiper_A_Flame {
 		 description= "Skywiper_A_Flame Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-58" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "bb5441af1e1741fca600e9c433cb1550"
 		 hash2= "c81d037b723adc43e3ee17b1eee9d6cc"
 		 hash3= "c9e00c9d94d1a790d5923b050b0bd741"

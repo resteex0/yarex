@@ -11,7 +11,7 @@ rule resteex_EquationGroup_GrayFish {
 		 description= "EquationGroup_GrayFish Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-56" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9b1ca66aab784dc5f1dfe635d8f8a904"
 
 	strings:

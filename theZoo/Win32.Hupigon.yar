@@ -11,7 +11,7 @@ rule resteex_Win32_Hupigon {
 		 description= "Win32_Hupigon Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-36" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8f90057ab244bd8b612cd09f566eac0c"
 
 	strings:

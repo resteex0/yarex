@@ -11,7 +11,7 @@ rule resteex_WMIGhost {
 		 description= "WMIGhost Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-41" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0df40b226a4913a57668b83b7c7b443c"
 		 hash2= "0e7db6b6a6e4993a01a01df578d65bf0"
 		 hash3= "11b8142c08b1820420f8802f18cc2bc0"

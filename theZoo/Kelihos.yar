@@ -11,7 +11,7 @@ rule resteex_Kelihos {
 		 description= "Kelihos Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-14" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c837a8f652c36ea8d85f5ffee70068e"
 		 hash2= "91f25b52d9bf833b9ac36e7258e44807"
 

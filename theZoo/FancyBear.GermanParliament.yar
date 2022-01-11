@@ -11,7 +11,7 @@ rule resteex_FancyBear_GermanParliament {
 		 description= "FancyBear_GermanParliament Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-59" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "77e7fb6b56c3ece4ef4e93b6dc608be0"
 
 	strings:

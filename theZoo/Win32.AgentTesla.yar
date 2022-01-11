@@ -11,7 +11,7 @@ rule resteex_Win32_AgentTesla {
 		 description= "Win32_AgentTesla Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-28" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2b294b3499d1cce794badffc959b7618"
 
 	strings:

@@ -11,7 +11,7 @@ rule resteex_Ransomware_WannaCry {
 		 description= "Ransomware_WannaCry Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-40" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "84c82835a5d21bbcf75a61706d8ab549"
 
 	strings:

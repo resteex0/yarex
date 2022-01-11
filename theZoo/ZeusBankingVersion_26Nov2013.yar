@@ -11,7 +11,7 @@ rule resteex_ZeusBankingVersion_26Nov2013 {
 		 description= "ZeusBankingVersion_26Nov2013 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-51" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ea039a854d20d7734c5add48f1a51c34"
 
 	strings:

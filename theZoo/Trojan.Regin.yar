@@ -11,7 +11,7 @@ rule resteex_Trojan_Regin {
 		 description= "Trojan_Regin Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-50" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "06665b96e293b23acc80451abb413e50"
 		 hash2= "187044596bc1328efa0ed636d8aa4a5c"
 		 hash3= "1c024e599ac055312a4ab75b3950040a"

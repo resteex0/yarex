@@ -11,7 +11,7 @@ rule resteex_ZeroAccess {
 		 description= "ZeroAccess Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-49" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a2611095f689fadffd3068e0d4e3e7ed"
 		 hash2= "fe756584b159fd24dc4b6a572917354c"
 

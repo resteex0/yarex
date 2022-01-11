@@ -11,7 +11,7 @@ rule resteex_Win32_Reveton {
 		 description= "Win32_Reveton Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-43" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2cdb29c8aa709cdb75f42248c84fe5d7"
 		 hash2= "8334d2692aa97076a5bd95a9d9fdfcd5"
 

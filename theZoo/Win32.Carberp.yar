@@ -11,7 +11,7 @@ rule resteex_Win32_Carberp {
 		 description= "Win32_Carberp Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-09" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "11bba9b2333559b727caf22896092217"
 
 	strings:

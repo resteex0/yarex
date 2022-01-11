@@ -11,7 +11,7 @@ rule resteex_OSX_XAgent {
 		 description= "OSX_XAgent Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-56" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "27ff86999bf2cbd5afbad94f8a9bb696"
 		 hash2= "4fe4b9560e99e33dabca553e2eeee510"
 		 hash3= "fbcfeeacc711310395da6ef87e34a616"

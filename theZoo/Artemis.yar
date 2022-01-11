@@ -11,7 +11,7 @@ rule resteex_Artemis {
 		 description= "Artemis Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-25" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "caff801a280d42dbd1ad6b1266d3c43a"
 
 	strings:

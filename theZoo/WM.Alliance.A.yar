@@ -11,7 +11,7 @@ rule resteex_WM_Alliance_A {
 		 description= "WM_Alliance_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-39" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "35445cce9ab35fbc3b78bfac96874879"
 		 hash2= "df6dca243d6230c78b88d6ee24398f58"
 

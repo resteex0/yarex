@@ -11,7 +11,7 @@ rule resteex_Ransomware_Satana {
 		 description= "Ransomware_Satana Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-16" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "108756f41d114eb93e136ba2feb838d0"
 		 hash2= "46bfd4f1d581d7c0121d2b19a005d3df"
 

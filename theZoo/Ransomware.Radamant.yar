@@ -11,7 +11,7 @@ rule resteex_Ransomware_Radamant {
 		 description= "Ransomware_Radamant Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-59" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6152709e741c4d5a5d793d35817b4c3d"
 		 hash2= "892626ba70f22a5c7593116b8d2defcf"
 

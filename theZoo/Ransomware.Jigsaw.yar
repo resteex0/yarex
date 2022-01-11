@@ -11,7 +11,7 @@ rule resteex_Ransomware_Jigsaw {
 		 description= "Ransomware_Jigsaw Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-28" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2773e3dc59472296cb0024ba7715a64e"
 
 	strings:

@@ -11,7 +11,7 @@ rule resteex_Win32_EternalRocks {
 		 description= "Win32_EternalRocks Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-13" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0e83b186a4d067299df2db817b724eb7"
 		 hash2= "198f27f5ab972bfd99e89802e40d6ba7"
 		 hash3= "2d540860d91cd25cc8d61555523c76ff"

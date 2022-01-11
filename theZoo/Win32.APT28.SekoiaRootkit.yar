@@ -11,7 +11,7 @@ rule resteex_Win32_APT28_SekoiaRootkit {
 		 description= "Win32_APT28_SekoiaRootkit Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-47" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f8c8f6456c5a52ef24aa426e6b121685"
 
 	strings:

@@ -11,7 +11,7 @@ rule resteex_W97M_Class_AU {
 		 description= "W97M_Class_AU Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-22" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "345e5ed6361e5f0f6ed521c3f2f3881c"
 		 hash2= "58f3e1cb3d85ec986263cc61ea1cfec7"
 		 hash3= "5c71303a31853917f08adc37a8ec32eb"

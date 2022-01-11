@@ -11,7 +11,7 @@ rule resteex_Ransomware_Locky {
 		 description= "Ransomware_Locky Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-31" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b06d9dd17c69ed2ae75d9e40b2631b42"
 
 	strings:

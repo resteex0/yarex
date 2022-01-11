@@ -11,7 +11,7 @@ rule resteex_Win32_SofacyCarberp {
 		 description= "Win32_SofacyCarberp Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-52" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "36524c90ca1fac2102e7653dfadb31b2"
 		 hash2= "aa2cd9d9fc5d196caa6f8fd5979e3f14"
 

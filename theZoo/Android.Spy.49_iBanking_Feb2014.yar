@@ -11,7 +11,7 @@ rule resteex_Android_Spy_49_iBanking_Feb2014 {
 		 description= "Android_Spy_49_iBanking_Feb2014 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-24-59" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e1b86054468d6ac1274188c0c579ccaf"
 		 hash2= "f06af629d33f17938849f822930ae428"
 		 hash3= "f0a1475583278466b673ac902b664e42"

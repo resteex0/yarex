@@ -11,7 +11,7 @@ rule resteex_Careto_Feb2014 {
 		 description= "Careto_Feb2014 Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-38" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "5cfd31b1573461a381f5bffa49ea1ed6"
 		 hash2= "8102aef50b9c7456f62cdbeefa5fa9de"
 		 hash3= "ad6590e0df575228911852b1e401d46e"

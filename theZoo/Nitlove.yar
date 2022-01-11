@@ -11,7 +11,7 @@ rule resteex_Nitlove {
 		 description= "Nitlove Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-50" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b3962f61a4819593233aa5893421c4d1"
 
 	strings:

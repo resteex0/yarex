@@ -11,7 +11,7 @@ rule resteex_Backdoor_MSIL_Tyupkin {
 		 description= "Backdoor_MSIL_Tyupkin Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-26" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "162ad6dbd50f3be407f49f65b938512a"
 		 hash2= "250b77dfbb1b666e95b3bcda082de287"
 		 hash3= "32d5cca418b81e002bb3fdd8e4062bc9"

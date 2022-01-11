@@ -11,7 +11,7 @@ rule resteex_Trojan_Kovter {
 		 description= "Trojan_Kovter Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-40" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15af6227d39ca3f9d1dcd8566efb0057"
 
 	strings:

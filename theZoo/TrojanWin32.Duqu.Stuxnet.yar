@@ -11,7 +11,7 @@ rule resteex_TrojanWin32_Duqu_Stuxnet {
 		 description= "TrojanWin32_Duqu_Stuxnet Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-54" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c9a31ea148232b201fe7cb7db5c75f5e"
 
 	strings:

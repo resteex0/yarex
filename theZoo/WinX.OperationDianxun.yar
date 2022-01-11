@@ -11,7 +11,7 @@ rule resteex_WinX_OperationDianxun {
 		 description= "WinX_OperationDianxun Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-30" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "029349d7b378245e1cdc964e21130789"
 		 hash2= "1ec914ef8443a1fb259c79b038e64ebf"
 		 hash3= "4bb44c229b5ebd44bfabffdbb3635d8b"

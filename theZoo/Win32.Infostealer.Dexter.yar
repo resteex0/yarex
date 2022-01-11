@@ -11,7 +11,7 @@ rule resteex_Win32_Infostealer_Dexter {
 		 description= "Win32_Infostealer_Dexter Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-41" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "140d24af0c2b3a18529df12dfbc5f6de"
 		 hash2= "7d419cd096fec8bcf945e00e70a9bc41"
 

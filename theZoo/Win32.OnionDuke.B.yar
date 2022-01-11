@@ -11,7 +11,7 @@ rule resteex_Win32_OnionDuke_B {
 		 description= "Win32_OnionDuke_B Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-18" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c8eb6040fd02d77660d19057a38ff769"
 
 	strings:

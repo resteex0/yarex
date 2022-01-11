@@ -11,7 +11,7 @@ rule resteex_Win32_Unclassified {
 		 description= "Win32_Unclassified Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-34-55" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c234a8879840da21f197b2608a164c9"
 
 	strings:

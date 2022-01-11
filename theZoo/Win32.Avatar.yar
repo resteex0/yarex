@@ -11,7 +11,7 @@ rule resteex_Win32_Avatar {
 		 description= "Win32_Avatar Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-48" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "32d6644c5ea66e390070d3dc3401e54b"
 
 	strings:

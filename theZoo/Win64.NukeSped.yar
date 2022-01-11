@@ -11,7 +11,7 @@ rule resteex_Win64_NukeSped {
 		 description= "Win64_NukeSped Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-23" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "379d680a2accaa48444524968d1aa782"
 		 hash2= "cebc3a9192d6b516e7937038acb689b0"
 		 hash3= "e1068cacba806002b1cba6ebfb35e4f4"

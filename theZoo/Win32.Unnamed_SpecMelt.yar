@@ -11,7 +11,7 @@ rule resteex_Win32_Unnamed_SpecMelt {
 		 description= "Win32_Unnamed_SpecMelt Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-03" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8f188da25ac5dcdaf4bba56d84d83c56"
 
 	strings:

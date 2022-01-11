@@ -11,7 +11,7 @@ rule resteex_Surtr {
 		 description= "Surtr Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-02" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "36e194f7df2f2fd020e3800ab77f7e82"
 		 hash2= "4f03b86e4d6631c26ff5fffc7332be1d"
 		 hash3= "4fe6f4655cc5b5689916ec9ae63e1135"

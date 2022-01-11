@@ -11,7 +11,7 @@ rule resteex_Win32_FamousSparrow {
 		 description= "Win32_FamousSparrow Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-27" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b162026b29d75a870543ad9c044c28c2"
 		 hash2= "c40a2f5f25157e6a434602017531d608"
 		 hash3= "f44b04364b2b33a84adc172f337aa1d1"

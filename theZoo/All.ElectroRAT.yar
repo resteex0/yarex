@@ -11,7 +11,7 @@ rule resteex_All_ElectroRAT {
 		 description= "All_ElectroRAT Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-24-38" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0468127a19daf4c7bc41015c5640fe1f"
 		 hash2= "2a3b92f6180367306d750e59c9b6446b"
 		 hash3= "b154ac015c0d1d6250032f63c749f9cf"

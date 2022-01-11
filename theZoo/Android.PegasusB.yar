@@ -11,7 +11,7 @@ rule resteex_Android_PegasusB {
 		 description= "Android_PegasusB Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-24-42" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8d4b77fa3546149f25bd17357d41fbf0"
 
 	strings:

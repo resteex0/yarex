@@ -11,7 +11,7 @@ rule resteex_Ransomware_Cerber {
 		 description= "Ransomware_Cerber Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-25" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8b6bc16fd137c09a08b02bbe1bb7d670"
 
 	strings:

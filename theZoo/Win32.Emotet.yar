@@ -11,7 +11,7 @@ rule resteex_Win32_Emotet {
 		 description= "Win32_Emotet Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-12" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8baa9b809b591a11af423824f4d9726a"
 
 	strings:

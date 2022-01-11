@@ -11,7 +11,7 @@ rule resteex_Ransomware_Thanos {
 		 description= "Ransomware_Thanos Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-19" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "03b76a5130d0df8134a6bdea7fe97bcd"
 		 hash2= "be60e389a0108b2871dff12dfbb542ac"
 		 hash3= "d6d956267a268c9dcf48445629d2803e"

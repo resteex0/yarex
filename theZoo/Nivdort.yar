@@ -11,7 +11,7 @@ rule resteex_Nivdort {
 		 description= "Nivdort Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-50" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ed2cd14a28ff2d00a5cefcf6a074af8d"
 
 	strings:

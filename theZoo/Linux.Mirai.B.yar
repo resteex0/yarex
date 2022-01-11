@@ -11,7 +11,7 @@ rule resteex_Linux_Mirai_B {
 		 description= "Linux_Mirai_B Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-45" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a5852e0dd9ac8cc990d852ea1b7fdee"
 		 hash2= "390f1382237b5a01dd46bf1404c223e7"
 		 hash3= "9a6e4b8a6ba5b4f5a408919d2c169d92"

@@ -11,7 +11,7 @@ rule resteex_Win32_Caphaw_Shylock {
 		 description= "Win32_Caphaw_Shylock Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-08" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c98fe7df44cded5981af4ec565c29a2e"
 		 hash2= "ca0403ea24fe2a7771b99cea55826c9b"
 		 hash3= "e63fead91fe788dac57601d2c77713f9"

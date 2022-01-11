@@ -11,7 +11,7 @@ rule resteex_Win32_Triton {
 		 description= "Win32_Triton Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-34-53" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1904cad4927541e47d453becbd934bf0"
 
 	strings:

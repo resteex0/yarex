@@ -11,7 +11,7 @@ rule resteex_W32_Klez_H {
 		 description= "W32_Klez_H Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-12" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "07c19da3a33f9ec6a97f3837aef6fde0"
 		 hash2= "4ae9a4a8b8ce22c7b52c2eaec75ca536"
 		 hash3= "60c271a141c1cbd29489e1a2925b639f"

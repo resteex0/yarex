@@ -11,7 +11,7 @@ rule resteex_Trojan_Destover_SonySigned {
 		 description= "Trojan_Destover_SonySigned Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-38" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e904bf93403c0fb08b9683a9e858c73e"
 
 	strings:

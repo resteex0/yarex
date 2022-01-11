@@ -11,7 +11,7 @@ rule resteex_W32_HLLP_Hantaner_A {
 		 description= "W32_HLLP_Hantaner_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-08" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "22a5ba6d742cc41d150068e1f18f92d6"
 		 hash2= "7b4c5557e985327361f8e2ca302e20ac"
 

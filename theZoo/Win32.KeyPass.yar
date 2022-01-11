@@ -11,7 +11,7 @@ rule resteex_Win32_KeyPass {
 		 description= "Win32_KeyPass Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-32-45" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6999c944d1c98b2739d015448c99a291"
 
 	strings:

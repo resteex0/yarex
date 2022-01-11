@@ -11,7 +11,7 @@ rule resteex_EquationGroup_Fanny {
 		 description= "EquationGroup_Fanny Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-55" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a209ac0de4ac033f31d6ba9191a8f7a"
 
 	strings:

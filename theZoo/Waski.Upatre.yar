@@ -11,7 +11,7 @@ rule resteex_Waski_Upatre {
 		 description= "Waski_Upatre Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-26" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "41859ac8b90080471dfb315bf439d6f4"
 		 hash2= "4d6c045c4cca49f8e556a7fb96e28635"
 		 hash3= "6e67fb3835da739a11570bba44a19dbc"

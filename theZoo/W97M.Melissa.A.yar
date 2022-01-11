@@ -11,7 +11,7 @@ rule resteex_W97M_Melissa_A {
 		 description= "W97M_Melissa_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-23" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2010fa68a815f95ebe2f23dabfe9a996"
 		 hash2= "3cdd16d0a848bdd592eb3b8cefebe882"
 		 hash3= "4b68fdec8e89b3983ceb5190a2924003"

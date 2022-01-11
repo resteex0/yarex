@@ -11,7 +11,7 @@ rule resteex_Trojan_Win32_Bechiro_BCD {
 		 description= "Trojan_Win32_Bechiro_BCD Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-30-53" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0d06681f63f3026260aa1e15d86520a0"
 
 	strings:

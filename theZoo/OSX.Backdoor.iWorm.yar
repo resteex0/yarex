@@ -11,7 +11,7 @@ rule resteex_OSX_Backdoor_iWorm {
 		 description= "OSX_Backdoor_iWorm Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-26-52" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "126e7840a978ae90dfa731a66afbe9be"
 
 	strings:

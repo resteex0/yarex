@@ -11,7 +11,7 @@ rule resteex_Win32_Vobfus {
 		 description= "Win32_Vobfus Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-35-05" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4e15d812491ff0454f1e9393675b1c60"
 		 hash2= "634aa845f5b0b519b6d8a8670b994906"
 		 hash3= "70f0b7bd55b91de26f9ed6f1ef86b456"

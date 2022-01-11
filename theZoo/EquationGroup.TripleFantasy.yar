@@ -11,7 +11,7 @@ rule resteex_EquationGroup_TripleFantasy {
 		 description= "EquationGroup_TripleFantasy Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-58" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9180d5affe1e5df0717d7385e7f54386"
 
 	strings:

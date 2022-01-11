@@ -11,7 +11,7 @@ rule resteex_Dino {
 		 description= "Dino Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-46" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ab2e178c77f6df518024a71d05e98451"
 
 	strings:

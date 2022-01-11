@@ -11,7 +11,7 @@ rule resteex_Win32_Powerstats {
 		 description= "Win32_Powerstats Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-20" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2c3a634953a9a2c227a51e8eeac9f137"
 		 hash2= "66c783e41480e65e287081ff853cc737"
 		 hash3= "7ed6c5e8c3ec4f9499eb793d69a06758"

@@ -11,7 +11,7 @@ rule resteex_Ransomware_Rex {
 		 description= "Ransomware_Rex Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-28-02" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "5bd44a35094fe6f7794d895122ddfa62"
 
 	strings:

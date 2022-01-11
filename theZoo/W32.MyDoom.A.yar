@@ -11,7 +11,7 @@ rule resteex_W32_MyDoom_A {
 		 description= "W32_MyDoom_A Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-16" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "10a5ce311f8f925a5d180d01aa62b560"
 		 hash2= "2eb21132d838154920b4808820d6a63d"
 		 hash3= "53df39092394741514bc050f3d6a06a9"

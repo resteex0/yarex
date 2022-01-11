@@ -11,7 +11,7 @@ rule resteex_Ransomware_Mamba {
 		 description= "Ransomware_Mamba Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-27-32" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "409d80bb94645fbc4a1fa61c07806883"
 
 	strings:

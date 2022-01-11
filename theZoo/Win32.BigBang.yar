@@ -11,7 +11,7 @@ rule resteex_Win32_BigBang {
 		 description= "Win32_BigBang Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-31-49" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "18864d22331fc6503641f128226aaea8"
 		 hash2= "87d7d314f86f61a9099a51c269b4ec78"
 		 hash3= "a233d90b8e5c19c4b3373bb76eb11428"

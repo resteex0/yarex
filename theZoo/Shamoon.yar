@@ -11,7 +11,7 @@ rule resteex_Shamoon {
 		 description= "Shamoon Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-29-55" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b14299fd4d1cbfb4cc7486d978398214"
 		 hash2= "d214c717a357fe3a455610b197c390aa"
 

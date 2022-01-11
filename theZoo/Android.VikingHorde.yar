@@ -11,7 +11,7 @@ rule resteex_Android_VikingHorde {
 		 description= "Android_VikingHorde Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-25-02" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "390e66ffaccaa557a8d5c43c8f3a20a9"
 
 	strings:

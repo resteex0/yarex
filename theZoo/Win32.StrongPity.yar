@@ -11,7 +11,7 @@ rule resteex_Win32_StrongPity {
 		 description= "Win32_StrongPity Group" 
 		 author = "Resteex Generator" 
 		 date = "2022-01-10_19-33-54" 
-		 license = "https://github.com/resteex0/resteex_yara_rules"
+		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a4d3b78941da8b6f4edad7cb6f35134b"
 		 hash2= "cab76ac00e342f77bdfec3e85b6b85a9"
 
