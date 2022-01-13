@@ -65,9 +65,9 @@ resteex_Trojan_Regin testsample/rootkit.ex1</code>
 my project is very uniq yara rules in the world.
 we was achieve until now two branch.
 
-1- theZoo https://otx.alienvault.com/pulse/61dd180e2f696486e5a4339d
-2- vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd
-3- vx-underground_B https://otx.alienvault.com/pulse/61e08bbb961f754114c56ead
+1- theZoo https://otx.alienvault.com/pulse/61dd180e2f696486e5a4339d<br?
+2- vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd<br>
+3- vx-underground_B https://otx.alienvault.com/pulse/61e08bbb961f754114c56ead<br>
 
 the vision is  big hug to filling the voids of open uniq yara rules of almost malware database in the world as soon , this amids to decrease attacks and threat with increasing antivirus engines and EDR system detections and hunting to achieve the best optimization of it jobs .
 
@@ -123,6 +123,10 @@ Once the strings have been declared within a rule you can then customize how man
     $a and not $b
 
 Where possible try and use 2-3 groups of conditions in order to avoid generating false positives and to also create a reliable rule.</code>
+
+## project mains issue and bugs
+
+1- the resteex generator genrate sometimes uniq yara rules but have more than 100 variable of $strings ; we conduct on this issue to fixed in futre , but the rule useful when scanning locally because yara engine accpet at maxiumu 1000 variable of $strings and our rules under this , this issue realted to https://otx.alienvault.com uploading and running . pleaes if anyone have vision for solving please follow and connect by CONTRIBUTING.md instructions .
 
 ## THANX to
 
