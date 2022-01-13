@@ -93,7 +93,7 @@ We recommend running them in a VM which has no internet connection (or an intern
 
 our generator and rules very unique source code line and private , not matching with any another generator in the world , we keep the copyrights of designer and developing of yarex . 
 
-out terminology of static classification analysis of malware is yara rule not belifing and trust with traditional methods in market for yara generation as this link https://www.varonis.com/blog/yara-rules , static identofaction with high quality true postive with minimize false positive as possible .
+out terminology of static classification analysis of malware is yara rule not belifing and not trust with traditional methods in market for yara generation as this link https://www.varonis.com/blog/yara-rules , static identofaction with high quality true postive with minimize false positive as possible .
 
 many malware researching houses trust with traditional methods without think out of boxs .
 
