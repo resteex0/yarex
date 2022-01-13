@@ -69,7 +69,7 @@ we was achieve until now two branch.
 
 2nd vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd
 
-the vision is  big hug to filling the voids of open uniq yara rules of almost malware database in the world as soon , this amids to decrease attacks and threat with increasing antivirus engines and EDR system to achieve the best optimization of it jobs .
+the vision is  big hug to filling the voids of open uniq yara rules of almost malware database in the world as soon , this amids to decrease attacks and threat with increasing antivirus engines and EDR system dtections and hunting to achieve the best optimization of it jobs .
 
 this my dream to closet the attacks to small area and begin new era of cyber secure
 
