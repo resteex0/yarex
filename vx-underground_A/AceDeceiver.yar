@@ -647,5 +647,5 @@ rule resteex_AceDeceiver {
 		 $hex302= {2473393d20222d2041}
 
 	condition:
-		50 of them
+		37 of them
 }
