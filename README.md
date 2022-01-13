@@ -126,7 +126,7 @@ Where possible try and use 2-3 groups of conditions in order to avoid generating
 
 ## project mains issue and bugs
 
-1- the resteex generator genrate sometimes uniq yara rules but have more than 100 variable of $strings ; we conduct on this issue to fixed in futre , but the rule useful when scanning locally because yara engine accpet at maxiumu 1000 variable of $strings and our rules under this , this issue realted to https://otx.alienvault.com uploading and running . pleaes if anyone have vision for solving please follow and connect by CONTRIBUTING.md instructions .
+1- the resteex generator generate sometimes uniq yara rules but have more than valid 100 variable of $strings ; we conduct on this issue to fixed in future , but the rule useful when scanning locally because yara engine accpet at maxiumu 1000 variable of $strings and our rules under this , this issue realted to https://otx.alienvault.com uploading and running . pleaes if anyone have vision for solving please follow and connect us as per CONTRIBUTING.md instructions .
 
 ## THANX to
 
