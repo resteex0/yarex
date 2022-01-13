@@ -130,6 +130,8 @@ https://avatars.githubusercontent.com/u/2851492?v=4 as inspiring style of yara r
 
 https://github.com/ytisf/theZoo big thanx alot for ytisf team as big effort and benchmark in malware researching.
 
+https://www.vx-underground.org/ thanks to database collection of malware
+
 
 ## License
 
