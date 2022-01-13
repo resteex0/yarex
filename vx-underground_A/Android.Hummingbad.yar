@@ -10,7 +10,7 @@ rule resteex_Android_Hummingbad {
 	meta: 
 		 description= "Android_Hummingbad Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-12_19-29-51" 
+		 date = "2022-01-12_23-46-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00346c09d01dad06267ccdc6e5763894"
 		 hash2= "004874a385413c2273fc1733f9005205"
@@ -771,56 +771,28 @@ rule resteex_Android_Hummingbad {
 	strings:
 
 	
- 		 $s1= "com.fishing.when.orangecamera" fullword wide
-		 $s2= "com.fish.when.orangecamera" fullword wide
-		 $s3= "com.ogteam.elephanta.album" fullword wide
-		 $s4= "com.ogteam.love.flashlight" fullword wide
-		 $s5= "com.start.super.speedtest" fullword wide
-		 $s6= "com.wall.good.clevercamera" fullword wide
-		 $s7= "[/data/app-lib/com.sec.android.updatax" fullword wide
-		 $s8= "[/data/app-lib/com.sec.android.updatax, /vendor/lib, " fullword wide
-		 $s9= "io.zhuozhuo.snail.android_snails" fullword wide
-		 $s10= "/local/image/item/27201+1457872268+2" fullword wide
-		 $s11= "/local/video/item/870+1+1248285162" fullword wide
-		 $s12= "lohovali na Disk Google a chcete prov" fullword wide
-		 $s13= "nechcete obnovit historii zpr" fullword wide
-		 $s14= "Signature.OID.1.2.840.10040.4.3" fullword wide
-		 $s15= "zChcete-li odeslat fotografii, povolte aplikaci WhatsApp p" fullword wide
-		 $a1= "8equal_toISsESt4hashISsENS7_18_Mod_range_hashingENS7_20_Default_ranged_hashENS7_20_Prime_rehash_poli" fullword ascii
-		 $a2= "(IIJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;IIIL" fullword ascii
-		 $a3= "_ZNKSt10_HashtableISsSt4pairIKSsPN10cocostudio16MovementBoneDataEESaIS5_ENSt8__detail10_Select1stESt" fullword ascii
-		 $a4= "_ZNKSt8__detail15_Hash_code_baseISsSt4pairIKSsPN10cocostudio8BoneDataEENS_10_Select1stESt4hashISsENS" fullword ascii
-		 $a5= "_ZNSt16allocator_traitsISaIPN10cocostudio11ContourDataEEE9constructIS2_IRKS2_EEEDTcl12_S_constructfp" fullword ascii
-		 $a6= "_ZNSt16allocator_traitsISaIPN10cocostudio11DisplayDataEEE12_S_constructIS2_IRKS2_EEENSt9enable_ifIXs" fullword ascii
-		 $a7= "_ZNSt16allocator_traitsISaIPN10cocostudio11DisplayDataEEE9constructIS2_JRKS2_EEEDTcl12_S_constructfp" fullword ascii
-		 $a8= "_ZNSt16allocator_traitsISaIPN10cocostudio9FrameDataEEE12_S_constructIS2_IRKS2_EEENSt9enable_ifIXsrNS" fullword ascii
-		 $a9= "_ZNSt16allocator_traitsISaIPN10cocostudio9FrameDataEEE9constructIS2_JRKS2_EEEDTcl12_S_constructfp_fp" fullword ascii
+ 		 $s1= "[/data/app-lib/com.sec.android.updatax" fullword wide
+		 $s2= "[/data/app-lib/com.sec.android.updatax, /vendor/lib, " fullword wide
+		 $s3= "/local/image/item/27201+1457872268+2" fullword wide
+		 $a1= "(IIJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;IIILjava/lang/String;Ljava/lang/String;[Ljava/lang/Str" fullword ascii
+		 $a2= "Location: http://pcautivo.telcel.com/balance/?profile=PRE&roaming=0&returnURL=http%3A%2F%2Fd795nz9qqyd60.cloudfront.net%2Fupload%2Fapk%2F1456219198575" fullword ascii
+		 $a3= "Location: http://pcautivo.telcel.com/balance/?profile=PRE&roaming=0&returnURL=http%3A%2F%2Fd795nz9qqyd60.cloudfront.net%2Fupload%2Fssp%2F1459160485948" fullword ascii
+		 $a4= "_ZNKSt10_HashtableISsSt4pairIKSsPN10cocostudio16MovementBoneDataEESaIS5_ENSt8__detail10_Select1stESt8equal_toISsESt4hashISsENS7_18_Mod_range_hashingEN" fullword ascii
+		 $a5= "_ZNKSt8__detail15_Hash_code_baseISsSt4pairIKSsPN10cocostudio8BoneDataEENS_10_Select1stESt4hashISsENS_18_Mod_range_hashingENS_20_Default_ranged_hashELb" fullword ascii
+		 $a6= "_ZNSt16allocator_traitsISaIPN10cocostudio11DisplayDataEEE12_S_constructIS2_IRKS2_EEENSt9enable_ifIXsrNS4_18__construct_helperIT_IDpT0_EEE5valueEvE4typ" fullword ascii
+		 $a7= "_ZNSt16allocator_traitsISaIPN10cocostudio9FrameDataEEE12_S_constructIS2_IRKS2_EEENSt9enable_ifIXsrNS4_18__construct_helperIT_IDpT0_EEE5valueEvE4typeER" fullword ascii
 
-		 $hex1= {2461313d2022386571}
-		 $hex2= {2461323d2022284949}
-		 $hex3= {2461333d20225f5a4e}
+		 $hex1= {2461313d2022284949}
+		 $hex2= {2461323d20224c6f63}
+		 $hex3= {2461333d20224c6f63}
 		 $hex4= {2461343d20225f5a4e}
 		 $hex5= {2461353d20225f5a4e}
 		 $hex6= {2461363d20225f5a4e}
 		 $hex7= {2461373d20225f5a4e}
-		 $hex8= {2461383d20225f5a4e}
-		 $hex9= {2461393d20225f5a4e}
-		 $hex10= {247331303d20222f6c}
-		 $hex11= {247331313d20222f6c}
-		 $hex12= {247331323d20226c6f}
-		 $hex13= {247331333d20226e65}
-		 $hex14= {247331343d20225369}
-		 $hex15= {247331353d20227a43}
-		 $hex16= {2473313d2022636f6d}
-		 $hex17= {2473323d2022636f6d}
-		 $hex18= {2473333d2022636f6d}
-		 $hex19= {2473343d2022636f6d}
-		 $hex20= {2473353d2022636f6d}
-		 $hex21= {2473363d2022636f6d}
-		 $hex22= {2473373d20225b2f64}
-		 $hex23= {2473383d20225b2f64}
-		 $hex24= {2473393d2022696f2e}
+		 $hex8= {2473313d20225b2f64}
+		 $hex9= {2473323d20225b2f64}
+		 $hex10= {2473333d20222f6c6f}
 
 	condition:
-		3 of them
+		1 of them
 }
