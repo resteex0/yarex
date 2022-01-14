@@ -10,7 +10,7 @@ rule resteex_Babadeda {
 	meta: 
 		 description= "Babadeda Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-13_15-14-35" 
+		 date = "2022-01-14_00-17-29" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0013ee610f83b401007adbefef051305"
 		 hash2= "73311d203988335dea75e92d7d8eb1f5"
@@ -32,19 +32,21 @@ rule resteex_Babadeda {
 		 $s9= "minkernelcrtsucrtinccorecrt_internal_strtox.h" fullword wide
 		 $s10= "SOFTWAREMicrosoftWindowsCurrentVersionRun" fullword wide
 		 $s11= "}{ywusqonkigfdb`^[YVVSRPMLJIGECB@?=;976431/.,+)(&$#! " fullword wide
+		 $a1= "}{ywusqonkigfdb`^[YVVSRPMLJIGECB@?=;976431/.,+)(&$#! " fullword ascii
 
-		 $hex1= {247331303d2022534f}
-		 $hex2= {247331313d20227d7b}
-		 $hex3= {2473313d2022617069}
-		 $hex4= {2473323d2022617069}
-		 $hex5= {2473333d2022617069}
-		 $hex6= {2473343d2022617069}
-		 $hex7= {2473353d2022617069}
-		 $hex8= {2473363d20225f5f63}
-		 $hex9= {2473373d20225f5f63}
-		 $hex10= {2473383d2022657874}
-		 $hex11= {2473393d20226d696e}
+		 $hex1= {2461313d20227d7b79}
+		 $hex2= {247331303d2022534f}
+		 $hex3= {247331313d20227d7b}
+		 $hex4= {2473313d2022617069}
+		 $hex5= {2473323d2022617069}
+		 $hex6= {2473333d2022617069}
+		 $hex7= {2473343d2022617069}
+		 $hex8= {2473353d2022617069}
+		 $hex9= {2473363d20225f5f63}
+		 $hex10= {2473373d20225f5f63}
+		 $hex11= {2473383d2022657874}
+		 $hex12= {2473393d20226d696e}
 
 	condition:
-		7 of them
+		1 of them
 }

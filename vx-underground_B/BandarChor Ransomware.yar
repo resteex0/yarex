@@ -10,7 +10,7 @@ rule resteex_BandarChor_Ransomware {
 	meta: 
 		 description= "BandarChor_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-13_15-14-40" 
+		 date = "2022-01-14_00-17-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "226b276b333804a0a5aac78d8e11ddf0"
 		 hash2= "5f7e9108d4fa09a6cd9c89f39bb51229"
