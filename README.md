@@ -63,11 +63,15 @@ resteex_Trojan_Regin testsample/rootkit.ex1</code>
 ## achievements of project to now
 
 my project is very uniq yara rules in the world.
-we was achieve until now two branch.
+we was lunch until now this branch.
 
 1- theZoo https://otx.alienvault.com/pulse/61dd180e2f696486e5a4339d<br>
 2- vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd<br>
 3- vx-underground_B https://otx.alienvault.com/pulse/61e08bbb961f754114c56ead<br>
+4- vx-underground_C https://otx.alienvault.com/pulse/61e10bd6eb6f2c59be50add9<br>
+5- vx-underground_D https://otx.alienvault.com/pulse/61e1119582036bce13e2fdc4
+
+
 
 the vision is  big hug to filling the voids of open uniq yara rules of almost malware database in the world as soon , this amids to decrease attacks and threat with increasing antivirus engines and EDR system detections and hunting to achieve the best optimization of it jobs .
 
