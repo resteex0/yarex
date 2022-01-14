@@ -46,5 +46,5 @@ rule resteex_Babadeda {
 		 $hex11= {2473393d20226d696e}
 
 	condition:
-		1 of them
+		7 of them
 }
