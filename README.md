@@ -43,7 +43,7 @@ or publish you malware files samples or links with our issue link https://github
 
 after option 2 as first should be have detect as some :
 
-<code>resteex_Win32_ZeroCleare yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code>
+<code>resteex_Win32_ZeroCleare yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code><br>
 <code>resteex_Win32_RedDelta yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code>
 <code>resteex_Win32_StrongPity yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code>
 <code>resteex_Win32_Unnamed_SpecMelt yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code>
