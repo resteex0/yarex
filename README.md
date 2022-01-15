@@ -67,14 +67,7 @@ we was lunch until now this branch.
 
 1- theZoo https://otx.alienvault.com/pulse/61dd180e2f696486e5a4339d<br>
 2- vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd<br>
-3- vx-underground_B https://otx.alienvault.com/pulse/61e08bbb961f754114c56ead<br>
-4- vx-underground_C https://otx.alienvault.com/pulse/61e10bd6eb6f2c59be50add9<br>
-5- vx-underground_D https://otx.alienvault.com/pulse/61e1119582036bce13e2fdc4<br>
-6- vx-underground_F https://otx.alienvault.com/pulse/61e114f117efb4c1c71cdf38<br>
-7- vx-underground_G https://otx.alienvault.com/pulse/61e119c61fdebbbc7d60ac13<br>
-8- vx-underground_H https://otx.alienvault.com/pulse/61e11cc070a089e7528424d1<br>
-9- vx-underground_J https://otx.alienvault.com/pulse/61e1205d37234f2e2478b09b<br>
-10- vx-underground_K https://otx.alienvault.com/pulse/61e134df6ddfd1874b1df0f7<br>
+
 
 
 
