@@ -1,4 +1,4 @@
-# yarex
+# Yarex
 
 yarex is new face of uniq yara rule and is the YARA signature and IOC database for our scanners [resteex_scanner]
 
