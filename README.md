@@ -33,7 +33,9 @@ or publish you malware files samples or links with our issue link https://github
 # option 2 (recommended if researching or auditing)
 
 <code>sudo git clone https://github.com/resteex0/yarex.git</code><br>
-<code>unzip -Pinfected yarex/testsample.zip</code><br>
+<code>cd yarex</code><br>
+<code>unzip -Pinfected testsample.zip</code><br>
+<code>cd ..</code><br>
 <code>sudo yarex/./resteex_scanner.sh yarex yarex/testsample</code><br>
 
 ##Auditing and calibration 
