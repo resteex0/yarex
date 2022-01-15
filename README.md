@@ -158,9 +158,12 @@ Once the strings have been declared within a rule you can then customize how man
 
 Where possible try and use 2-3 groups of conditions in order to avoid generating false positives and to also create a reliable rule.</code>
 
+
 ## project mains issue and bugs
 
 1- the resteex generator generate sometimes uniq yara rules but have more than valid 100 variable of $strings ; we conduct on this issue to fixed in future , but the rule useful when scanning locally because yara engine accpet at maxiumu 1000 variable of $strings and our rules under this , this issue realted to https://otx.alienvault.com uploading and running . pleaes if anyone have vision for solving please follow and connect us as per CONTRIBUTING.md instructions .
+
+2- we intial practies trainging with malware samples @vx-underground_A and will fix as stable rules in future 
 
 ## THANX to
 
