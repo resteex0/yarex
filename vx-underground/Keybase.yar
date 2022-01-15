@@ -318,7 +318,7 @@ rule resteex_Keybase {
 		 $s39= "aa2f3154-59f8-4525-a929-20612413a416" fullword wide
 		 $s40= "A_mR:%TH`_5lV0,V[M_mR:%T" fullword wide
 		 $s41= "arrangeIconsToolStripMenuItem" fullword wide
-		 $s42= "b" fullword wide
+		 $s42= "b." fullword wide
 		 $s43= "B|" fullword wide
 		 $s44= "{b2ccd7ac-ee82-49ad-a9e5-ca3e761a0354}" fullword wide
 		 $s45= "B}`b?+vIw`;{B" fullword wide
