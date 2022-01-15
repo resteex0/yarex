@@ -65,8 +65,8 @@ resteex_Trojan_Regin testsample/rootkit.ex1</code>
 my project is very uniq yara rules in the world.
 we was lunch until now this branch.
 
-1- theZoo https://otx.alienvault.com/pulse/61dd180e2f696486e5a4339d<br>
-2- vx-underground_A https://otx.alienvault.com/pulse/61df7f3748a8edeb71dbb0fd<br>
+1- theZoo https://otx.alienvault.com/pulse/61e246ab12c4f1e3c17af658<br>
+2- vx-underground https://otx.alienvault.com/pulse/61e2696b21b826d5a5ac6719<br>
 
 
 
