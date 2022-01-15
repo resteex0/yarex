@@ -37,13 +37,13 @@ or publish you malware files samples or links with our issue link https://github
 <code>chmod +x resteex_scanner.sh</code><br>
 <code>unzip -Pinfected testsample.zip</code><br>
 <code>cd ..</code><br>
-<code>sudo yarex/./resteex_scanner.sh yarex testsample</code><br>
+<code>sudo yarex/./resteex_scanner.sh yarex yarex/testsample</code><br>
 
 ##Auditing and calibration 
 
 after option 2 as first should be have detect as some :
 
-<br><code>resteex_Win32_ZeroCleare yarex/testsample/0468127a19daf4c7bc41015c5640fe1f
+<br><code>resteex_Win32_ZeroCleare yarex/testsample/0468127a19daf4c7bc41015c5640fe1f</code>
 resteex_Win32_RedDelta yarex/testsample/0468127a19daf4c7bc41015c5640fe1f
 resteex_Win32_StrongPity yarex/testsample/0468127a19daf4c7bc41015c5640fe1f
 resteex_Win32_Unnamed_SpecMelt yarex/testsample/0468127a19daf4c7bc41015c5640fe1f
