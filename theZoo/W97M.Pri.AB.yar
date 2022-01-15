@@ -10,7 +10,7 @@ rule resteex_W97M_Pri_AB {
 	meta: 
 		 description= "W97M_Pri_AB Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-24" 
+		 date = "2022-01-14_21-38-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1146e8aa5c88b4e0fa967154d0e4b435"
 		 hash2= "5dced08f340d380c7c2c49ece988caf6"
@@ -46,5 +46,5 @@ rule resteex_W97M_Pri_AB {
 		 $hex12= {2473393d202253756d}
 
 	condition:
-		1 of them
+		4 of them
 }

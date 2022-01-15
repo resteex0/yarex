@@ -10,7 +10,7 @@ rule resteex_All_ElectroRAT {
 	meta: 
 		 description= "All_ElectroRAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-01" 
+		 date = "2022-01-14_21-37-10" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0468127a19daf4c7bc41015c5640fe1f"
 		 hash2= "2a3b92f6180367306d750e59c9b6446b"
@@ -127,5 +127,5 @@ rule resteex_All_ElectroRAT {
 		 $hex50= {2473393d2022617069}
 
 	condition:
-		6 of them
+		16 of them
 }

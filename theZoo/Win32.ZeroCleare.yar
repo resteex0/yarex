@@ -10,7 +10,7 @@ rule resteex_Win32_ZeroCleare {
 	meta: 
 		 description= "Win32_ZeroCleare Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-19" 
+		 date = "2022-01-14_21-39-29" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1a69a02b0cd10b1764521fec4b7376c9"
 		 hash2= "33f98b613b331b49e272512274669844"
@@ -152,5 +152,5 @@ rule resteex_Win32_ZeroCleare {
 		 $hex64= {2473393d2022617069}
 
 	condition:
-		8 of them
+		21 of them
 }

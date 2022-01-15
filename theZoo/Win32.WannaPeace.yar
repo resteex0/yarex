@@ -10,7 +10,7 @@ rule resteex_Win32_WannaPeace {
 	meta: 
 		 description= "Win32_WannaPeace Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-18" 
+		 date = "2022-01-14_21-39-27" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "eefa6f98681d78b63f15d7e58934c6cc"
 
@@ -96,5 +96,5 @@ rule resteex_Win32_WannaPeace {
 		 $hex38= {2473393d2022627574}
 
 	condition:
-		4 of them
+		12 of them
 }

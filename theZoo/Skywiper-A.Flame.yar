@@ -10,7 +10,7 @@ rule resteex_Skywiper_A_Flame {
 	meta: 
 		 description= "Skywiper_A_Flame Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-51" 
+		 date = "2022-01-14_21-38-01" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "bb5441af1e1741fca600e9c433cb1550"
 		 hash2= "c81d037b723adc43e3ee17b1eee9d6cc"
@@ -60,5 +60,5 @@ rule resteex_Skywiper_A_Flame {
 		 $hex19= {2473393d202252746c}
 
 	condition:
-		2 of them
+		6 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Win64_NukeSped {
 	meta: 
 		 description= "Win64_NukeSped Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-21" 
+		 date = "2022-01-14_21-39-31" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "379d680a2accaa48444524968d1aa782"
 		 hash2= "cebc3a9192d6b516e7937038acb689b0"
@@ -62,5 +62,5 @@ rule resteex_Win64_NukeSped {
 		 $hex20= {2473393d202250726f}
 
 	condition:
-		2 of them
+		6 of them
 }

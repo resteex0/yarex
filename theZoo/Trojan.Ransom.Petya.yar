@@ -10,7 +10,7 @@ rule resteex_Trojan_Ransom_Petya {
 	meta: 
 		 description= "Trojan_Ransom_Petya Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-11" 
+		 date = "2022-01-14_21-38-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8ed9a60127aee45336102bf12059a850"
 
@@ -48,5 +48,5 @@ rule resteex_Trojan_Ransom_Petya {
 		 $hex14= {2473393d2022507265}
 
 	condition:
-		1 of them
+		4 of them
 }

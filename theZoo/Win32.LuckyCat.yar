@@ -10,7 +10,7 @@ rule resteex_Win32_LuckyCat {
 	meta: 
 		 description= "Win32_LuckyCat Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-55" 
+		 date = "2022-01-14_21-39-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9f9723c5ff4ec1b7f08eb2005632b8b1"
 		 hash2= "c1d73ce5bf0559a86bae0f9045a82e0a"
@@ -87,5 +87,5 @@ rule resteex_Win32_LuckyCat {
 		 $hex33= {2473393d2022617069}
 
 	condition:
-		4 of them
+		11 of them
 }

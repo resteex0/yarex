@@ -10,7 +10,7 @@ rule resteex_Win32_FamousSparrow {
 	meta: 
 		 description= "Win32_FamousSparrow Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-42" 
+		 date = "2022-01-14_21-38-52" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b162026b29d75a870543ad9c044c28c2"
 		 hash2= "c40a2f5f25157e6a434602017531d608"
@@ -73,5 +73,5 @@ rule resteex_Win32_FamousSparrow {
 		 $hex25= {2473393d2022617069}
 
 	condition:
-		3 of them
+		8 of them
 }

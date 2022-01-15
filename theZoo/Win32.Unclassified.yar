@@ -10,7 +10,7 @@ rule resteex_Win32_Unclassified {
 	meta: 
 		 description= "Win32_Unclassified Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-14" 
+		 date = "2022-01-14_21-39-24" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c234a8879840da21f197b2608a164c9"
 
@@ -40,5 +40,5 @@ rule resteex_Win32_Unclassified {
 		 $hex10= {2473383d202256535f}
 
 	condition:
-		1 of them
+		3 of them
 }

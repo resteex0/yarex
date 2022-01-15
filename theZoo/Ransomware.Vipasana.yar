@@ -10,7 +10,7 @@ rule resteex_Ransomware_Vipasana {
 	meta: 
 		 description= "Ransomware_Vipasana Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-47" 
+		 date = "2022-01-14_21-37-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2aea3b217e6a3d08ef684594192cafc8"
 		 hash2= "a890e2f924dea3cb3e46a95431ffae39"
@@ -40,5 +40,5 @@ rule resteex_Ransomware_Vipasana {
 		 $hex9= {2473393d2022566172}
 
 	condition:
-		1 of them
+		3 of them
 }

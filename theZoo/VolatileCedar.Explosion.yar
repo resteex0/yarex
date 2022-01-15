@@ -10,7 +10,7 @@ rule resteex_VolatileCedar_Explosion {
 	meta: 
 		 description= "VolatileCedar_Explosion Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-16" 
+		 date = "2022-01-14_21-38-26" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "034e4c62965f8d5dd5d5a2ce34a53ba9"
 		 hash2= "08c988d6cebdd55f3b123f2d9d5507a6"
@@ -86,5 +86,5 @@ rule resteex_VolatileCedar_Explosion {
 		 $hex16= {2473393d2022496e74}
 
 	condition:
-		2 of them
+		5 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Shamoon {
 	meta: 
 		 description= "Shamoon Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-50" 
+		 date = "2022-01-14_21-37-59" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b14299fd4d1cbfb4cc7486d978398214"
 		 hash2= "d214c717a357fe3a455610b197c390aa"
@@ -49,5 +49,5 @@ rule resteex_Shamoon {
 		 $hex14= {2473393d2022737973}
 
 	condition:
-		1 of them
+		4 of them
 }

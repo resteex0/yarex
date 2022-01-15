@@ -10,7 +10,7 @@ rule resteex_Careto_Feb2014 {
 	meta: 
 		 description= "Careto_Feb2014 Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-11" 
+		 date = "2022-01-14_21-37-19" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "5cfd31b1573461a381f5bffa49ea1ed6"
 		 hash2= "8102aef50b9c7456f62cdbeefa5fa9de"
@@ -43,5 +43,5 @@ rule resteex_Careto_Feb2014 {
 		 $hex10= {2473383d202257696e}
 
 	condition:
-		1 of them
+		3 of them
 }

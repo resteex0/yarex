@@ -10,7 +10,7 @@ rule resteex_PlugX {
 	meta: 
 		 description= "PlugX Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-33" 
+		 date = "2022-01-14_21-37-42" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3bc9e9b78ac6dee1a44436859849bbbf"
 		 hash2= "3c74a85c2cf883bd9d4b9f8b9746030f"
@@ -45,5 +45,5 @@ rule resteex_PlugX {
 		 $hex9= {2473393d202256535f}
 
 	condition:
-		1 of them
+		3 of them
 }

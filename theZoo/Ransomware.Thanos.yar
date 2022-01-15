@@ -10,7 +10,7 @@ rule resteex_Ransomware_Thanos {
 	meta: 
 		 description= "Ransomware_Thanos Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-44" 
+		 date = "2022-01-14_21-37-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "03b76a5130d0df8134a6bdea7fe97bcd"
 		 hash2= "be60e389a0108b2871dff12dfbb542ac"
@@ -337,5 +337,5 @@ rule resteex_Ransomware_Thanos {
 		 $hex157= {2473393d2022615a6e}
 
 	condition:
-		19 of them
+		52 of them
 }

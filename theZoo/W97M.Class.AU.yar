@@ -10,7 +10,7 @@ rule resteex_W97M_Class_AU {
 	meta: 
 		 description= "W97M_Class_AU Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-23" 
+		 date = "2022-01-14_21-38-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "345e5ed6361e5f0f6ed521c3f2f3881c"
 		 hash2= "58f3e1cb3d85ec986263cc61ea1cfec7"
@@ -45,5 +45,5 @@ rule resteex_W97M_Class_AU {
 		 $hex11= {2473383d202253756d}
 
 	condition:
-		1 of them
+		3 of them
 }

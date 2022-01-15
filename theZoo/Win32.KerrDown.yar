@@ -10,7 +10,7 @@ rule resteex_Win32_KerrDown {
 	meta: 
 		 description= "Win32_KerrDown Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-47" 
+		 date = "2022-01-14_21-38-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "518f52aabd9a059d181bfe864097091e"
 		 hash2= "6aa3115fa1f3adb8f0539e93d2cf21ca"
@@ -70,5 +70,5 @@ rule resteex_Win32_KerrDown {
 		 $hex24= {2473393d2022617069}
 
 	condition:
-		3 of them
+		8 of them
 }

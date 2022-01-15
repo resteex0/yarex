@@ -10,7 +10,7 @@ rule resteex_Win32_RedDelta {
 	meta: 
 		 description= "Win32_RedDelta Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-58" 
+		 date = "2022-01-14_21-39-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2ec79d0605a4756f4732aba16ef41b22"
 		 hash2= "660d1132888b2a2ff83b695e65452f87"
@@ -150,5 +150,5 @@ rule resteex_Win32_RedDelta {
 		 $hex63= {2473393d2022617069}
 
 	condition:
-		7 of them
+		21 of them
 }

@@ -10,7 +10,7 @@ rule resteex_W97M_Melissa_A {
 	meta: 
 		 description= "W97M_Melissa_A Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-23" 
+		 date = "2022-01-14_21-38-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2010fa68a815f95ebe2f23dabfe9a996"
 		 hash2= "3cdd16d0a848bdd592eb3b8cefebe882"
@@ -42,5 +42,5 @@ rule resteex_W97M_Melissa_A {
 		 $hex9= {2473383d202253756d}
 
 	condition:
-		1 of them
+		3 of them
 }

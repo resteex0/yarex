@@ -10,7 +10,7 @@ rule resteex_CryptoLocker_10Sep2013 {
 	meta: 
 		 description= "CryptoLocker_10Sep2013 Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-12" 
+		 date = "2022-01-14_21-37-21" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "04fb36199787f2e3e2135611a38321eb"
 
@@ -36,5 +36,5 @@ rule resteex_CryptoLocker_10Sep2013 {
 		 $hex8= {2473373d2022536f66}
 
 	condition:
-		1 of them
+		2 of them
 }

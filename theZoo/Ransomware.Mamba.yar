@@ -10,7 +10,7 @@ rule resteex_Ransomware_Mamba {
 	meta: 
 		 description= "Ransomware_Mamba Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-36" 
+		 date = "2022-01-14_21-37-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "409d80bb94645fbc4a1fa61c07806883"
 
@@ -252,5 +252,5 @@ rule resteex_Ransomware_Mamba {
 		 $hex116= {2473393d2022417574}
 
 	condition:
-		14 of them
+		38 of them
 }

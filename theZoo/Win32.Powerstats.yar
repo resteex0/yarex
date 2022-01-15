@@ -10,7 +10,7 @@ rule resteex_Win32_Powerstats {
 	meta: 
 		 description= "Win32_Powerstats Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-58" 
+		 date = "2022-01-14_21-39-07" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2c3a634953a9a2c227a51e8eeac9f137"
 		 hash2= "66c783e41480e65e287081ff853cc737"
@@ -56,5 +56,5 @@ rule resteex_Win32_Powerstats {
 		 $hex16= {2473393d2022446f63}
 
 	condition:
-		2 of them
+		5 of them
 }

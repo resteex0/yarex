@@ -10,7 +10,7 @@ rule resteex_EquationGroup_GrayFish {
 	meta: 
 		 description= "EquationGroup_GrayFish Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-17" 
+		 date = "2022-01-14_21-37-26" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9b1ca66aab784dc5f1dfe635d8f8a904"
 
@@ -50,5 +50,5 @@ rule resteex_EquationGroup_GrayFish {
 		 $hex15= {2473393d2022744227}
 
 	condition:
-		1 of them
+		5 of them
 }

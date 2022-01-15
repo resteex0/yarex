@@ -10,7 +10,7 @@ rule resteex_Win32_Fareit {
 	meta: 
 		 description= "Win32_Fareit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-43" 
+		 date = "2022-01-14_21-38-52" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15540d149889539308135fa12bedbcbf"
 		 hash2= "1d34d800aa3320dc17a5786f8eec16ee"
@@ -71,5 +71,5 @@ rule resteex_Win32_Fareit {
 		 $hex21= {2473393d202250726f}
 
 	condition:
-		2 of them
+		7 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Win32_Narilam {
 	meta: 
 		 description= "Win32_Narilam Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-56" 
+		 date = "2022-01-14_21-39-06" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8e63c306e95843eccab53dad31b3a98b"
 
@@ -52,5 +52,5 @@ rule resteex_Win32_Narilam {
 		 $hex16= {2473393d20224d6963}
 
 	condition:
-		2 of them
+		5 of them
 }

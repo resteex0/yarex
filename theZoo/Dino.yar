@@ -10,7 +10,7 @@ rule resteex_Dino {
 	meta: 
 		 description= "Dino Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-14" 
+		 date = "2022-01-14_21-37-23" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ab2e178c77f6df518024a71d05e98451"
 
@@ -120,5 +120,5 @@ rule resteex_Dino {
 		 $hex50= {2473393d2022496420}
 
 	condition:
-		6 of them
+		16 of them
 }

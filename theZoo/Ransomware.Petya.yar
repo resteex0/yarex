@@ -10,7 +10,7 @@ rule resteex_Ransomware_Petya {
 	meta: 
 		 description= "Ransomware_Petya Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-39" 
+		 date = "2022-01-14_21-37-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a92f13f3a1b3b39833d3cc336301b713"
 		 hash2= "af2379cc4d607a45ac44d62135fb7015"
@@ -191,5 +191,5 @@ rule resteex_Ransomware_Petya {
 		 $hex85= {2473393d20227b4336}
 
 	condition:
-		10 of them
+		28 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Win32_TransparentTribe_B {
 	meta: 
 		 description= "Win32_TransparentTribe_B Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-11" 
+		 date = "2022-01-14_21-39-21" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15da10765b7becfcca3325a91d90db37"
 		 hash2= "48476da4403243b342a166d8a6be7a3f"
@@ -106,5 +106,5 @@ rule resteex_Win32_TransparentTribe_B {
 		 $hex41= {2473393d2022446f63}
 
 	condition:
-		5 of them
+		13 of them
 }

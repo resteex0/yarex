@@ -10,7 +10,7 @@ rule resteex_Win32_EternalRocks {
 	meta: 
 		 description= "Win32_EternalRocks Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-36" 
+		 date = "2022-01-14_21-38-46" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0e83b186a4d067299df2db817b724eb7"
 		 hash2= "198f27f5ab972bfd99e89802e40d6ba7"
@@ -551,5 +551,5 @@ rule resteex_Win32_EternalRocks {
 		 $hex252= {2473393d20225f5f61}
 
 	condition:
-		31 of them
+		84 of them
 }

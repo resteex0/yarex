@@ -10,7 +10,7 @@ rule resteex_ZeusGameover_Feb2014 {
 	meta: 
 		 description= "ZeusGameover_Feb2014 Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-32" 
+		 date = "2022-01-14_21-39-41" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "19c68862d3a53ea1746180b40bf32226"
 		 hash2= "7bc463a32d6c0fb888cd76cc07ee69b5"
@@ -71,5 +71,5 @@ rule resteex_ZeusGameover_Feb2014 {
 		 $hex24= {2473393d20224f7269}
 
 	condition:
-		3 of them
+		8 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Ransomware_Jigsaw {
 	meta: 
 		 description= "Ransomware_Jigsaw Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-35" 
+		 date = "2022-01-14_21-37-44" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2773e3dc59472296cb0024ba7715a64e"
 
@@ -76,5 +76,5 @@ rule resteex_Ransomware_Jigsaw {
 		 $hex28= {2473393d202244656c}
 
 	condition:
-		3 of them
+		9 of them
 }

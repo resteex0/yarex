@@ -10,7 +10,7 @@ rule resteex_Trojan_Kovter {
 	meta: 
 		 description= "Trojan_Kovter Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-09" 
+		 date = "2022-01-14_21-38-18" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15af6227d39ca3f9d1dcd8566efb0057"
 
@@ -82,5 +82,5 @@ rule resteex_Trojan_Kovter {
 		 $hex31= {2473393d2022446f63}
 
 	condition:
-		3 of them
+		10 of them
 }

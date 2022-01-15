@@ -10,7 +10,7 @@ rule resteex_W32_Elkern_B {
 	meta: 
 		 description= "W32_Elkern_B Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-19" 
+		 date = "2022-01-14_21-38-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a8a4950d9d71b448fde1f741608921e"
 		 hash2= "15eb3a656f9e83138cdb4c3a16b6ab60"
@@ -41,5 +41,5 @@ rule resteex_W32_Elkern_B {
 		 $hex10= {2473393d2022545741}
 
 	condition:
-		1 of them
+		3 of them
 }

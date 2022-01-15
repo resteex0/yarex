@@ -10,7 +10,7 @@ rule resteex_Ransomware_Locky {
 	meta: 
 		 description= "Ransomware_Locky Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-36" 
+		 date = "2022-01-14_21-37-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b06d9dd17c69ed2ae75d9e40b2631b42"
 
@@ -46,5 +46,5 @@ rule resteex_Ransomware_Locky {
 		 $hex13= {2473393d20224f7269}
 
 	condition:
-		1 of them
+		4 of them
 }

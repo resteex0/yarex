@@ -10,7 +10,7 @@ rule resteex_Win32_Hupigon {
 	meta: 
 		 description= "Win32_Hupigon Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-45" 
+		 date = "2022-01-14_21-38-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8f90057ab244bd8b612cd09f566eac0c"
 
@@ -96,5 +96,5 @@ rule resteex_Win32_Hupigon {
 		 $hex38= {2473393d2022436f6e}
 
 	condition:
-		4 of them
+		12 of them
 }

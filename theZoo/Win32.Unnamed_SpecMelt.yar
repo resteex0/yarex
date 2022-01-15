@@ -10,7 +10,7 @@ rule resteex_Win32_Unnamed_SpecMelt {
 	meta: 
 		 description= "Win32_Unnamed_SpecMelt Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-15" 
+		 date = "2022-01-14_21-39-25" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8f188da25ac5dcdaf4bba56d84d83c56"
 
@@ -72,5 +72,5 @@ rule resteex_Win32_Unnamed_SpecMelt {
 		 $hex26= {2473393d2022617069}
 
 	condition:
-		3 of them
+		8 of them
 }

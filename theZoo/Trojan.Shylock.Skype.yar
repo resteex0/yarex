@@ -10,7 +10,7 @@ rule resteex_Trojan_Shylock_Skype {
 	meta: 
 		 description= "Trojan_Shylock_Skype Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-12" 
+		 date = "2022-01-14_21-38-21" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8fbeb78b06985c3188562e2f1b82d57d"
 
@@ -42,5 +42,5 @@ rule resteex_Trojan_Shylock_Skype {
 		 $hex11= {2473393d2022544e61}
 
 	condition:
-		1 of them
+		3 of them
 }

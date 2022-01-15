@@ -10,7 +10,7 @@ rule resteex_Artemis {
 	meta: 
 		 description= "Artemis Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-07" 
+		 date = "2022-01-14_21-37-16" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "caff801a280d42dbd1ad6b1266d3c43a"
 
@@ -44,5 +44,5 @@ rule resteex_Artemis {
 		 $hex12= {2473393d202256535f}
 
 	condition:
-		1 of them
+		4 of them
 }

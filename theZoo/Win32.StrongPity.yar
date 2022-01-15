@@ -10,7 +10,7 @@ rule resteex_Win32_StrongPity {
 	meta: 
 		 description= "Win32_StrongPity Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-10" 
+		 date = "2022-01-14_21-39-19" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a4d3b78941da8b6f4edad7cb6f35134b"
 		 hash2= "cab76ac00e342f77bdfec3e85b6b85a9"
@@ -87,5 +87,5 @@ rule resteex_Win32_StrongPity {
 		 $hex33= {2473393d2022617069}
 
 	condition:
-		4 of them
+		11 of them
 }

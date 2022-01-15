@@ -10,7 +10,7 @@ rule resteex_W32_Klez_H {
 	meta: 
 		 description= "W32_Klez_H Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-20" 
+		 date = "2022-01-14_21-38-30" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "07c19da3a33f9ec6a97f3837aef6fde0"
 		 hash2= "4ae9a4a8b8ce22c7b52c2eaec75ca536"
@@ -54,5 +54,5 @@ rule resteex_W32_Klez_H {
 		 $hex15= {2473393d20224f7269}
 
 	condition:
-		1 of them
+		5 of them
 }

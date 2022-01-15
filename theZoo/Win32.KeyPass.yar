@@ -10,7 +10,7 @@ rule resteex_Win32_KeyPass {
 	meta: 
 		 description= "Win32_KeyPass Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-48" 
+		 date = "2022-01-14_21-38-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6999c944d1c98b2739d015448c99a291"
 
@@ -944,5 +944,5 @@ rule resteex_Win32_KeyPass {
 		 $hex462= {2473393d202261636f}
 
 	condition:
-		57 of them
+		154 of them
 }

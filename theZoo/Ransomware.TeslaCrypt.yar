@@ -10,7 +10,7 @@ rule resteex_Ransomware_TeslaCrypt {
 	meta: 
 		 description= "Ransomware_TeslaCrypt Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-43" 
+		 date = "2022-01-14_21-37-52" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "209a288c68207d57e0ce6e60ebf60729"
 		 hash2= "6d3d62a4cff19b4f2cc7ce9027c33be8"
@@ -64,5 +64,5 @@ rule resteex_Ransomware_TeslaCrypt {
 		 $hex21= {2473393d202248454c}
 
 	condition:
-		2 of them
+		7 of them
 }

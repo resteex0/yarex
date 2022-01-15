@@ -10,7 +10,7 @@ rule resteex_Win32_BigBang {
 	meta: 
 		 description= "Win32_BigBang Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-27" 
+		 date = "2022-01-14_21-38-36" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "18864d22331fc6503641f128226aaea8"
 		 hash2= "87d7d314f86f61a9099a51c269b4ec78"
@@ -781,5 +781,5 @@ rule resteex_Win32_BigBang {
 		 $hex379= {2473393d20225f5f61}
 
 	condition:
-		47 of them
+		126 of them
 }

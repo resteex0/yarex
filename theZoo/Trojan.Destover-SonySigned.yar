@@ -10,7 +10,7 @@ rule resteex_Trojan_Destover_SonySigned {
 	meta: 
 		 description= "Trojan_Destover_SonySigned Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-08" 
+		 date = "2022-01-14_21-38-17" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e904bf93403c0fb08b9683a9e858c73e"
 
@@ -54,5 +54,5 @@ rule resteex_Trojan_Destover_SonySigned {
 		 $hex17= {2473393d20224c6567}
 
 	condition:
-		2 of them
+		5 of them
 }

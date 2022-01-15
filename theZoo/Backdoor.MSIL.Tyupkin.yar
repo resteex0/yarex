@@ -10,7 +10,7 @@ rule resteex_Backdoor_MSIL_Tyupkin {
 	meta: 
 		 description= "Backdoor_MSIL_Tyupkin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-08" 
+		 date = "2022-01-14_21-37-17" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "162ad6dbd50f3be407f49f65b938512a"
 		 hash2= "250b77dfbb1b666e95b3bcda082de287"
@@ -85,5 +85,5 @@ rule resteex_Backdoor_MSIL_Tyupkin {
 		 $hex30= {2473393d202244454c}
 
 	condition:
-		3 of them
+		10 of them
 }

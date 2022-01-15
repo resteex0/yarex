@@ -10,7 +10,7 @@ rule resteex_WMIGhost {
 	meta: 
 		 description= "WMIGhost Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-27" 
+		 date = "2022-01-14_21-39-37" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0df40b226a4913a57668b83b7c7b443c"
 		 hash2= "0e7db6b6a6e4993a01a01df578d65bf0"
@@ -58,5 +58,5 @@ rule resteex_WMIGhost {
 		 $hex10= {2473383d2022536372}
 
 	condition:
-		1 of them
+		3 of them
 }

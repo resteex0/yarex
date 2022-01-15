@@ -10,7 +10,7 @@ rule resteex_Android_VikingHorde {
 	meta: 
 		 description= "Android_VikingHorde Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-53-04" 
+		 date = "2022-01-14_21-37-13" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "390e66ffaccaa557a8d5c43c8f3a20a9"
 
@@ -250,5 +250,5 @@ rule resteex_Android_VikingHorde {
 		 $hex115= {2473393d2022304e6c}
 
 	condition:
-		14 of them
+		38 of them
 }

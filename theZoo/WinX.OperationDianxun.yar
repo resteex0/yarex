@@ -10,7 +10,7 @@ rule resteex_WinX_OperationDianxun {
 	meta: 
 		 description= "WinX_OperationDianxun Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-55-23" 
+		 date = "2022-01-14_21-39-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "029349d7b378245e1cdc964e21130789"
 		 hash2= "1ec914ef8443a1fb259c79b038e64ebf"
@@ -261,5 +261,5 @@ rule resteex_WinX_OperationDianxun {
 		 $hex114= {2473393d2022617069}
 
 	condition:
-		14 of them
+		38 of them
 }

@@ -10,7 +10,7 @@ rule resteex_Win32_FASTCash {
 	meta: 
 		 description= "Win32_FASTCash Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_20-54-44" 
+		 date = "2022-01-14_21-38-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3122b0130f5135b6f76fca99609d5cbe"
 		 hash2= "40e698f961eb796728a57ddf81f52b9a"
@@ -74,5 +74,5 @@ rule resteex_Win32_FASTCash {
 		 $hex25= {2473393d2022617069}
 
 	condition:
-		3 of them
+		8 of them
 }
