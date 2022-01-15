@@ -26,13 +26,13 @@ or publish you malware files samples or links with our issue link https://github
 
 # option 1
 
-<code>sudo git clone https://github.com/resteex0/yarex.git</code><br>
+<code>sudo git clone https://github.com/resteex0/yarex.git --recursive</code><br>
 <code>sudo cd yarex</code><br>
 <code>sudo ls yarex/theZoo|awk '{print $9}'|while read A ; do yara yarex/theZoo/$A test3 2>&1;done</code><br>
 
 # option 2 (recommended if researching or auditing)
 
-<code>sudo git clone https://github.com/resteex0/yarex.git</code><br>
+<code>sudo git clone https://github.com/resteex0/yarex.git --recursive</code><br>
 <code>cd yarex</code><br>
 <code>unzip -Pinfected testsample.zip</code><br>
 <code>cd ..</code><br>
