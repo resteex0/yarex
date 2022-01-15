@@ -90,6 +90,8 @@ after option 2 as first should be have detect as some :
 <code>resteex_Cobalt_Strike yarex/testsample/0ceead2afcdee2a35dfa14e2054806231325dd291f9aa714af44a0495b677efc</code><br>
 <code>resteex_Curator_Ransomware yarex/testsample/0ceead2afcdee2a35dfa14e2054806231325dd291f9aa714af44a0495b677efc</code><br>
 
+<a href="https://asciinema.org/a/461995" target="_blank"><img src="https://asciinema.org/a/461995.svg" /></a>
+
 ## achievements of project to now
 
 my project is very uniq yara rules in the world.
