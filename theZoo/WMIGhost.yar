@@ -10,7 +10,7 @@ rule resteex_WMIGhost {
 	meta: 
 		 description= "WMIGhost Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_21-39-37" 
+		 date = "2022-01-14_22-52-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0df40b226a4913a57668b83b7c7b443c"
 		 hash2= "0e7db6b6a6e4993a01a01df578d65bf0"
@@ -39,23 +39,13 @@ rule resteex_WMIGhost {
 		 $s2= "ActiveScriptEventConsumer.Name='ProbeScriptFint'" fullword wide
 		 $s3= "__EventFilter.Name='ProbeScriptFint'" fullword wide
 		 $s4= "__FilterToConsumerBinding" fullword wide
-		 $s5= "IntervalBetweenEvents" fullword wide
-		 $s6= "__IntervalTimerInstruction" fullword wide
-		 $s7= "ProbeScriptFint" fullword wide
-		 $s8= "ScriptingEngine" fullword wide
-		 $a1= "ActiveScriptEventConsumer.Name='ProbeScriptFint'" fullword ascii
-		 $a2= "__EventFilter.Name='ProbeScriptFint'" fullword ascii
+		 $s5= "__IntervalTimerInstruction" fullword wide
 
-		 $hex1= {2461313d2022416374}
-		 $hex2= {2461323d20225f5f45}
-		 $hex3= {2473313d2022416374}
-		 $hex4= {2473323d2022416374}
-		 $hex5= {2473333d20225f5f45}
-		 $hex6= {2473343d20225f5f46}
-		 $hex7= {2473353d2022496e74}
-		 $hex8= {2473363d20225f5f49}
-		 $hex9= {2473373d202250726f}
-		 $hex10= {2473383d2022536372}
+		 $hex1= {2473313d2022416374}
+		 $hex2= {2473323d2022416374}
+		 $hex3= {2473333d20225f5f45}
+		 $hex4= {2473343d20225f5f46}
+		 $hex5= {2473353d20225f5f49}
 
 	condition:
 		3 of them

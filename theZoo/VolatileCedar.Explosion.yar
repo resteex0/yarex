@@ -10,7 +10,7 @@ rule resteex_VolatileCedar_Explosion {
 	meta: 
 		 description= "VolatileCedar_Explosion Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_21-38-26" 
+		 date = "2022-01-14_22-51-58" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "034e4c62965f8d5dd5d5a2ce34a53ba9"
 		 hash2= "08c988d6cebdd55f3b123f2d9d5507a6"
@@ -53,38 +53,12 @@ rule resteex_VolatileCedar_Explosion {
 	
  		 $s1= "6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)" fullword wide
 		 $s2= "6.1.7600.16385 (win7_rtm.090713-1255)" fullword wide
-		 $s3= "8.00.6001.18702" fullword wide
-		 $s4= "9.2.0 build-799703" fullword wide
-		 $s5= "DefaultPassword" fullword wide
-		 $s6= "EL$_RasDefaultCredentials#0" fullword wide
-		 $s7= "error.renamefile" fullword wide
-		 $s8= "FileDescription" fullword wide
-		 $s9= "Internet Explorer" fullword wide
-		 $s10= "LegalTrademarks" fullword wide
-		 $s11= "Microsoft Corporation" fullword wide
-		 $s12= "OriginalFilename" fullword wide
-		 $s13= "Program Manager" fullword wide
-		 $s14= "VS_VERSION_INFO" fullword wide
-		 $a1= "6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)" fullword ascii
-		 $a2= "6.1.7600.16385 (win7_rtm.090713-1255)" fullword ascii
+		 $s3= "EL$_RasDefaultCredentials#0" fullword wide
 
-		 $hex1= {2461313d2022362e30}
-		 $hex2= {2461323d2022362e31}
-		 $hex3= {247331303d20224c65}
-		 $hex4= {247331313d20224d69}
-		 $hex5= {247331323d20224f72}
-		 $hex6= {247331333d20225072}
-		 $hex7= {247331343d20225653}
-		 $hex8= {2473313d2022362e30}
-		 $hex9= {2473323d2022362e31}
-		 $hex10= {2473333d2022382e30}
-		 $hex11= {2473343d2022392e32}
-		 $hex12= {2473353d2022446566}
-		 $hex13= {2473363d2022454c24}
-		 $hex14= {2473373d2022657272}
-		 $hex15= {2473383d202246696c}
-		 $hex16= {2473393d2022496e74}
+		 $hex1= {2473313d2022362e30}
+		 $hex2= {2473323d2022362e31}
+		 $hex3= {2473333d2022454c24}
 
 	condition:
-		5 of them
+		2 of them
 }

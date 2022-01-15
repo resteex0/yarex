@@ -10,35 +10,21 @@ rule resteex_Win32_Unclassified {
 	meta: 
 		 description= "Win32_Unclassified Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_21-39-24" 
+		 date = "2022-01-14_22-52-44" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c234a8879840da21f197b2608a164c9"
 
 	strings:
 
 	
- 		 $s1= "Assembly Version" fullword wide
-		 $s2= "FileDescription" fullword wide
-		 $s3= "OriginalFilename" fullword wide
-		 $s4= "System.Reflection.Assembly" fullword wide
-		 $s5= "System.Security.Cryptography.RijndaelManaged" fullword wide
-		 $s6= "System.Security.Cryptography.SymmetricAlgorithm" fullword wide
-		 $s7= "TransformFinalBlock" fullword wide
-		 $s8= "VS_VERSION_INFO" fullword wide
-		 $a1= "System.Security.Cryptography.RijndaelManaged" fullword ascii
-		 $a2= "System.Security.Cryptography.SymmetricAlgorithm" fullword ascii
+ 		 $s1= "System.Reflection.Assembly" fullword wide
+		 $s2= "System.Security.Cryptography.RijndaelManaged" fullword wide
+		 $s3= "System.Security.Cryptography.SymmetricAlgorithm" fullword wide
 
-		 $hex1= {2461313d2022537973}
-		 $hex2= {2461323d2022537973}
-		 $hex3= {2473313d2022417373}
-		 $hex4= {2473323d202246696c}
-		 $hex5= {2473333d20224f7269}
-		 $hex6= {2473343d2022537973}
-		 $hex7= {2473353d2022537973}
-		 $hex8= {2473363d2022537973}
-		 $hex9= {2473373d2022547261}
-		 $hex10= {2473383d202256535f}
+		 $hex1= {2473313d2022537973}
+		 $hex2= {2473323d2022537973}
+		 $hex3= {2473333d2022537973}
 
 	condition:
-		3 of them
+		2 of them
 }

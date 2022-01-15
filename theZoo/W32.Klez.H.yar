@@ -10,7 +10,7 @@ rule resteex_W32_Klez_H {
 	meta: 
 		 description= "W32_Klez_H Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_21-38-30" 
+		 date = "2022-01-14_22-52-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "07c19da3a33f9ec6a97f3837aef6fde0"
 		 hash2= "4ae9a4a8b8ce22c7b52c2eaec75ca536"
@@ -21,38 +21,14 @@ rule resteex_W32_Klez_H {
 	strings:
 
 	
- 		 $s1= "accDefaultAction" fullword wide
-		 $s2= "accKeyboardShortcut" fullword wide
-		 $s3= "Anti Win32.Klez" fullword wide
-		 $s4= "FileDescription" fullword wide
-		 $s5= "http://www.bitdefender.com" fullword wide
-		 $s6= "Invalid filename." fullword wide
-		 $s7= "LegalTrademarks" fullword wide
-		 $s8= "Microsoft Corporation" fullword wide
-		 $s9= "OriginalFilename" fullword wide
-		 $s10= "Symantec Corporation" fullword wide
-		 $s11= "VS_VERSION_INFO" fullword wide
-		 $s12= "Win32.Klez.A@mm, Win32.Klez.B@mm," fullword wide
-		 $s13= "Win32.Klez.C@mm, Win32.Klez.D@mm," fullword wide
-		 $s14= "www.bitdefender.com" fullword wide
-		 $s15= "YaccDoDefaultAction" fullword wide
+ 		 $s1= "http://www.bitdefender.com" fullword wide
+		 $s2= "Win32.Klez.A@mm, Win32.Klez.B@mm," fullword wide
+		 $s3= "Win32.Klez.C@mm, Win32.Klez.D@mm," fullword wide
 
-		 $hex1= {247331303d20225379}
-		 $hex2= {247331313d20225653}
-		 $hex3= {247331323d20225769}
-		 $hex4= {247331333d20225769}
-		 $hex5= {247331343d20227777}
-		 $hex6= {247331353d20225961}
-		 $hex7= {2473313d2022616363}
-		 $hex8= {2473323d2022616363}
-		 $hex9= {2473333d2022416e74}
-		 $hex10= {2473343d202246696c}
-		 $hex11= {2473353d2022687474}
-		 $hex12= {2473363d2022496e76}
-		 $hex13= {2473373d20224c6567}
-		 $hex14= {2473383d20224d6963}
-		 $hex15= {2473393d20224f7269}
+		 $hex1= {2473313d2022687474}
+		 $hex2= {2473323d202257696e}
+		 $hex3= {2473333d202257696e}
 
 	condition:
-		5 of them
+		2 of them
 }
