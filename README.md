@@ -170,6 +170,9 @@ https://github.com/ytisf/theZoo big thanx alot for ytisf team as big effort and 
 
 https://www.vx-underground.org/ thanks to database collection of malware
 
+## releases
+
+yarex v0.15012022 https://github.com/resteex0/yarex/releases/tag/%23yarex
 
 ## License
 
