@@ -10,7 +10,7 @@ rule resteex_Win32_Unnamed_SpecMelt {
 	meta: 
 		 description= "Win32_Unnamed_SpecMelt Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-45" 
+		 date = "2022-01-20_04-45-10" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8f188da25ac5dcdaf4bba56d84d83c56"
 

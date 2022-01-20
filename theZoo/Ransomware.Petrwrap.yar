@@ -10,7 +10,7 @@ rule resteex_Ransomware_Petrwrap {
 	meta: 
 		 description= "Ransomware_Petrwrap Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-51-21" 
+		 date = "2022-01-20_04-42-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0487382a4daf8eb9660f1c67e30f8b25"
 		 hash2= "51c028cd5f3afe9bf179d81def8d7a8e"
@@ -25,11 +25,15 @@ rule resteex_Ransomware_Petrwrap {
  		 $s1= "{71461f04-2faa-4bb9-a0dd-28a79101b599}" fullword wide
 		 $s2= "{8175e2c1-d077-43b3-8e9b-6232d4603826}" fullword wide
 		 $s3= "wowsmith123456@posteo.net." fullword wide
+		 $a1= "3http://crl.microsoft.com/pki/crl/products/CSPCA.crl0H" fullword ascii
+		 $a2= "3http://crl.microsoft.com/pki/crl/products/tspca.crl0H" fullword ascii
 
-		 $hex1= {2473313d20227b3731}
-		 $hex2= {2473323d20227b3831}
-		 $hex3= {2473333d2022776f77}
+		 $hex1= {2461313d2022336874}
+		 $hex2= {2461323d2022336874}
+		 $hex3= {2473313d20227b3731}
+		 $hex4= {2473323d20227b3831}
+		 $hex5= {2473333d2022776f77}
 
 	condition:
-		2 of them
+		3 of them
 }

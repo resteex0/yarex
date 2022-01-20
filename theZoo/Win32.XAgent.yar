@@ -10,7 +10,7 @@ rule resteex_Win32_XAgent {
 	meta: 
 		 description= "Win32_XAgent Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-47" 
+		 date = "2022-01-20_04-45-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2f6d1bed602a3ad749301e7aa3800139"
 

@@ -10,7 +10,7 @@ rule resteex_Waski_Upatre {
 	meta: 
 		 description= "Waski_Upatre Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-05" 
+		 date = "2022-01-20_04-44-10" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "41859ac8b90080471dfb315bf439d6f4"
 		 hash2= "4d6c045c4cca49f8e556a7fb96e28635"
@@ -23,10 +23,12 @@ rule resteex_Waski_Upatre {
 	
  		 $s1= "guswdfpjqmhujolohbpulannxkeqeem" fullword wide
 		 $s2= "jjoiewbstfyjvworwmohmvkshxjv" fullword wide
+		 $a1= "riitrjnqbbkclqxbvbiiissqawcjkhgcjneqrjlxlthtwghnvdanwi" fullword ascii
 
-		 $hex1= {2473313d2022677573}
-		 $hex2= {2473323d20226a6a6f}
+		 $hex1= {2461313d2022726969}
+		 $hex2= {2473313d2022677573}
+		 $hex3= {2473323d20226a6a6f}
 
 	condition:
-		1 of them
+		2 of them
 }

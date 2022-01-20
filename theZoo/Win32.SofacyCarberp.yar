@@ -10,7 +10,7 @@ rule resteex_Win32_SofacyCarberp {
 	meta: 
 		 description= "Win32_SofacyCarberp Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-40" 
+		 date = "2022-01-20_04-44-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "36524c90ca1fac2102e7653dfadb31b2"
 		 hash2= "aa2cd9d9fc5d196caa6f8fd5979e3f14"

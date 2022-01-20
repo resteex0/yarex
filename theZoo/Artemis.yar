@@ -10,7 +10,7 @@ rule resteex_Artemis {
 	meta: 
 		 description= "Artemis Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-50-53" 
+		 date = "2022-01-20_04-42-11" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "caff801a280d42dbd1ad6b1266d3c43a"
 

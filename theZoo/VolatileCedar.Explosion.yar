@@ -10,7 +10,7 @@ rule resteex_VolatileCedar_Explosion {
 	meta: 
 		 description= "VolatileCedar_Explosion Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-51-58" 
+		 date = "2022-01-20_04-43-58" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "034e4c62965f8d5dd5d5a2ce34a53ba9"
 		 hash2= "08c988d6cebdd55f3b123f2d9d5507a6"
@@ -54,11 +54,21 @@ rule resteex_VolatileCedar_Explosion {
  		 $s1= "6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)" fullword wide
 		 $s2= "6.1.7600.16385 (win7_rtm.090713-1255)" fullword wide
 		 $s3= "EL$_RasDefaultCredentials#0" fullword wide
+		 $a1= "Application DataMicrosoftNetworkConnectionspbkrasphone.pbk" fullword ascii
+		 $a2= "DLD-NTI:300:DLD-NTI)DLD-IP:49@50@55@46@48@46@48@46@49@:DLD-IP" fullword ascii
+		 $a3= "HKEY_CURRENT_USERSOFTWAREMicrosoftWindowsCurrentVersionRun" fullword ascii
+		 $a4= "SoftwareMicrosoftInternet ExplorerIntelliFormsStorage2" fullword ascii
+		 $a5= "SOFTWAREMicrosoftWindows NTCurrentVersionWinlogon" fullword ascii
 
-		 $hex1= {2473313d2022362e30}
-		 $hex2= {2473323d2022362e31}
-		 $hex3= {2473333d2022454c24}
+		 $hex1= {2461313d2022417070}
+		 $hex2= {2461323d2022444c44}
+		 $hex3= {2461333d2022484b45}
+		 $hex4= {2461343d2022536f66}
+		 $hex5= {2461353d2022534f46}
+		 $hex6= {2473313d2022362e30}
+		 $hex7= {2473323d2022362e31}
+		 $hex8= {2473333d2022454c24}
 
 	condition:
-		2 of them
+		5 of them
 }

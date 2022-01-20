@@ -10,7 +10,7 @@ rule resteex_WinX_OperationDianxun {
 	meta: 
 		 description= "WinX_OperationDianxun Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-50" 
+		 date = "2022-01-20_04-45-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "029349d7b378245e1cdc964e21130789"
 		 hash2= "1ec914ef8443a1fb259c79b038e64ebf"
@@ -66,48 +66,56 @@ rule resteex_WinX_OperationDianxun {
 		 $s34= "RunOnlyIfNetworkAvailable" fullword wide
 		 $s35= "spanish-dominican republic" fullword wide
 		 $s36= "SYSTEMControlSet001ServicesVBoxSF" fullword wide
-		 $a1= "http://159.138.84.217:81/c0c00c0c/AddTaskPlanDllVerson.dll" fullword ascii
-		 $a2= "https://flash-update.buyonebuy.top/download.php?raw=1" fullword ascii
+		 $a1= "2http://crl.sectigo.com/SectigoRSACodeSigningCA.crl0s" fullword ascii
+		 $a2= "2http://crt.sectigo.com/SectigoRSACodeSigningCA.crt0#" fullword ascii
+		 $a3= "3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%" fullword ascii
+		 $a4= "/callback.php?token=%s&computername=%s&username=%s" fullword ascii
+		 $a5= "C:UsersstandDesktopscloaderCLRLoaderMmloadMmLoadExe.cpp" fullword ascii
+		 $a6= "http://worldtimeapi.org/api/timezone/Asia/Shanghai" fullword ascii
 
-		 $hex1= {2461313d2022687474}
-		 $hex2= {2461323d2022687474}
-		 $hex3= {247331303d20226170}
-		 $hex4= {247331313d20226170}
-		 $hex5= {247331323d20226170}
-		 $hex6= {247331333d20226170}
-		 $hex7= {247331343d20226170}
-		 $hex8= {247331353d20226170}
-		 $hex9= {247331363d20226170}
-		 $hex10= {247331373d20224170}
-		 $hex11= {247331383d2022436c}
-		 $hex12= {247331393d20225f5f}
-		 $hex13= {2473313d2022617069}
-		 $hex14= {247332303d20225f5f}
-		 $hex15= {247332313d2022433a}
-		 $hex16= {247332323d20224469}
-		 $hex17= {247332333d20226578}
-		 $hex18= {247332343d20226578}
-		 $hex19= {247332353d20226578}
-		 $hex20= {247332363d20225f5f}
-		 $hex21= {247332373d20226874}
-		 $hex22= {247332383d20226874}
-		 $hex23= {247332393d20226874}
-		 $hex24= {2473323d2022617069}
-		 $hex25= {247333303d20226874}
-		 $hex26= {247333313d20225f5f}
-		 $hex27= {247333323d20224d69}
-		 $hex28= {247333333d20226d69}
-		 $hex29= {247333343d20225275}
-		 $hex30= {247333353d20227370}
-		 $hex31= {247333363d20225359}
-		 $hex32= {2473333d2022617069}
-		 $hex33= {2473343d2022617069}
-		 $hex34= {2473353d2022617069}
-		 $hex35= {2473363d2022617069}
-		 $hex36= {2473373d2022617069}
-		 $hex37= {2473383d2022617069}
-		 $hex38= {2473393d2022617069}
+		 $hex1= {2461313d2022326874}
+		 $hex2= {2461323d2022326874}
+		 $hex3= {2461333d2022336874}
+		 $hex4= {2461343d20222f6361}
+		 $hex5= {2461353d2022433a55}
+		 $hex6= {2461363d2022687474}
+		 $hex7= {247331303d20226170}
+		 $hex8= {247331313d20226170}
+		 $hex9= {247331323d20226170}
+		 $hex10= {247331333d20226170}
+		 $hex11= {247331343d20226170}
+		 $hex12= {247331353d20226170}
+		 $hex13= {247331363d20226170}
+		 $hex14= {247331373d20224170}
+		 $hex15= {247331383d2022436c}
+		 $hex16= {247331393d20225f5f}
+		 $hex17= {2473313d2022617069}
+		 $hex18= {247332303d20225f5f}
+		 $hex19= {247332313d2022433a}
+		 $hex20= {247332323d20224469}
+		 $hex21= {247332333d20226578}
+		 $hex22= {247332343d20226578}
+		 $hex23= {247332353d20226578}
+		 $hex24= {247332363d20225f5f}
+		 $hex25= {247332373d20226874}
+		 $hex26= {247332383d20226874}
+		 $hex27= {247332393d20226874}
+		 $hex28= {2473323d2022617069}
+		 $hex29= {247333303d20226874}
+		 $hex30= {247333313d20225f5f}
+		 $hex31= {247333323d20224d69}
+		 $hex32= {247333333d20226d69}
+		 $hex33= {247333343d20225275}
+		 $hex34= {247333353d20227370}
+		 $hex35= {247333363d20225359}
+		 $hex36= {2473333d2022617069}
+		 $hex37= {2473343d2022617069}
+		 $hex38= {2473353d2022617069}
+		 $hex39= {2473363d2022617069}
+		 $hex40= {2473373d2022617069}
+		 $hex41= {2473383d2022617069}
+		 $hex42= {2473393d2022617069}
 
 	condition:
-		25 of them
+		28 of them
 }

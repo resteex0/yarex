@@ -10,7 +10,7 @@ rule resteex_Win32_Unclassified {
 	meta: 
 		 description= "Win32_Unclassified Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-44" 
+		 date = "2022-01-20_04-45-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c234a8879840da21f197b2608a164c9"
 

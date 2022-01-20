@@ -10,7 +10,7 @@ rule resteex_Win32_StrongPity {
 	meta: 
 		 description= "Win32_StrongPity Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-40" 
+		 date = "2022-01-20_04-44-55" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a4d3b78941da8b6f4edad7cb6f35134b"
 		 hash2= "cab76ac00e342f77bdfec3e85b6b85a9"

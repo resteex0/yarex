@@ -10,7 +10,7 @@ rule resteex_Win32_Powerstats {
 	meta: 
 		 description= "Win32_Powerstats Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-29" 
+		 date = "2022-01-20_04-44-39" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2c3a634953a9a2c227a51e8eeac9f137"
 		 hash2= "66c783e41480e65e287081ff853cc737"
@@ -26,13 +26,17 @@ rule resteex_Win32_Powerstats {
 		 $s3= "-2] #,##0.00_);[Red]([$" fullword wide
 		 $s4= "DocumentSummaryInformation" fullword wide
 		 $s5= "TableStyleMedium2PivotStyleLight16" fullword wide
+		 $a1= "C:UserspcAppDataLocalTempExcel8.0MSForms.exd" fullword ascii
+		 $a2= "C:UserspoopakAppDataLocalTempExcel8.0MSForms.exd" fullword ascii
 
-		 $hex1= {2473313d20227b3038}
-		 $hex2= {2473323d20227b3133}
-		 $hex3= {2473333d20222d325d}
-		 $hex4= {2473343d2022446f63}
-		 $hex5= {2473353d2022546162}
+		 $hex1= {2461313d2022433a55}
+		 $hex2= {2461323d2022433a55}
+		 $hex3= {2473313d20227b3038}
+		 $hex4= {2473323d20227b3133}
+		 $hex5= {2473333d20222d325d}
+		 $hex6= {2473343d2022446f63}
+		 $hex7= {2473353d2022546162}
 
 	condition:
-		3 of them
+		4 of them
 }

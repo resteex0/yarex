@@ -10,7 +10,7 @@ rule resteex_Win32_Vobfus {
 	meta: 
 		 description= "Win32_Vobfus Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-46" 
+		 date = "2022-01-20_04-45-12" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4e15d812491ff0454f1e9393675b1c60"
 		 hash2= "634aa845f5b0b519b6d8a8670b994906"

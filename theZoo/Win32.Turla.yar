@@ -10,7 +10,7 @@ rule resteex_Win32_Turla {
 	meta: 
 		 description= "Win32_Turla Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-43" 
+		 date = "2022-01-20_04-45-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2b47ad7df9902aaa19474723064ee76f"
 		 hash2= "3c1a8991e96f4c56ae3e90fb6f0ae679"
@@ -24,9 +24,9 @@ rule resteex_Win32_Turla {
 	
  		 $s1= "{a1d3d2d3-af20-4317-903f-78271c44b294}" fullword wide
 		 $s2= "REGISTRYMACHINESoftwareMicrosoftWindows NTCurrentVersion" fullword wide
-		 $a1= "REGISTRYMACHINESoftwareMicrosoftWindows NTCurrentVersion" fullword ascii
+		 $a1= "%sSoftwareMicrosoftWindowsCurrentVersionInternet Settings" fullword ascii
 
-		 $hex1= {2461313d2022524547}
+		 $hex1= {2461313d2022257353}
 		 $hex2= {2473313d20227b6131}
 		 $hex3= {2473323d2022524547}
 

@@ -10,7 +10,7 @@ rule resteex_Win32_Fareit {
 	meta: 
 		 description= "Win32_Fareit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-19" 
+		 date = "2022-01-20_04-44-27" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15540d149889539308135fa12bedbcbf"
 		 hash2= "1d34d800aa3320dc17a5786f8eec16ee"
@@ -28,10 +28,12 @@ rule resteex_Win32_Fareit {
 	
  		 $s1= "SoftwareMicrosoftWindowsCurrentVersion" fullword wide
 		 $s2= "__tmp_rar_sfx_access_check_%u" fullword wide
+		 $a1= "d:ProjectsWinRARSFXbuildsfxrar32Releasesfxrar.pdb" fullword ascii
 
-		 $hex1= {2473313d2022536f66}
-		 $hex2= {2473323d20225f5f74}
+		 $hex1= {2461313d2022643a50}
+		 $hex2= {2473313d2022536f66}
+		 $hex3= {2473323d20225f5f74}
 
 	condition:
-		1 of them
+		2 of them
 }

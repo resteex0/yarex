@@ -10,7 +10,7 @@ rule resteex_Win32_FASTCash {
 	meta: 
 		 description= "Win32_FASTCash Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-20" 
+		 date = "2022-01-20_04-44-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3122b0130f5135b6f76fca99609d5cbe"
 		 hash2= "40e698f961eb796728a57ddf81f52b9a"
@@ -39,26 +39,30 @@ rule resteex_Win32_FASTCash {
 		 $s16= "ext-ms-win-kernel32-package-current-l1-1-0" fullword wide
 		 $s17= "ext-ms-win-ntuser-dialogbox-l1-1-0" fullword wide
 		 $s18= "ext-ms-win-ntuser-windowstation-l1-1-0" fullword wide
+		 $a1= "abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq" fullword ascii
+		 $a2= "%schromeupdater_ps_%04d%02d%02d_%02d%02d%02d_%03d_%d" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20226170}
-		 $hex5= {247331343d20226170}
-		 $hex6= {247331353d20226170}
-		 $hex7= {247331363d20226578}
-		 $hex8= {247331373d20226578}
-		 $hex9= {247331383d20226578}
-		 $hex10= {2473313d20225b2530}
-		 $hex11= {2473323d2022617069}
-		 $hex12= {2473333d2022617069}
-		 $hex13= {2473343d2022617069}
-		 $hex14= {2473353d2022617069}
-		 $hex15= {2473363d2022617069}
-		 $hex16= {2473373d2022617069}
-		 $hex17= {2473383d2022617069}
-		 $hex18= {2473393d2022617069}
+		 $hex1= {2461313d2022616263}
+		 $hex2= {2461323d2022257363}
+		 $hex3= {247331303d20226170}
+		 $hex4= {247331313d20226170}
+		 $hex5= {247331323d20226170}
+		 $hex6= {247331333d20226170}
+		 $hex7= {247331343d20226170}
+		 $hex8= {247331353d20226170}
+		 $hex9= {247331363d20226578}
+		 $hex10= {247331373d20226578}
+		 $hex11= {247331383d20226578}
+		 $hex12= {2473313d20225b2530}
+		 $hex13= {2473323d2022617069}
+		 $hex14= {2473333d2022617069}
+		 $hex15= {2473343d2022617069}
+		 $hex16= {2473353d2022617069}
+		 $hex17= {2473363d2022617069}
+		 $hex18= {2473373d2022617069}
+		 $hex19= {2473383d2022617069}
+		 $hex20= {2473393d2022617069}
 
 	condition:
-		12 of them
+		13 of them
 }

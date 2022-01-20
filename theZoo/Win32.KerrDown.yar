@@ -10,7 +10,7 @@ rule resteex_Win32_KerrDown {
 	meta: 
 		 description= "Win32_KerrDown Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_22-52-23" 
+		 date = "2022-01-20_04-44-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "518f52aabd9a059d181bfe864097091e"
 		 hash2= "6aa3115fa1f3adb8f0539e93d2cf21ca"
