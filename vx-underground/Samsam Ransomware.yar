@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Samsam_Ransomware 
+   Identifier: vx_underground2_Samsam_Ransomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Samsam_Ransomware {
+rule resteex_vx_underground2_Samsam_Ransomware {
 	meta: 
-		 description= "Samsam_Ransomware Group" 
+		 description= "vx_underground2_Samsam_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-35" 
+		 date = "2022-01-20_22-17-06" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "025c1c35c3198e6e3497d5dbf97ae81f"
 		 hash2= "58b39bb94660958b6180588109c34f51"

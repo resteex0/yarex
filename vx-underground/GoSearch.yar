@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: GoSearch 
+   Identifier: vx_underground2_GoSearch 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_GoSearch {
+rule resteex_vx_underground2_GoSearch {
 	meta: 
-		 description= "GoSearch Group" 
+		 description= "vx_underground2_GoSearch Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-05-32" 
+		 date = "2022-01-20_21-57-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b11ec6531ec25cedf67e2e1d9dbc0136"
 
@@ -26,5 +26,5 @@ rule resteex_GoSearch {
 		 $hex3= {2461333d20222f5379}
 
 	condition:
-		1 of them
+		2 of them
 }

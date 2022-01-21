@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Shlayer 
+   Identifier: vx_underground2_MacOS_Shlayer 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Shlayer {
+rule resteex_vx_underground2_MacOS_Shlayer {
 	meta: 
-		 description= "MacOS_Shlayer Group" 
+		 description= "vx_underground2_MacOS_Shlayer Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-37" 
+		 date = "2022-01-20_22-10-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0990f967610ec161ebb11bd4dad47652"
 		 hash2= "3803d9dd1d4e6c7c4587ce7f80088ec9"
@@ -91,5 +91,5 @@ rule resteex_MacOS_Shlayer {
 		 $hex30= {2461393d20225f5f5f}
 
 	condition:
-		15 of them
+		20 of them
 }

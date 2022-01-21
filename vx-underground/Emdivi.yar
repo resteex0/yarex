@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Emdivi 
+   Identifier: vx_underground2_Emdivi 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Emdivi {
+rule resteex_vx_underground2_Emdivi {
 	meta: 
-		 description= "Emdivi Group" 
+		 description= "vx_underground2_Emdivi Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-03-33" 
+		 date = "2022-01-20_21-55-42" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "05edc5d5bd9bda9ac8a75392b4231146"
 		 hash2= "2a2abdc4a301b73eb0f2ab01cc3450bf"
@@ -63,15 +63,43 @@ rule resteex_Emdivi {
 		 $s5= "SoftwareMicrosoftInternet Explorer" fullword wide
 		 $s6= "SoftwareMicrosoftWindowsCurrentVersion" fullword wide
 		 $s7= "__tmp_rar_sfx_access_check_%u" fullword wide
+		 $a1= "5O9X8PJDXUQRF/TE36IY4W+j8YArWtzJTopYJU5j0+azFInvW/YY9q/tJpEwo5Sn" fullword ascii
+		 $a2= "7WuEnwKE3vXYS/zGgbNIF+8KfWa/ar4scxVX9rq8nqZjaE9/3JPYtQjGXRr7NIWx" fullword ascii
+		 $a3= "97316/CDz8CL9+dZRCZa9UEhk+rJumk7zLedJ/qjsKcn0Z0Gb/PXdh/lJYbkSAq5" fullword ascii
+		 $a4= "dUH/wh1P84aWfZWjQDrCP2c5/Eh3wcyupm7jN00ehw+PWXKNZNJe4MeT8e/gTEf4" fullword ascii
+		 $a5= "gp/MPtjR3ShB5MOR/BkFu8oGRBzwEM+EcWcDT8wv98hnLOk3LbaWH1mAVZCsTsbg" fullword ascii
+		 $a6= "Hf/NW+OzWnYz0LqMgGZnIqqNgUyfag+qHEJvE8cRA++KvWB+I8taYmcO/lIR21fH" fullword ascii
+		 $a7= "hij/3+VOIuUZj3HSekrls4oewVo8Uuon+8/N2TCFTQEfJdaX8ydIZ0tz+bpMxCGz" fullword ascii
+		 $a8= "iGsmqpDjMq0QCygaRArwpf69b/wvsTify1UfXRTMbJ3f0+qgAekmjES5y6BeMhKH" fullword ascii
+		 $a9= "J/1RkgrpQfD0CGLfMaV30/e5iZNkWKWdZeUg3HvPfBwHDlHuRTHJa6gJxgAcv/gE" fullword ascii
+		 $a10= "kdg6A1uDhP4zHC/FyzrewNwL7wlDbsBOxg2Q83SkFSQzcmqakvfvUqbElAqGUfDy" fullword ascii
+		 $a11= "PQxukVJkS0ZwsT+BGd6hfVRXM918+wqUB9VSRW3AhgKluZpzt/FSYSizuyZ8QAmX" fullword ascii
+		 $a12= "uIHKOyju7Py2EilEUeyRfqI+SedPgZQACemaHA2bGcof07HYUW+f9Daq6WrpK3zv" fullword ascii
+		 $a13= "vNb54X9Qx3A/xMGwSSlZN83jXF1gQXxoXHxu1bafmbFiQXujfL162LaBma/cFAb3" fullword ascii
+		 $a14= "ZNFtX8AH9/kBn7yYpDUicDJNGz5yXGZqbMBnaPMxQNRTwdoL1iB8u/nQXIGJI/Ud" fullword ascii
 
-		 $hex1= {2473313d2022436f6e}
-		 $hex2= {2473323d2022446f63}
-		 $hex3= {2473333d2022494e54}
-		 $hex4= {2473343d20224d6f7a}
-		 $hex5= {2473353d2022536f66}
-		 $hex6= {2473363d2022536f66}
-		 $hex7= {2473373d20225f5f74}
+		 $hex1= {246131303d20226b64}
+		 $hex2= {246131313d20225051}
+		 $hex3= {246131323d20227549}
+		 $hex4= {246131333d2022764e}
+		 $hex5= {246131343d20225a4e}
+		 $hex6= {2461313d2022354f39}
+		 $hex7= {2461323d2022375775}
+		 $hex8= {2461333d2022393733}
+		 $hex9= {2461343d2022645548}
+		 $hex10= {2461353d202267702f}
+		 $hex11= {2461363d202248662f}
+		 $hex12= {2461373d202268696a}
+		 $hex13= {2461383d2022694773}
+		 $hex14= {2461393d20224a2f31}
+		 $hex15= {2473313d2022436f6e}
+		 $hex16= {2473323d2022446f63}
+		 $hex17= {2473333d2022494e54}
+		 $hex18= {2473343d20224d6f7a}
+		 $hex19= {2473353d2022536f66}
+		 $hex20= {2473363d2022536f66}
+		 $hex21= {2473373d20225f5f74}
 
 	condition:
-		4 of them
+		14 of them
 }

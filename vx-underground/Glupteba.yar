@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Glupteba 
+   Identifier: vx_underground2_Glupteba 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Glupteba {
+rule resteex_vx_underground2_Glupteba {
 	meta: 
-		 description= "Glupteba Group" 
+		 description= "vx_underground2_Glupteba Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-04-59" 
+		 date = "2022-01-20_21-57-25" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3c4808fcc3b035972f114ec4532e5f8e"
 		 hash2= "530a1feb891ef2eda24a9e4bb402bba0"
@@ -84,92 +84,72 @@ rule resteex_Glupteba {
 		 $s62= "vazujenuximevajulacufohobadinu cev" fullword wide
 		 $s63= "Wobetesido suvesebuxomelot" fullword wide
 		 $s64= "zeceheyamepumadewovopohuzi" fullword wide
-		 $a1= "f:ddvctoolscrt_bldself_x86crtprebuildconvcfout.c" fullword ascii
-		 $a2= "f:ddvctoolscrt_bldself_x86crtprebuildconvcvt.c" fullword ascii
-		 $a3= "f:ddvctoolscrt_bldself_x86crtprebuildconvx10fout.c" fullword ascii
-		 $a4= "f:ddvctoolscrt_bldself_x86crtprebuildehtypname.cpp" fullword ascii
-		 $a5= "f:ddvctoolscrt_bldself_x86crtprebuildtrancontrlfp.c" fullword ascii
-		 $a6= "f:ddvctoolscrt_bldself_x86crtsrcintelfp8.c" fullword ascii
-		 $a7= "f:ddvctoolscrt_bldself_x86crtsrctcscat_s.inl" fullword ascii
-		 $a8= "f:ddvctoolscrt_bldself_x86crtsrctcscpy_s.inl" fullword ascii
-		 $a9= "f:ddvctoolscrt_bldself_x86crtsrctcsncpy_s.inl" fullword ascii
-		 $a10= "f:ddvctoolscrt_bldself_x86crtsrcungetc_nolock.inl" fullword ascii
 
-		 $hex1= {246131303d2022663a}
-		 $hex2= {2461313d2022663a64}
-		 $hex3= {2461323d2022663a64}
-		 $hex4= {2461333d2022663a64}
-		 $hex5= {2461343d2022663a64}
-		 $hex6= {2461353d2022663a64}
-		 $hex7= {2461363d2022663a64}
-		 $hex8= {2461373d2022663a64}
-		 $hex9= {2461383d2022663a64}
-		 $hex10= {2461393d2022663a64}
-		 $hex11= {247331303d2022663a}
-		 $hex12= {247331313d2022663a}
-		 $hex13= {247331323d2022663a}
-		 $hex14= {247331333d2022663a}
-		 $hex15= {247331343d2022663a}
-		 $hex16= {247331353d2022663a}
-		 $hex17= {247331363d2022663a}
-		 $hex18= {247331373d2022663a}
-		 $hex19= {247331383d2022663a}
-		 $hex20= {247331393d2022663a}
-		 $hex21= {2473313d202242663a}
-		 $hex22= {247332303d2022663a}
-		 $hex23= {247332313d2022663a}
-		 $hex24= {247332323d2022663a}
-		 $hex25= {247332333d2022663a}
-		 $hex26= {247332343d2022663a}
-		 $hex27= {247332353d2022663a}
-		 $hex28= {247332363d2022663a}
-		 $hex29= {247332373d2022663a}
-		 $hex30= {247332383d2022663a}
-		 $hex31= {247332393d2022663a}
-		 $hex32= {2473323d20225f424c}
-		 $hex33= {247333303d2022663a}
-		 $hex34= {247333313d2022663a}
-		 $hex35= {247333323d2022663a}
-		 $hex36= {247333333d2022663a}
-		 $hex37= {247333343d2022663a}
-		 $hex38= {247333353d2022663a}
-		 $hex39= {247333363d2022663a}
-		 $hex40= {247333373d2022663a}
-		 $hex41= {247333383d2022663a}
-		 $hex42= {247333393d2022663a}
-		 $hex43= {2473333d20225f4372}
-		 $hex44= {247334303d2022663a}
-		 $hex45= {247334313d2022663a}
-		 $hex46= {247334323d2022663a}
-		 $hex47= {247334333d2022663a}
-		 $hex48= {247334343d2022663a}
-		 $hex49= {247334353d2022663a}
-		 $hex50= {247334363d2022663a}
-		 $hex51= {247334373d2022663a}
-		 $hex52= {247334383d2022663a}
-		 $hex53= {247334393d2022663a}
-		 $hex54= {2473343d2022663a64}
-		 $hex55= {247335303d2022663a}
-		 $hex56= {247335313d2022663a}
-		 $hex57= {247335323d2022663a}
-		 $hex58= {247335333d20226669}
-		 $hex59= {247335343d2022666f}
-		 $hex60= {247335353d20226973}
-		 $hex61= {247335363d20224b65}
-		 $hex62= {247335373d20226b69}
-		 $hex63= {247335383d20226b75}
-		 $hex64= {247335393d20226e66}
-		 $hex65= {2473353d2022663a64}
-		 $hex66= {247336303d20223d28}
-		 $hex67= {247336313d20227369}
-		 $hex68= {247336323d20227661}
-		 $hex69= {247336333d2022576f}
-		 $hex70= {247336343d20227a65}
-		 $hex71= {2473363d2022663a64}
-		 $hex72= {2473373d2022663a64}
-		 $hex73= {2473383d2022663a64}
-		 $hex74= {2473393d2022663a64}
+		 $hex1= {247331303d2022663a}
+		 $hex2= {247331313d2022663a}
+		 $hex3= {247331323d2022663a}
+		 $hex4= {247331333d2022663a}
+		 $hex5= {247331343d2022663a}
+		 $hex6= {247331353d2022663a}
+		 $hex7= {247331363d2022663a}
+		 $hex8= {247331373d2022663a}
+		 $hex9= {247331383d2022663a}
+		 $hex10= {247331393d2022663a}
+		 $hex11= {2473313d202242663a}
+		 $hex12= {247332303d2022663a}
+		 $hex13= {247332313d2022663a}
+		 $hex14= {247332323d2022663a}
+		 $hex15= {247332333d2022663a}
+		 $hex16= {247332343d2022663a}
+		 $hex17= {247332353d2022663a}
+		 $hex18= {247332363d2022663a}
+		 $hex19= {247332373d2022663a}
+		 $hex20= {247332383d2022663a}
+		 $hex21= {247332393d2022663a}
+		 $hex22= {2473323d20225f424c}
+		 $hex23= {247333303d2022663a}
+		 $hex24= {247333313d2022663a}
+		 $hex25= {247333323d2022663a}
+		 $hex26= {247333333d2022663a}
+		 $hex27= {247333343d2022663a}
+		 $hex28= {247333353d2022663a}
+		 $hex29= {247333363d2022663a}
+		 $hex30= {247333373d2022663a}
+		 $hex31= {247333383d2022663a}
+		 $hex32= {247333393d2022663a}
+		 $hex33= {2473333d20225f4372}
+		 $hex34= {247334303d2022663a}
+		 $hex35= {247334313d2022663a}
+		 $hex36= {247334323d2022663a}
+		 $hex37= {247334333d2022663a}
+		 $hex38= {247334343d2022663a}
+		 $hex39= {247334353d2022663a}
+		 $hex40= {247334363d2022663a}
+		 $hex41= {247334373d2022663a}
+		 $hex42= {247334383d2022663a}
+		 $hex43= {247334393d2022663a}
+		 $hex44= {2473343d2022663a64}
+		 $hex45= {247335303d2022663a}
+		 $hex46= {247335313d2022663a}
+		 $hex47= {247335323d2022663a}
+		 $hex48= {247335333d20226669}
+		 $hex49= {247335343d2022666f}
+		 $hex50= {247335353d20226973}
+		 $hex51= {247335363d20224b65}
+		 $hex52= {247335373d20226b69}
+		 $hex53= {247335383d20226b75}
+		 $hex54= {247335393d20226e66}
+		 $hex55= {2473353d2022663a64}
+		 $hex56= {247336303d20223d28}
+		 $hex57= {247336313d20227369}
+		 $hex58= {247336323d20227661}
+		 $hex59= {247336333d2022576f}
+		 $hex60= {247336343d20227a65}
+		 $hex61= {2473363d2022663a64}
+		 $hex62= {2473373d2022663a64}
+		 $hex63= {2473383d2022663a64}
+		 $hex64= {2473393d2022663a64}
 
 	condition:
-		49 of them
+		42 of them
 }

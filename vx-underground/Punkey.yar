@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Punkey 
+   Identifier: vx_underground2_Punkey 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Punkey {
+rule resteex_vx_underground2_Punkey {
 	meta: 
-		 description= "Punkey Group" 
+		 description= "vx_underground2_Punkey Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-21-50" 
+		 date = "2022-01-20_22-13-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "073cf350a20eb8ee14e21f62840cb0ce"
 		 hash2= "327dd038203369e6f855fd53e633dde8"

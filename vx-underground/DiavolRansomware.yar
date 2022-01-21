@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: DiavolRansomware 
+   Identifier: vx_underground2_DiavolRansomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_DiavolRansomware {
+rule resteex_vx_underground2_DiavolRansomware {
 	meta: 
-		 description= "DiavolRansomware Group" 
+		 description= "vx_underground2_DiavolRansomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-02-26" 
+		 date = "2022-01-20_21-54-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f4928b5365a0bd6db2e9d654a77308d7"
 
@@ -30,25 +30,21 @@ rule resteex_DiavolRansomware {
 		 $s11= "SQLAgent$CITRIX_METAFRAME" fullword wide
 		 $s12= "SQLAgent$SOPHsvcGenericHost" fullword wide
 		 $s13= "VeeamEnterpriseManagerSvc" fullword wide
-		 $a1= "BgIAAACkAABSU0ExAAQAAAEAAQCxVuiQzWxjl9dwh2F77Jxqt/PIrJoczV2RKluW" fullword ascii
-		 $a2= "M+xv0gSAZrL8DncWw9hif+zsvJq6PcqC0NugL3raLFbaUCUT8KAGgrOkIPmnrQpz" fullword ascii
 
-		 $hex1= {2461313d2022426749}
-		 $hex2= {2461323d20224d2b78}
-		 $hex3= {247331303d20224d2b}
-		 $hex4= {247331313d20225351}
-		 $hex5= {247331323d20225351}
-		 $hex6= {247331333d20225665}
-		 $hex7= {2473313d2022426163}
-		 $hex8= {2473323d2022426163}
-		 $hex9= {2473333d2022426163}
-		 $hex10= {2473343d2022426749}
-		 $hex11= {2473353d20224d6341}
-		 $hex12= {2473363d20224d5353}
-		 $hex13= {2473373d20224d5353}
-		 $hex14= {2473383d20224d5353}
-		 $hex15= {2473393d20224d5353}
+		 $hex1= {247331303d20224d2b}
+		 $hex2= {247331313d20225351}
+		 $hex3= {247331323d20225351}
+		 $hex4= {247331333d20225665}
+		 $hex5= {2473313d2022426163}
+		 $hex6= {2473323d2022426163}
+		 $hex7= {2473333d2022426163}
+		 $hex8= {2473343d2022426749}
+		 $hex9= {2473353d20224d6341}
+		 $hex10= {2473363d20224d5353}
+		 $hex11= {2473373d20224d5353}
+		 $hex12= {2473383d20224d5353}
+		 $hex13= {2473393d20224d5353}
 
 	condition:
-		10 of them
+		8 of them
 }

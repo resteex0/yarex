@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Stegoloader 
+   Identifier: vx_underground2_Stegoloader 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Stegoloader {
+rule resteex_vx_underground2_Stegoloader {
 	meta: 
-		 description= "Stegoloader Group" 
+		 description= "vx_underground2_Stegoloader Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-02" 
+		 date = "2022-01-20_22-17-35" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02e47d668bce0b7deb6c9208d22d148a"
 		 hash2= "0c3bd774d8fb3bbb4e62a203b8e2aa76"

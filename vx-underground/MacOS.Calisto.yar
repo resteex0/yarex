@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Calisto 
+   Identifier: vx_underground2_MacOS_Calisto 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Calisto {
+rule resteex_vx_underground2_MacOS_Calisto {
 	meta: 
-		 description= "MacOS_Calisto Group" 
+		 description= "vx_underground2_MacOS_Calisto Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-17-17" 
+		 date = "2022-01-20_22-08-39" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2f38b201f6b368d587323a1bec516e5d"
 		 hash2= "d7ac1b8113c94567be4a26d214964119"
@@ -51,5 +51,5 @@ rule resteex_MacOS_Calisto {
 		 $hex15= {2461393d2022405f5f}
 
 	condition:
-		7 of them
+		10 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MassLogger 
+   Identifier: vx_underground2_MassLogger 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MassLogger {
+rule resteex_vx_underground2_MassLogger {
 	meta: 
-		 description= "MassLogger Group" 
+		 description= "vx_underground2_MassLogger Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-35" 
+		 date = "2022-01-20_22-11-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15d1d1f6b45ecb4da929978f8be4ca0f"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: NitlovePOS 
+   Identifier: vx_underground2_NitlovePOS 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_NitlovePOS {
+rule resteex_vx_underground2_NitlovePOS {
 	meta: 
-		 description= "NitlovePOS Group" 
+		 description= "vx_underground2_NitlovePOS Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-54" 
+		 date = "2022-01-20_22-12-04" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3309274e139157762b5708998d00cee0"
 		 hash2= "4d877072fd81b5b18c2c585f5a58a56e"

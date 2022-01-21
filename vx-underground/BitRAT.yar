@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: BitRAT 
+   Identifier: vx_underground2_BitRAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_BitRAT {
+rule resteex_vx_underground2_BitRAT {
 	meta: 
-		 description= "BitRAT Group" 
+		 description= "vx_underground2_BitRAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-03" 
+		 date = "2022-01-20_21-53-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1aa4ec7db318a524fdfb5aaff61a1031"
 

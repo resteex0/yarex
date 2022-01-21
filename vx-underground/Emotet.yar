@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Emotet 
+   Identifier: vx_underground2_Emotet 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Emotet {
+rule resteex_vx_underground2_Emotet {
 	meta: 
-		 description= "Emotet Group" 
+		 description= "vx_underground2_Emotet Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-03-36" 
+		 date = "2022-01-20_21-55-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00b2b68b444557427be71d29dd9412af"
 		 hash2= "00ce9efeefa95feb85153c9385fb4d61"
@@ -336,29 +336,33 @@ rule resteex_Emotet {
 		 $s19= "ext-ms-win-ntuser-windowstation-l1-1-0" fullword wide
 		 $s20= "minkernelcrtsucrtinccorecrt_internal_strtox.h" fullword wide
 		 $s21= "spanish-dominican republic" fullword wide
+		 $a1= "ACD*&werwe#^%ytryEF(ytu$!DE^ABC647ABEREEFCret639uFFF5uiui6543" fullword ascii
+		 $a2= ".?AV?$CComCoClass@VCPerfBar@@$1?CLSID_PerfBar@@3U_GUID@@B@ATL@@" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20226170}
-		 $hex5= {247331343d20226170}
-		 $hex6= {247331353d20226170}
-		 $hex7= {247331363d20225f5f}
-		 $hex8= {247331373d20225f5f}
-		 $hex9= {247331383d20226578}
-		 $hex10= {247331393d20226578}
-		 $hex11= {2473313d2022617069}
-		 $hex12= {247332303d20226d69}
-		 $hex13= {247332313d20227370}
-		 $hex14= {2473323d2022617069}
-		 $hex15= {2473333d2022617069}
-		 $hex16= {2473343d2022617069}
-		 $hex17= {2473353d2022617069}
-		 $hex18= {2473363d2022617069}
-		 $hex19= {2473373d2022617069}
-		 $hex20= {2473383d2022617069}
-		 $hex21= {2473393d2022617069}
+		 $hex1= {2461313d2022414344}
+		 $hex2= {2461323d20222e3f41}
+		 $hex3= {247331303d20226170}
+		 $hex4= {247331313d20226170}
+		 $hex5= {247331323d20226170}
+		 $hex6= {247331333d20226170}
+		 $hex7= {247331343d20226170}
+		 $hex8= {247331353d20226170}
+		 $hex9= {247331363d20225f5f}
+		 $hex10= {247331373d20225f5f}
+		 $hex11= {247331383d20226578}
+		 $hex12= {247331393d20226578}
+		 $hex13= {2473313d2022617069}
+		 $hex14= {247332303d20226d69}
+		 $hex15= {247332313d20227370}
+		 $hex16= {2473323d2022617069}
+		 $hex17= {2473333d2022617069}
+		 $hex18= {2473343d2022617069}
+		 $hex19= {2473353d2022617069}
+		 $hex20= {2473363d2022617069}
+		 $hex21= {2473373d2022617069}
+		 $hex22= {2473383d2022617069}
+		 $hex23= {2473393d2022617069}
 
 	condition:
-		14 of them
+		15 of them
 }

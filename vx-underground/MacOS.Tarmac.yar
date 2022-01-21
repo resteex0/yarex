@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Tarmac 
+   Identifier: vx_underground2_MacOS_Tarmac 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Tarmac {
+rule resteex_vx_underground2_MacOS_Tarmac {
 	meta: 
-		 description= "MacOS_Tarmac Group" 
+		 description= "vx_underground2_MacOS_Tarmac Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-38" 
+		 date = "2022-01-20_22-10-23" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00e75857e031a58369e50b7d14e546bb"
 		 hash2= "07eb8a3741ae66901e8ac2b667b02b47"
@@ -119,5 +119,5 @@ rule resteex_MacOS_Tarmac {
 		 $hex24= {2461393d2022506c61}
 
 	condition:
-		12 of them
+		16 of them
 }

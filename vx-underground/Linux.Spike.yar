@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Linux_Spike 
+   Identifier: vx_underground2_Linux_Spike 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Linux_Spike {
+rule resteex_vx_underground2_Linux_Spike {
 	meta: 
-		 description= "Linux_Spike Group" 
+		 description= "vx_underground2_Linux_Spike Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-14-49" 
+		 date = "2022-01-20_22-06-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "000566d75b861aa3abad8d31e177d39e"
 		 hash2= "01ab1d6bd644f263d6a74da292830b8a"
@@ -433,5 +433,5 @@ rule resteex_Linux_Spike {
 		 $hex57= {2461393d20222f6f70}
 
 	condition:
-		28 of them
+		38 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: QuasarRAT 
+   Identifier: vx_underground2_QuasarRAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_QuasarRAT {
+rule resteex_vx_underground2_QuasarRAT {
 	meta: 
-		 description= "QuasarRAT Group" 
+		 description= "vx_underground2_QuasarRAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-17-06" 
+		 date = "2022-01-20_22-13-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "742d07180cb13ef49af926500163da5d"
 
@@ -59,66 +59,56 @@ rule resteex_QuasarRAT {
 		 $s40= "System.Xml.Serialization.XmlIgnoreAttribute" fullword wide
 		 $s41= "System.Xml.Serialization.XmlTypeAttribute" fullword wide
 		 $s42= "xClient.Properties.Resources" fullword wide
-		 $a1= "SOFTWAREWow6432NodeMicrosoftWindowsCurrentVersionRun" fullword ascii
-		 $a2= "SOFTWAREWow6432NodeMicrosoftWindowsCurrentVersionRunOnce" fullword ascii
-		 $a3= "System.Collections.Concurrent.IProducerConsumerCollection`1" fullword ascii
-		 $a4= "System.Runtime.Serialization.DataContractAttribute" fullword ascii
-		 $a5= "System.Runtime.Serialization.OnDeserializedAttribute" fullword ascii
-		 $a6= "System.Runtime.Serialization.OnDeserializingAttribute" fullword ascii
-		 $a7= "System.Runtime.Serialization.OnSerializedAttribute" fullword ascii
-		 $a8= "System.Runtime.Serialization.OnSerializingAttribute" fullword ascii
+		 $a1= "System.Object>.Current" fullword ascii
+		 $a2= "System.String>.Current" fullword ascii
+		 $a3= "TValue>.GetEnumerator" fullword ascii
 
-		 $hex1= {2461313d2022534f46}
-		 $hex2= {2461323d2022534f46}
-		 $hex3= {2461333d2022537973}
-		 $hex4= {2461343d2022537973}
-		 $hex5= {2461353d2022537973}
-		 $hex6= {2461363d2022537973}
-		 $hex7= {2461373d2022537973}
-		 $hex8= {2461383d2022537973}
-		 $hex9= {247331303d20224e48}
-		 $hex10= {247331313d20224e48}
-		 $hex11= {247331323d20225072}
-		 $hex12= {247331333d20225072}
-		 $hex13= {247331343d20225072}
-		 $hex14= {247331353d20225072}
-		 $hex15= {247331363d20225072}
-		 $hex16= {247331373d20225072}
-		 $hex17= {247331383d20225072}
-		 $hex18= {247331393d20225072}
-		 $hex19= {2473313d2022282e7b}
-		 $hex20= {247332303d20225072}
-		 $hex21= {247332313d20225072}
-		 $hex22= {247332323d20225072}
-		 $hex23= {247332333d2022536f}
-		 $hex24= {247332343d2022534f}
-		 $hex25= {247332353d2022534f}
-		 $hex26= {247332363d2022534f}
-		 $hex27= {247332373d20225379}
-		 $hex28= {247332383d20225379}
-		 $hex29= {247332393d20225379}
-		 $hex30= {2473323d202232484e}
-		 $hex31= {247333303d20225379}
-		 $hex32= {247333313d20225379}
-		 $hex33= {247333323d20225379}
-		 $hex34= {247333333d20225379}
-		 $hex35= {247333343d20225379}
-		 $hex36= {247333353d20225379}
-		 $hex37= {247333363d20225379}
-		 $hex38= {247333373d20225379}
-		 $hex39= {247333383d20225379}
-		 $hex40= {247333393d20225379}
-		 $hex41= {2473333d2022344168}
-		 $hex42= {247334303d20225379}
-		 $hex43= {247334313d20225379}
-		 $hex44= {247334323d20227843}
-		 $hex45= {2473343d2022414042}
-		 $hex46= {2473353d2022624462}
-		 $hex47= {2473363d2022687474}
-		 $hex48= {2473373d2022495072}
-		 $hex49= {2473383d20224d6574}
-		 $hex50= {2473393d20224e4869}
+		 $hex1= {2461313d2022537973}
+		 $hex2= {2461323d2022537973}
+		 $hex3= {2461333d2022545661}
+		 $hex4= {247331303d20224e48}
+		 $hex5= {247331313d20224e48}
+		 $hex6= {247331323d20225072}
+		 $hex7= {247331333d20225072}
+		 $hex8= {247331343d20225072}
+		 $hex9= {247331353d20225072}
+		 $hex10= {247331363d20225072}
+		 $hex11= {247331373d20225072}
+		 $hex12= {247331383d20225072}
+		 $hex13= {247331393d20225072}
+		 $hex14= {2473313d2022282e7b}
+		 $hex15= {247332303d20225072}
+		 $hex16= {247332313d20225072}
+		 $hex17= {247332323d20225072}
+		 $hex18= {247332333d2022536f}
+		 $hex19= {247332343d2022534f}
+		 $hex20= {247332353d2022534f}
+		 $hex21= {247332363d2022534f}
+		 $hex22= {247332373d20225379}
+		 $hex23= {247332383d20225379}
+		 $hex24= {247332393d20225379}
+		 $hex25= {2473323d202232484e}
+		 $hex26= {247333303d20225379}
+		 $hex27= {247333313d20225379}
+		 $hex28= {247333323d20225379}
+		 $hex29= {247333333d20225379}
+		 $hex30= {247333343d20225379}
+		 $hex31= {247333353d20225379}
+		 $hex32= {247333363d20225379}
+		 $hex33= {247333373d20225379}
+		 $hex34= {247333383d20225379}
+		 $hex35= {247333393d20225379}
+		 $hex36= {2473333d2022344168}
+		 $hex37= {247334303d20225379}
+		 $hex38= {247334313d20225379}
+		 $hex39= {247334323d20227843}
+		 $hex40= {2473343d2022414042}
+		 $hex41= {2473353d2022624462}
+		 $hex42= {2473363d2022687474}
+		 $hex43= {2473373d2022495072}
+		 $hex44= {2473383d20224d6574}
+		 $hex45= {2473393d20224e4869}
 
 	condition:
-		33 of them
+		30 of them
 }

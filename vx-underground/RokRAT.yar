@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: RokRAT 
+   Identifier: vx_underground2_RokRAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_RokRAT {
+rule resteex_vx_underground2_RokRAT {
 	meta: 
-		 description= "RokRAT Group" 
+		 description= "vx_underground2_RokRAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-22" 
+		 date = "2022-01-20_22-16-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6c668fd6a98f0659abc54d88c1db209e"
 		 hash2= "7ca1e08fc07166a440576d1af0a15bb1"
@@ -63,57 +63,49 @@ rule resteex_RokRAT {
 		 $s39= "SoftwareMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword wide
 		 $s40= "spanish-dominican republic" fullword wide
 		 $s41= "SYSTEMCurrentControlSetServicesmssmbiosData" fullword wide
-		 $a1= "https://cloud-api.yandex.net/v1/disk/resources/download?path=%s" fullword ascii
-		 $a2= "multipart/form-data;boundary=--wwjaughalvncjwiajs--" fullword ascii
-		 $a3= "SoftwareMicrosoftInternet ExplorerIntelliFormsStorage2" fullword ascii
-		 $a4= "SoftwareMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword ascii
 
-		 $hex1= {2461313d2022687474}
-		 $hex2= {2461323d20226d756c}
-		 $hex3= {2461333d2022536f66}
-		 $hex4= {2461343d2022536f66}
-		 $hex5= {247331303d20226170}
-		 $hex6= {247331313d20226170}
-		 $hex7= {247331323d20226170}
-		 $hex8= {247331333d20226170}
-		 $hex9= {247331343d20226170}
-		 $hex10= {247331353d20226368}
-		 $hex11= {247331363d2022433a}
-		 $hex12= {247331373d20226578}
-		 $hex13= {247331383d20226578}
-		 $hex14= {247331393d20226578}
-		 $hex15= {2473313d2022617069}
-		 $hex16= {247332303d20226874}
-		 $hex17= {247332313d20226874}
-		 $hex18= {247332323d20226874}
-		 $hex19= {247332333d20226874}
-		 $hex20= {247332343d20226874}
-		 $hex21= {247332353d20226874}
-		 $hex22= {247332363d20226874}
-		 $hex23= {247332373d20226874}
-		 $hex24= {247332383d20226874}
-		 $hex25= {247332393d20226874}
-		 $hex26= {2473323d2022617069}
-		 $hex27= {247333303d20226874}
-		 $hex28= {247333313d20226874}
-		 $hex29= {247333323d20226874}
-		 $hex30= {247333333d20226874}
-		 $hex31= {247333343d20226874}
-		 $hex32= {247333353d20224c6f}
-		 $hex33= {247333363d20226d75}
-		 $hex34= {247333373d20226d75}
-		 $hex35= {247333383d2022536f}
-		 $hex36= {247333393d2022536f}
-		 $hex37= {2473333d2022617069}
-		 $hex38= {247334303d20227370}
-		 $hex39= {247334313d20225359}
-		 $hex40= {2473343d2022617069}
-		 $hex41= {2473353d2022617069}
-		 $hex42= {2473363d2022617069}
-		 $hex43= {2473373d2022617069}
-		 $hex44= {2473383d2022617069}
-		 $hex45= {2473393d2022617069}
+		 $hex1= {247331303d20226170}
+		 $hex2= {247331313d20226170}
+		 $hex3= {247331323d20226170}
+		 $hex4= {247331333d20226170}
+		 $hex5= {247331343d20226170}
+		 $hex6= {247331353d20226368}
+		 $hex7= {247331363d2022433a}
+		 $hex8= {247331373d20226578}
+		 $hex9= {247331383d20226578}
+		 $hex10= {247331393d20226578}
+		 $hex11= {2473313d2022617069}
+		 $hex12= {247332303d20226874}
+		 $hex13= {247332313d20226874}
+		 $hex14= {247332323d20226874}
+		 $hex15= {247332333d20226874}
+		 $hex16= {247332343d20226874}
+		 $hex17= {247332353d20226874}
+		 $hex18= {247332363d20226874}
+		 $hex19= {247332373d20226874}
+		 $hex20= {247332383d20226874}
+		 $hex21= {247332393d20226874}
+		 $hex22= {2473323d2022617069}
+		 $hex23= {247333303d20226874}
+		 $hex24= {247333313d20226874}
+		 $hex25= {247333323d20226874}
+		 $hex26= {247333333d20226874}
+		 $hex27= {247333343d20226874}
+		 $hex28= {247333353d20224c6f}
+		 $hex29= {247333363d20226d75}
+		 $hex30= {247333373d20226d75}
+		 $hex31= {247333383d2022536f}
+		 $hex32= {247333393d2022536f}
+		 $hex33= {2473333d2022617069}
+		 $hex34= {247334303d20227370}
+		 $hex35= {247334313d20225359}
+		 $hex36= {2473343d2022617069}
+		 $hex37= {2473353d2022617069}
+		 $hex38= {2473363d2022617069}
+		 $hex39= {2473373d2022617069}
+		 $hex40= {2473383d2022617069}
+		 $hex41= {2473393d2022617069}
 
 	condition:
-		30 of them
+		27 of them
 }

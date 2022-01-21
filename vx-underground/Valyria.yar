@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Valyria 
+   Identifier: vx_underground2_Valyria 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Valyria {
+rule resteex_vx_underground2_Valyria {
 	meta: 
-		 description= "Valyria Group" 
+		 description= "vx_underground2_Valyria Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-11" 
+		 date = "2022-01-20_22-17-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "03838097f3d8dda6ecfa16b0d962c69d"
 		 hash2= "599ca0ac39275450110826612f2e7afe"

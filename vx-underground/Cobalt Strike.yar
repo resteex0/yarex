@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Cobalt_Strike 
+   Identifier: vx_underground2_Cobalt_Strike 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Cobalt_Strike {
+rule resteex_vx_underground2_Cobalt_Strike {
 	meta: 
-		 description= "Cobalt_Strike Group" 
+		 description= "vx_underground2_Cobalt_Strike Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-26" 
+		 date = "2022-01-20_21-53-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2bd9c0ae977d28d89bc7e590e0996274"
 		 hash2= "3a11f98d3d4fb8df67c97dc1bd06ff2e"
@@ -42,28 +42,42 @@ rule resteex_Cobalt_Strike {
 		 $s18= "ext-ms-win-ntuser-windowstation-l1-1-0" fullword wide
 		 $s19= "/login/member/center/logins" fullword wide
 		 $s20= "TableStyleMedium2PivotStyleLight16" fullword wide
+		 $a1= "C:/crossdev/src/mingw-w64-v7-git20191109/mingw-w64-crt/include" fullword ascii
+		 $a2= "C:/crossdev/src/mingw-w64-v7-git20191109/mingw-w64-crt/stdio" fullword ascii
+		 $a3= "!GUID_PROCESSOR_CORE_PARKING_AFFINITY_HISTORY_DECREASE_FACTOR" fullword ascii
+		 $a4= "GUID_PROCESSOR_CORE_PARKING_AFFINITY_HISTORY_DECREASE_FACTOR" fullword ascii
+		 $a5= "!GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_HISTORY_THRESHOLD" fullword ascii
+		 $a6= "GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_HISTORY_THRESHOLD" fullword ascii
+		 $a7= ";http://crl.comodoca.com/COMODORSACertificationAuthority.crl0q" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20226170}
-		 $hex5= {247331343d20226170}
-		 $hex6= {247331353d20226170}
-		 $hex7= {247331363d2022446f}
-		 $hex8= {247331373d20226578}
-		 $hex9= {247331383d20226578}
-		 $hex10= {247331393d20222f6c}
-		 $hex11= {2473313d20227b3038}
-		 $hex12= {247332303d20225461}
-		 $hex13= {2473323d2022617069}
-		 $hex14= {2473333d2022617069}
-		 $hex15= {2473343d2022617069}
-		 $hex16= {2473353d2022617069}
-		 $hex17= {2473363d2022617069}
-		 $hex18= {2473373d2022617069}
-		 $hex19= {2473383d2022617069}
-		 $hex20= {2473393d2022617069}
+		 $hex1= {2461313d2022433a2f}
+		 $hex2= {2461323d2022433a2f}
+		 $hex3= {2461333d2022214755}
+		 $hex4= {2461343d2022475549}
+		 $hex5= {2461353d2022214755}
+		 $hex6= {2461363d2022475549}
+		 $hex7= {2461373d20223b6874}
+		 $hex8= {247331303d20226170}
+		 $hex9= {247331313d20226170}
+		 $hex10= {247331323d20226170}
+		 $hex11= {247331333d20226170}
+		 $hex12= {247331343d20226170}
+		 $hex13= {247331353d20226170}
+		 $hex14= {247331363d2022446f}
+		 $hex15= {247331373d20226578}
+		 $hex16= {247331383d20226578}
+		 $hex17= {247331393d20222f6c}
+		 $hex18= {2473313d20227b3038}
+		 $hex19= {247332303d20225461}
+		 $hex20= {2473323d2022617069}
+		 $hex21= {2473333d2022617069}
+		 $hex22= {2473343d2022617069}
+		 $hex23= {2473353d2022617069}
+		 $hex24= {2473363d2022617069}
+		 $hex25= {2473373d2022617069}
+		 $hex26= {2473383d2022617069}
+		 $hex27= {2473393d2022617069}
 
 	condition:
-		13 of them
+		18 of them
 }

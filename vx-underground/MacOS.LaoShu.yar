@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_LaoShu 
+   Identifier: vx_underground2_MacOS_LaoShu 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_LaoShu {
+rule resteex_vx_underground2_MacOS_LaoShu {
 	meta: 
-		 description= "MacOS_LaoShu Group" 
+		 description= "vx_underground2_MacOS_LaoShu Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-29" 
+		 date = "2022-01-20_22-10-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "d2e9a83cae848c0da467fe11fa229d15"
 		 hash2= "ddc4ea5b58aaa4df31dac0a7b00869ff"

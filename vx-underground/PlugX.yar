@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: PlugX 
+   Identifier: vx_underground2_PlugX 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_PlugX {
+rule resteex_vx_underground2_PlugX {
 	meta: 
-		 description= "PlugX Group" 
+		 description= "vx_underground2_PlugX Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-35" 
+		 date = "2022-01-20_22-13-36" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "142c996adaea6de8ed611b36234dd22f"
 		 hash2= "142dd8beb167fbe9c20f4a0764e74477"
@@ -74,18 +74,20 @@ rule resteex_PlugX {
 		 $s8= "tC:WindowsSystem32sysprep" fullword wide
 		 $s9= "__tmp_rar_sfx_access_check_%u" fullword wide
 		 $s10= "Win7Elevate proof-of-concept" fullword wide
+		 $a1= "http://www.moi.gov.mm/mmpdd/sites/default/files/field/moigov.exe" fullword ascii
 
-		 $hex1= {247331303d20225769}
-		 $hex2= {2473313d2022437279}
-		 $hex3= {2473323d2022437279}
-		 $hex4= {2473333d2022433a57}
-		 $hex5= {2473343d2022433a57}
-		 $hex6= {2473353d2022446f63}
-		 $hex7= {2473363d2022536543}
-		 $hex8= {2473373d2022536f66}
-		 $hex9= {2473383d202274433a}
-		 $hex10= {2473393d20225f5f74}
+		 $hex1= {2461313d2022687474}
+		 $hex2= {247331303d20225769}
+		 $hex3= {2473313d2022437279}
+		 $hex4= {2473323d2022437279}
+		 $hex5= {2473333d2022433a57}
+		 $hex6= {2473343d2022433a57}
+		 $hex7= {2473353d2022446f63}
+		 $hex8= {2473363d2022536543}
+		 $hex9= {2473373d2022536f66}
+		 $hex10= {2473383d202274433a}
+		 $hex11= {2473393d20225f5f74}
 
 	condition:
-		6 of them
+		7 of them
 }

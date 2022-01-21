@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Poseidon 
+   Identifier: vx_underground2_Poseidon 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Poseidon {
+rule resteex_vx_underground2_Poseidon {
 	meta: 
-		 description= "Poseidon Group" 
+		 description= "vx_underground2_Poseidon Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-41" 
+		 date = "2022-01-20_22-13-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2145d54164c32faba44164ea7c9add33"
 		 hash2= "2d3432f1a866db2424f1192ca9edf0d8"
@@ -93,89 +93,73 @@ rule resteex_Poseidon {
 		 $s61= "http://www.actualtools.com" fullword wide
 		 $s62= "isleadbyte(_dbcsBuffer(fh))" fullword wide
 		 $s63= "SCSI_ATA_TRANSLATION (SAT)" fullword wide
-		 $a1= "f:ddvctoolscrt_bldself_x86crtprebuildconvcfout.c" fullword ascii
-		 $a2= "f:ddvctoolscrt_bldself_x86crtprebuildconvcvt.c" fullword ascii
-		 $a3= "f:ddvctoolscrt_bldself_x86crtprebuildconvx10fout.c" fullword ascii
-		 $a4= "f:ddvctoolscrt_bldself_x86crtprebuildehtypname.cpp" fullword ascii
-		 $a5= "f:ddvctoolscrt_bldself_x86crtprebuildtrancontrlfp.c" fullword ascii
-		 $a6= "f:ddvctoolscrt_bldself_x86crtsrcintelfp8.c" fullword ascii
-		 $a7= "f:ddvctoolscrt_bldself_x86crtsrctcscat_s.inl" fullword ascii
-		 $a8= "f:ddvctoolscrt_bldself_x86crtsrctcscpy_s.inl" fullword ascii
-		 $a9= "f:ddvctoolscrt_bldself_x86crtsrctcsncpy_s.inl" fullword ascii
+		 $a1= "j7Ug**.qql5]5A2_DGU1D6Pil5]5l5DBGTDTDDFOWcFKWcGT*6]1*6]=*6PH3H" fullword ascii
 
-		 $hex1= {2461313d2022663a64}
-		 $hex2= {2461323d2022663a64}
-		 $hex3= {2461333d2022663a64}
-		 $hex4= {2461343d2022663a64}
-		 $hex5= {2461353d2022663a64}
-		 $hex6= {2461363d2022663a64}
-		 $hex7= {2461373d2022663a64}
-		 $hex8= {2461383d2022663a64}
-		 $hex9= {2461393d2022663a64}
-		 $hex10= {247331303d2022663a}
-		 $hex11= {247331313d2022663a}
-		 $hex12= {247331323d2022663a}
-		 $hex13= {247331333d2022663a}
-		 $hex14= {247331343d2022663a}
-		 $hex15= {247331353d2022663a}
-		 $hex16= {247331363d2022663a}
-		 $hex17= {247331373d2022663a}
-		 $hex18= {247331383d2022663a}
-		 $hex19= {247331393d2022663a}
-		 $hex20= {2473313d2022423842}
-		 $hex21= {247332303d2022663a}
-		 $hex22= {247332313d2022663a}
-		 $hex23= {247332323d2022663a}
-		 $hex24= {247332333d2022663a}
-		 $hex25= {247332343d2022663a}
-		 $hex26= {247332353d2022663a}
-		 $hex27= {247332363d2022663a}
-		 $hex28= {247332373d2022663a}
-		 $hex29= {247332383d2022663a}
-		 $hex30= {247332393d2022663a}
-		 $hex31= {2473323d202242663a}
-		 $hex32= {247333303d2022663a}
-		 $hex33= {247333313d2022663a}
-		 $hex34= {247333323d2022663a}
-		 $hex35= {247333333d2022663a}
-		 $hex36= {247333343d2022663a}
-		 $hex37= {247333353d2022663a}
-		 $hex38= {247333363d2022663a}
-		 $hex39= {247333373d2022663a}
-		 $hex40= {247333383d2022663a}
-		 $hex41= {247333393d2022663a}
-		 $hex42= {2473333d20225f424c}
-		 $hex43= {247334303d2022663a}
-		 $hex44= {247334313d2022663a}
-		 $hex45= {247334323d2022663a}
-		 $hex46= {247334333d2022663a}
-		 $hex47= {247334343d2022663a}
-		 $hex48= {247334353d2022663a}
-		 $hex49= {247334363d2022663a}
-		 $hex50= {247334373d2022663a}
-		 $hex51= {247334383d2022663a}
-		 $hex52= {247334393d2022663a}
-		 $hex53= {2473343d20225f4372}
-		 $hex54= {247335303d2022663a}
-		 $hex55= {247335313d2022663a}
-		 $hex56= {247335323d2022663a}
-		 $hex57= {247335333d2022663a}
-		 $hex58= {247335343d2022663a}
-		 $hex59= {247335353d2022663a}
-		 $hex60= {247335363d2022663a}
-		 $hex61= {247335373d2022663a}
-		 $hex62= {247335383d2022663a}
-		 $hex63= {247335393d2022663a}
-		 $hex64= {2473353d2022663a64}
-		 $hex65= {247336303d2022663a}
-		 $hex66= {247336313d20226874}
-		 $hex67= {247336323d20226973}
-		 $hex68= {247336333d20225343}
-		 $hex69= {2473363d2022663a64}
-		 $hex70= {2473373d2022663a64}
-		 $hex71= {2473383d2022663a64}
-		 $hex72= {2473393d2022663a64}
+		 $hex1= {2461313d20226a3755}
+		 $hex2= {247331303d2022663a}
+		 $hex3= {247331313d2022663a}
+		 $hex4= {247331323d2022663a}
+		 $hex5= {247331333d2022663a}
+		 $hex6= {247331343d2022663a}
+		 $hex7= {247331353d2022663a}
+		 $hex8= {247331363d2022663a}
+		 $hex9= {247331373d2022663a}
+		 $hex10= {247331383d2022663a}
+		 $hex11= {247331393d2022663a}
+		 $hex12= {2473313d2022423842}
+		 $hex13= {247332303d2022663a}
+		 $hex14= {247332313d2022663a}
+		 $hex15= {247332323d2022663a}
+		 $hex16= {247332333d2022663a}
+		 $hex17= {247332343d2022663a}
+		 $hex18= {247332353d2022663a}
+		 $hex19= {247332363d2022663a}
+		 $hex20= {247332373d2022663a}
+		 $hex21= {247332383d2022663a}
+		 $hex22= {247332393d2022663a}
+		 $hex23= {2473323d202242663a}
+		 $hex24= {247333303d2022663a}
+		 $hex25= {247333313d2022663a}
+		 $hex26= {247333323d2022663a}
+		 $hex27= {247333333d2022663a}
+		 $hex28= {247333343d2022663a}
+		 $hex29= {247333353d2022663a}
+		 $hex30= {247333363d2022663a}
+		 $hex31= {247333373d2022663a}
+		 $hex32= {247333383d2022663a}
+		 $hex33= {247333393d2022663a}
+		 $hex34= {2473333d20225f424c}
+		 $hex35= {247334303d2022663a}
+		 $hex36= {247334313d2022663a}
+		 $hex37= {247334323d2022663a}
+		 $hex38= {247334333d2022663a}
+		 $hex39= {247334343d2022663a}
+		 $hex40= {247334353d2022663a}
+		 $hex41= {247334363d2022663a}
+		 $hex42= {247334373d2022663a}
+		 $hex43= {247334383d2022663a}
+		 $hex44= {247334393d2022663a}
+		 $hex45= {2473343d20225f4372}
+		 $hex46= {247335303d2022663a}
+		 $hex47= {247335313d2022663a}
+		 $hex48= {247335323d2022663a}
+		 $hex49= {247335333d2022663a}
+		 $hex50= {247335343d2022663a}
+		 $hex51= {247335353d2022663a}
+		 $hex52= {247335363d2022663a}
+		 $hex53= {247335373d2022663a}
+		 $hex54= {247335383d2022663a}
+		 $hex55= {247335393d2022663a}
+		 $hex56= {2473353d2022663a64}
+		 $hex57= {247336303d2022663a}
+		 $hex58= {247336313d20226874}
+		 $hex59= {247336323d20226973}
+		 $hex60= {247336333d20225343}
+		 $hex61= {2473363d2022663a64}
+		 $hex62= {2473373d2022663a64}
+		 $hex63= {2473383d2022663a64}
+		 $hex64= {2473393d2022663a64}
 
 	condition:
-		48 of them
+		42 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Cointicker 
+   Identifier: vx_underground2_MacOS_Cointicker 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Cointicker {
+rule resteex_vx_underground2_MacOS_Cointicker {
 	meta: 
-		 description= "MacOS_Cointicker Group" 
+		 description= "vx_underground2_MacOS_Cointicker Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-17-18" 
+		 date = "2022-01-20_22-08-40" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "67d70e7d5831cc3ea6188abbce135b46"
 		 hash2= "6e90da7669304722c9a06db0e32554ef"
@@ -53,5 +53,5 @@ rule resteex_MacOS_Cointicker {
 		 $hex16= {2461393d2022436f69}
 
 	condition:
-		8 of them
+		10 of them
 }

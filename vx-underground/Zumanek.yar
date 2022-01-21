@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Zumanek 
+   Identifier: vx_underground2_Zumanek 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Zumanek {
+rule resteex_vx_underground2_Zumanek {
 	meta: 
-		 description= "Zumanek Group" 
+		 description= "vx_underground2_Zumanek Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-26" 
+		 date = "2022-01-20_22-18-07" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "06b158b22abdfc010e3dad8f77378ef1"
 		 hash2= "116ba343f4b9692ffb665de3b6e15787"

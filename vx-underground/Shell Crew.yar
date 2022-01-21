@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Shell_Crew 
+   Identifier: vx_underground2_Shell_Crew 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Shell_Crew {
+rule resteex_vx_underground2_Shell_Crew {
 	meta: 
-		 description= "Shell_Crew Group" 
+		 description= "vx_underground2_Shell_Crew Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-41" 
+		 date = "2022-01-20_22-17-13" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "106e63dbda3a76beeb53a8bbd8f98927"
 		 hash2= "128c17340cb5add26bf60dfe2af37700"
@@ -86,44 +86,48 @@ rule resteex_Shell_Crew {
 		 $s30= "%Windir%syswow64kmddsp.tsp" fullword wide
 		 $s31= "%Windir%syswow64msvidc32.dll" fullword wide
 		 $s32= ";WV" fullword wide
-		 $a1= "RegistryMachineSystemCurrentControlSetServices" fullword ascii
-		 $a2= "SoftwareMicrosoftWindowsCurrentVersionInternet Settings" fullword ascii
+		 $a1= ".?AV?$value_semantic_codecvt_helper@D@program_options@boost@@" fullword ascii
+		 $a2= ".?AVtoo_many_positional_options_error@program_options@boost@@" fullword ascii
+		 $a3= "E:tfsDefaultCollectionLOPBuildDotfuscatedInstManager.pdb" fullword ascii
+		 $a4= ":http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl0O" fullword ascii
 
-		 $hex1= {2461313d2022526567}
-		 $hex2= {2461323d2022536f66}
-		 $hex3= {247331303d2022433a}
-		 $hex4= {247331313d20224465}
-		 $hex5= {247331323d2022446f}
-		 $hex6= {247331333d2022446f}
-		 $hex7= {247331343d2022446f}
-		 $hex8= {247331353d2022446f}
-		 $hex9= {247331363d20224c24}
-		 $hex10= {247331373d20224c73}
-		 $hex11= {247331383d20225265}
-		 $hex12= {247331393d2022534f}
-		 $hex13= {2473313d2022252426}
-		 $hex14= {247332303d2022536f}
-		 $hex15= {247332313d2022534f}
-		 $hex16= {247332323d20227353}
-		 $hex17= {247332333d20225359}
-		 $hex18= {247332343d20225379}
-		 $hex19= {247332353d20225379}
-		 $hex20= {247332363d20222557}
-		 $hex21= {247332373d20222577}
-		 $hex22= {247332383d20222577}
-		 $hex23= {247332393d20222557}
-		 $hex24= {2473323d2022352e32}
-		 $hex25= {247333303d20222557}
-		 $hex26= {247333313d20222557}
-		 $hex27= {247333323d20223b57}
-		 $hex28= {2473333d2022362e31}
-		 $hex29= {2473343d20227b3641}
-		 $hex30= {2473353d2022383d38}
-		 $hex31= {2473363d20227b3933}
-		 $hex32= {2473373d20227b4243}
-		 $hex33= {2473383d2022433a57}
-		 $hex34= {2473393d2022433a57}
+		 $hex1= {2461313d20222e3f41}
+		 $hex2= {2461323d20222e3f41}
+		 $hex3= {2461333d2022453a74}
+		 $hex4= {2461343d20223a6874}
+		 $hex5= {247331303d2022433a}
+		 $hex6= {247331313d20224465}
+		 $hex7= {247331323d2022446f}
+		 $hex8= {247331333d2022446f}
+		 $hex9= {247331343d2022446f}
+		 $hex10= {247331353d2022446f}
+		 $hex11= {247331363d20224c24}
+		 $hex12= {247331373d20224c73}
+		 $hex13= {247331383d20225265}
+		 $hex14= {247331393d2022534f}
+		 $hex15= {2473313d2022252426}
+		 $hex16= {247332303d2022536f}
+		 $hex17= {247332313d2022534f}
+		 $hex18= {247332323d20227353}
+		 $hex19= {247332333d20225359}
+		 $hex20= {247332343d20225379}
+		 $hex21= {247332353d20225379}
+		 $hex22= {247332363d20222557}
+		 $hex23= {247332373d20222577}
+		 $hex24= {247332383d20222577}
+		 $hex25= {247332393d20222557}
+		 $hex26= {2473323d2022352e32}
+		 $hex27= {247333303d20222557}
+		 $hex28= {247333313d20222557}
+		 $hex29= {247333323d20223b57}
+		 $hex30= {2473333d2022362e31}
+		 $hex31= {2473343d20227b3641}
+		 $hex32= {2473353d2022383d38}
+		 $hex33= {2473363d20227b3933}
+		 $hex34= {2473373d20227b4243}
+		 $hex35= {2473383d2022433a57}
+		 $hex36= {2473393d2022433a57}
 
 	condition:
-		22 of them
+		24 of them
 }

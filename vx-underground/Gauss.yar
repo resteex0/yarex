@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Gauss 
+   Identifier: vx_underground2_Gauss 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Gauss {
+rule resteex_vx_underground2_Gauss {
 	meta: 
-		 description= "Gauss Group" 
+		 description= "vx_underground2_Gauss Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-05-25" 
+		 date = "2022-01-20_21-57-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "08d7ddb11e16b86544e0c3e677a60e10"
 		 hash2= "23d956c297c67d94f591fcb574d9325f"
@@ -30,12 +30,12 @@ rule resteex_Gauss {
 	
  		 $a1= "cwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwZZwwAA))PPaa" fullword ascii
 		 $a2= "rswvvr0001>887STT[oiifT_/.!''(LKKDpvvyK@015440rrrsy}}wCEEO}{" fullword ascii
-		 $a3= "Y." fullword ascii
+		 $a3= "Y" fullword ascii
 
 		 $hex1= {2461313d2022637777}
 		 $hex2= {2461323d2022727377}
 		 $hex3= {2461333d2022592220}
 
 	condition:
-		1 of them
+		2 of them
 }

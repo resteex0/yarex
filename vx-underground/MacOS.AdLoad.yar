@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_AdLoad 
+   Identifier: vx_underground2_MacOS_AdLoad 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_AdLoad {
+rule resteex_vx_underground2_MacOS_AdLoad {
 	meta: 
-		 description= "MacOS_AdLoad Group" 
+		 description= "vx_underground2_MacOS_AdLoad Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-15-29" 
+		 date = "2022-01-20_22-07-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "001582fa60a655ba2a37436d2b6783cc"
 		 hash2= "00cc049ceaca5450e884e3b55ccf47c1"
@@ -1491,5 +1491,5 @@ rule resteex_MacOS_AdLoad {
 		 $hex595= {2461393d20224e3138}
 
 	condition:
-		297 of them
+		396 of them
 }

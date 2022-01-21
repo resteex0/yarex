@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: PlatinumGroup 
+   Identifier: vx_underground2_PlatinumGroup 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_PlatinumGroup {
+rule resteex_vx_underground2_PlatinumGroup {
 	meta: 
-		 description= "PlatinumGroup Group" 
+		 description= "vx_underground2_PlatinumGroup Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-21-38" 
+		 date = "2022-01-20_22-13-35" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "05e48b00754007843e1fdf72083a1538"
 		 hash2= "1c7123dd51906327c37ed12b68cf435f"
@@ -55,5 +55,5 @@ rule resteex_PlatinumGroup {
 		 $hex12= {2461393d2022433a75}
 
 	condition:
-		6 of them
+		8 of them
 }

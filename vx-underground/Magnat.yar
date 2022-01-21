@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Magnat 
+   Identifier: vx_underground2_Magnat 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Magnat {
+rule resteex_vx_underground2_Magnat {
 	meta: 
-		 description= "Magnat Group" 
+		 description= "vx_underground2_Magnat Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-14-51" 
+		 date = "2022-01-20_22-10-39" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0fd5f285429395c1cbba43fdadcbbc4c"
 		 hash2= "105e630c564f94d5d319b0d7575c114c"
@@ -63,20 +63,38 @@ rule resteex_Magnat {
 		 $s10= "SeAssignPrimaryTokenPrivilege" fullword wide
 		 $s11= "SoftwareMicrosoftWindowsCurrentVersion" fullword wide
 		 $s12= "SYSTEMCurrentControlSetControlNlsLanguage" fullword wide
+		 $a1= "3861102017828998956061751690077967064031008804895134763044183861" fullword ascii
+		 $a2= "8z1}0}0r7s28998w5c0{1{5~6z0{779f7q6a0`1u088s4y9e1`4{6|0w4z83861" fullword ascii
+		 $a3= "9007796706403100880489513476304418386110201782899895606175)tp0" fullword ascii
+		 $a4= "|dfd`dabf`jbmmlnmPPU[V]_^PP_][_XE@DJDEA@AOMKJINL1[0]8B4V9P1_4" fullword ascii
+		 $a5= "http://cacerts.digicert.com/DigiCertEVCodeSigningCA-SHA2.crt0" fullword ascii
+		 $a6= "http://secure.globalsign.com/cacert/gstimestampingsha2g2.crt0" fullword ascii
+		 $a7= "pUZZQTUS__Y[XY_WCIDBEEDGINBiddggYTTSRTQRY_S[ZYVFFBE@EEFHIBCLIFF" fullword ascii
+		 $a8= "sYTRUUTWY^RYTTWWIDDCBDABIOCkljifVvrupuuvxyrs|yvve`agcceglmkCOEHN" fullword ascii
+		 $a9= "sytruutwy~ryttwwiddcbdabiockljifVvrupuuvxyrs|yvve`agcceglmkCOEHN" fullword ascii
 
-		 $hex1= {247331303d20225365}
-		 $hex2= {247331313d2022536f}
-		 $hex3= {247331323d20225359}
-		 $hex4= {2473313d2022436f6e}
-		 $hex5= {2473323d2022434f55}
-		 $hex6= {2473333d20222e4445}
-		 $hex7= {2473343d2022455854}
-		 $hex8= {2473353d202246536f}
-		 $hex9= {2473363d2022475549}
-		 $hex10= {2473373d2022475549}
-		 $hex11= {2473383d2022475549}
-		 $hex12= {2473393d2022687474}
+		 $hex1= {2461313d2022333836}
+		 $hex2= {2461323d2022387a31}
+		 $hex3= {2461333d2022393030}
+		 $hex4= {2461343d20227c6466}
+		 $hex5= {2461353d2022687474}
+		 $hex6= {2461363d2022687474}
+		 $hex7= {2461373d202270555a}
+		 $hex8= {2461383d2022735954}
+		 $hex9= {2461393d2022737974}
+		 $hex10= {247331303d20225365}
+		 $hex11= {247331313d2022536f}
+		 $hex12= {247331323d20225359}
+		 $hex13= {2473313d2022436f6e}
+		 $hex14= {2473323d2022434f55}
+		 $hex15= {2473333d20222e4445}
+		 $hex16= {2473343d2022455854}
+		 $hex17= {2473353d202246536f}
+		 $hex18= {2473363d2022475549}
+		 $hex19= {2473373d2022475549}
+		 $hex20= {2473383d2022475549}
+		 $hex21= {2473393d2022687474}
 
 	condition:
-		8 of them
+		14 of them
 }

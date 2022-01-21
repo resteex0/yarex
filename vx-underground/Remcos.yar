@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Remcos 
+   Identifier: vx_underground2_Remcos 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Remcos {
+rule resteex_vx_underground2_Remcos {
 	meta: 
-		 description= "Remcos Group" 
+		 description= "vx_underground2_Remcos Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-16" 
+		 date = "2022-01-20_22-15-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02ca3e9c06b2a9b2df05c97a8efa03e7"
 		 hash2= "4d0fbb80c91d6c74d2a0510808421bc0"
@@ -43,30 +43,32 @@ rule resteex_Remcos {
 		 $s20= "../help/buttonThumbUp.bmp" fullword wide
 		 $s21= "https://github.com/AsayuGit" fullword wide
 		 $s22= "minkernelcrtsucrtinccorecrt_internal_strtox.h" fullword wide
+		 $a1= "SOFTWAREMicrosoftWindows NTCurrentVersionFontSubstitutes" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20224261}
-		 $hex5= {247331343d20224261}
-		 $hex6= {247331353d20225f5f}
-		 $hex7= {247331363d20225f5f}
-		 $hex8= {247331373d20226578}
-		 $hex9= {247331383d20226578}
-		 $hex10= {247331393d20222e2e}
-		 $hex11= {2473313d2022617069}
-		 $hex12= {247332303d20222e2e}
-		 $hex13= {247332313d20226874}
-		 $hex14= {247332323d20226d69}
-		 $hex15= {2473323d2022617069}
-		 $hex16= {2473333d2022617069}
-		 $hex17= {2473343d2022617069}
-		 $hex18= {2473353d2022617069}
-		 $hex19= {2473363d2022617069}
-		 $hex20= {2473373d2022617069}
-		 $hex21= {2473383d2022617069}
-		 $hex22= {2473393d2022617069}
+		 $hex1= {2461313d2022534f46}
+		 $hex2= {247331303d20226170}
+		 $hex3= {247331313d20226170}
+		 $hex4= {247331323d20226170}
+		 $hex5= {247331333d20224261}
+		 $hex6= {247331343d20224261}
+		 $hex7= {247331353d20225f5f}
+		 $hex8= {247331363d20225f5f}
+		 $hex9= {247331373d20226578}
+		 $hex10= {247331383d20226578}
+		 $hex11= {247331393d20222e2e}
+		 $hex12= {2473313d2022617069}
+		 $hex13= {247332303d20222e2e}
+		 $hex14= {247332313d20226874}
+		 $hex15= {247332323d20226d69}
+		 $hex16= {2473323d2022617069}
+		 $hex17= {2473333d2022617069}
+		 $hex18= {2473343d2022617069}
+		 $hex19= {2473353d2022617069}
+		 $hex20= {2473363d2022617069}
+		 $hex21= {2473373d2022617069}
+		 $hex22= {2473383d2022617069}
+		 $hex23= {2473393d2022617069}
 
 	condition:
-		14 of them
+		15 of them
 }

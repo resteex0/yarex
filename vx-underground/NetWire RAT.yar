@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: NetWire_RAT 
+   Identifier: vx_underground2_NetWire_RAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_NetWire_RAT {
+rule resteex_vx_underground2_NetWire_RAT {
 	meta: 
-		 description= "NetWire_RAT Group" 
+		 description= "vx_underground2_NetWire_RAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-52" 
+		 date = "2022-01-20_22-12-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "35a80e79a290dfce0d019d467ec8dc9c"
 		 hash2= "51e38c5c7a3a24dd8092f94d915de981"

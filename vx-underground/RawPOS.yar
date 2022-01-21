@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: RawPOS 
+   Identifier: vx_underground2_RawPOS 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_RawPOS {
+rule resteex_vx_underground2_RawPOS {
 	meta: 
-		 description= "RawPOS Group" 
+		 description= "vx_underground2_RawPOS Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-22-58" 
+		 date = "2022-01-20_22-14-56" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a06948f0eb5866216759ec69b315ced"
 		 hash2= "0b4b25c328af1fa348b8288043c704b7"
@@ -91,5 +91,5 @@ rule resteex_RawPOS {
 		 $hex3= {2461333d2022757361}
 
 	condition:
-		1 of them
+		2 of them
 }

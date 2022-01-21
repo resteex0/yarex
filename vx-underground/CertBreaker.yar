@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: CertBreaker 
+   Identifier: vx_underground2_CertBreaker 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_CertBreaker {
+rule resteex_vx_underground2_CertBreaker {
 	meta: 
-		 description= "CertBreaker Group" 
+		 description= "vx_underground2_CertBreaker Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-21" 
+		 date = "2022-01-20_21-53-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "7e0e9bde7fcd5080fad1878f7145fae4"
 		 hash2= "8659d6f32dbe6015ec76f1834cac6113"
@@ -58,50 +58,54 @@ rule resteex_CertBreaker {
 		 $s38= "WINDOWS7_IDB_RIBBON_BTN_PAGE_L" fullword wide
 		 $s39= "WINDOWS7_IDB_RIBBON_BTN_PAGE_R" fullword wide
 		 $s40= "WINDOWS7_IDB_RIBBON_PANEL_MAIN" fullword wide
-		 $a1= "WINDOWS7_IDB_RIBBON_BORDER_QAT WINDOWS7_IDB_RIBBON_BORDER_PANEL" fullword ascii
+		 $a1= ".?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@" fullword ascii
+		 $a2= ".?AVinvalid_scheduler_policy_thread_specification@Concurrency@@" fullword ascii
+		 $a3= "http://cacerts.digicert.com/DigiCertEVCodeSigningCA-SHA2.crt0" fullword ascii
 
-		 $hex1= {2461313d202257494e}
-		 $hex2= {247331303d20226170}
-		 $hex3= {247331313d20226170}
-		 $hex4= {247331323d20226170}
-		 $hex5= {247331333d20226170}
-		 $hex6= {247331343d2022424c}
-		 $hex7= {247331353d2022424c}
-		 $hex8= {247331363d2022424c}
-		 $hex9= {247331373d20225f5f}
-		 $hex10= {247331383d20225f5f}
-		 $hex11= {247331393d20226578}
-		 $hex12= {2473313d2022617069}
-		 $hex13= {247332303d20226578}
-		 $hex14= {247332313d20226578}
-		 $hex15= {247332323d20226961}
-		 $hex16= {247332333d20226a61}
-		 $hex17= {247332343d20226d69}
-		 $hex18= {247332353d20225349}
-		 $hex19= {247332363d20225349}
-		 $hex20= {247332373d20227370}
-		 $hex21= {247332383d20225769}
-		 $hex22= {247332393d20225749}
-		 $hex23= {2473323d2022617069}
-		 $hex24= {247333303d20225749}
-		 $hex25= {247333313d20225749}
-		 $hex26= {247333323d20225749}
-		 $hex27= {247333333d20225749}
-		 $hex28= {247333343d20225749}
-		 $hex29= {247333353d20225749}
-		 $hex30= {247333363d20225749}
-		 $hex31= {247333373d20225749}
-		 $hex32= {247333383d20225749}
-		 $hex33= {247333393d20225749}
-		 $hex34= {2473333d2022617069}
-		 $hex35= {247334303d20225749}
-		 $hex36= {2473343d2022617069}
-		 $hex37= {2473353d2022617069}
-		 $hex38= {2473363d2022617069}
-		 $hex39= {2473373d2022617069}
-		 $hex40= {2473383d2022617069}
-		 $hex41= {2473393d2022617069}
+		 $hex1= {2461313d20222e3f41}
+		 $hex2= {2461323d20222e3f41}
+		 $hex3= {2461333d2022687474}
+		 $hex4= {247331303d20226170}
+		 $hex5= {247331313d20226170}
+		 $hex6= {247331323d20226170}
+		 $hex7= {247331333d20226170}
+		 $hex8= {247331343d2022424c}
+		 $hex9= {247331353d2022424c}
+		 $hex10= {247331363d2022424c}
+		 $hex11= {247331373d20225f5f}
+		 $hex12= {247331383d20225f5f}
+		 $hex13= {247331393d20226578}
+		 $hex14= {2473313d2022617069}
+		 $hex15= {247332303d20226578}
+		 $hex16= {247332313d20226578}
+		 $hex17= {247332323d20226961}
+		 $hex18= {247332333d20226a61}
+		 $hex19= {247332343d20226d69}
+		 $hex20= {247332353d20225349}
+		 $hex21= {247332363d20225349}
+		 $hex22= {247332373d20227370}
+		 $hex23= {247332383d20225769}
+		 $hex24= {247332393d20225749}
+		 $hex25= {2473323d2022617069}
+		 $hex26= {247333303d20225749}
+		 $hex27= {247333313d20225749}
+		 $hex28= {247333323d20225749}
+		 $hex29= {247333333d20225749}
+		 $hex30= {247333343d20225749}
+		 $hex31= {247333353d20225749}
+		 $hex32= {247333363d20225749}
+		 $hex33= {247333373d20225749}
+		 $hex34= {247333383d20225749}
+		 $hex35= {247333393d20225749}
+		 $hex36= {2473333d2022617069}
+		 $hex37= {247334303d20225749}
+		 $hex38= {2473343d2022617069}
+		 $hex39= {2473353d2022617069}
+		 $hex40= {2473363d2022617069}
+		 $hex41= {2473373d2022617069}
+		 $hex42= {2473383d2022617069}
+		 $hex43= {2473393d2022617069}
 
 	condition:
-		27 of them
+		28 of them
 }

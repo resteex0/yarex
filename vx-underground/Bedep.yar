@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Bedep 
+   Identifier: vx_underground2_Bedep 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Bedep {
+rule resteex_vx_underground2_Bedep {
 	meta: 
-		 description= "Bedep Group" 
+		 description= "vx_underground2_Bedep Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-02" 
+		 date = "2022-01-20_21-53-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2faf2044e18837d23aa325cb21f17c4b"
 		 hash2= "46df78cf0eea2915422d84928dbc2462"

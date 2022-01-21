@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Necro 
+   Identifier: vx_underground2_Necro 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Necro {
+rule resteex_vx_underground2_Necro {
 	meta: 
-		 description= "Necro Group" 
+		 description= "vx_underground2_Necro Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-19-52" 
+		 date = "2022-01-20_22-11-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0014403121eeaebaeede796e4b6e5dbe"
 		 hash2= "560ba3ce8804a13331441ed149e41a33"
@@ -887,5 +887,5 @@ rule resteex_Necro {
 		 $hex432= {2461393d2022646573}
 
 	condition:
-		216 of them
+		288 of them
 }

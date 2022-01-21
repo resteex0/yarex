@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Bartalex 
+   Identifier: vx_underground2_Bartalex 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Bartalex {
+rule resteex_vx_underground2_Bartalex {
 	meta: 
-		 description= "Bartalex Group" 
+		 description= "vx_underground2_Bartalex Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-01" 
+		 date = "2022-01-20_21-53-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "05be09f648bf2b62ebf9cd79ccfd0087"
 		 hash2= "22a7aafe5190a5cdcc92bfd304a21f7d"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: ShinoLocker 
+   Identifier: vx_underground2_ShinoLocker 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_ShinoLocker {
+rule resteex_vx_underground2_ShinoLocker {
 	meta: 
-		 description= "ShinoLocker Group" 
+		 description= "vx_underground2_ShinoLocker Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-44" 
+		 date = "2022-01-20_22-17-15" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "cfada30d54f8a6ebedf7b7edd3c57b4f"
 

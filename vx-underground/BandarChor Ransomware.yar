@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: BandarChor_Ransomware 
+   Identifier: vx_underground2_BandarChor_Ransomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_BandarChor_Ransomware {
+rule resteex_vx_underground2_BandarChor_Ransomware {
 	meta: 
-		 description= "BandarChor_Ransomware Group" 
+		 description= "vx_underground2_BandarChor_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-14_23-58-55" 
+		 date = "2022-01-20_21-50-37" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "226b276b333804a0a5aac78d8e11ddf0"
 		 hash2= "5f7e9108d4fa09a6cd9c89f39bb51229"
@@ -52,37 +52,41 @@ rule resteex_BandarChor_Ransomware {
 		 $s27= "IW_JS_TABCONTROL IW_WAP_DB" fullword wide
 		 $s28= "mgkgtgnnmnmninigthkgogggvmkhinjggnvm" fullword wide
 		 $s29= "r1F3D5522-3F42-11d1-B2FA-00A0C908FB55" fullword wide
+		 $a1= "C:boost1.47includeboost/exception/detail/exception_ptr.hpp" fullword ascii
+		 $a2= "dobj.value=dobj.value=obj.options[obj.selectedIndex].value+',';" fullword ascii
 
-		 $hex1= {247331303d2022434c}
-		 $hex2= {247331313d2022636f}
-		 $hex3= {247331323d20226444}
-		 $hex4= {247331333d20226537}
-		 $hex5= {247331343d2022656d}
-		 $hex6= {247331353d20224957}
-		 $hex7= {247331363d20224957}
-		 $hex8= {247331373d20224957}
-		 $hex9= {247331383d20224957}
-		 $hex10= {247331393d20224957}
-		 $hex11= {2473313d2022303532}
-		 $hex12= {247332303d20224957}
-		 $hex13= {247332313d20224957}
-		 $hex14= {247332323d20224957}
-		 $hex15= {247332333d20224957}
-		 $hex16= {247332343d20224957}
-		 $hex17= {247332353d20224957}
-		 $hex18= {247332363d20224957}
-		 $hex19= {247332373d20224957}
-		 $hex20= {247332383d20226d67}
-		 $hex21= {247332393d20227231}
-		 $hex22= {2473323d2022303535}
-		 $hex23= {2473333d2022323843}
-		 $hex24= {2473343d2022253270}
-		 $hex25= {2473353d2022253270}
-		 $hex26= {2473363d2022373845}
-		 $hex27= {2473373d20222a4143}
-		 $hex28= {2473383d20222a4143}
-		 $hex29= {2473393d2022433431}
+		 $hex1= {2461313d2022433a62}
+		 $hex2= {2461323d2022646f62}
+		 $hex3= {247331303d2022434c}
+		 $hex4= {247331313d2022636f}
+		 $hex5= {247331323d20226444}
+		 $hex6= {247331333d20226537}
+		 $hex7= {247331343d2022656d}
+		 $hex8= {247331353d20224957}
+		 $hex9= {247331363d20224957}
+		 $hex10= {247331373d20224957}
+		 $hex11= {247331383d20224957}
+		 $hex12= {247331393d20224957}
+		 $hex13= {2473313d2022303532}
+		 $hex14= {247332303d20224957}
+		 $hex15= {247332313d20224957}
+		 $hex16= {247332323d20224957}
+		 $hex17= {247332333d20224957}
+		 $hex18= {247332343d20224957}
+		 $hex19= {247332353d20224957}
+		 $hex20= {247332363d20224957}
+		 $hex21= {247332373d20224957}
+		 $hex22= {247332383d20226d67}
+		 $hex23= {247332393d20227231}
+		 $hex24= {2473323d2022303535}
+		 $hex25= {2473333d2022323843}
+		 $hex26= {2473343d2022253270}
+		 $hex27= {2473353d2022253270}
+		 $hex28= {2473363d2022373845}
+		 $hex29= {2473373d20222a4143}
+		 $hex30= {2473383d20222a4143}
+		 $hex31= {2473393d2022433431}
 
 	condition:
-		19 of them
+		20 of them
 }

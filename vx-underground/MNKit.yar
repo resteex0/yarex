@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MNKit 
+   Identifier: vx_underground2_MNKit 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MNKit {
+rule resteex_vx_underground2_MNKit {
 	meta: 
-		 description= "MNKit Group" 
+		 description= "vx_underground2_MNKit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-40" 
+		 date = "2022-01-20_22-11-35" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "029f5d4a53a19986c26aee69d4e8c994"
 		 hash2= "0580329f552f2b52c104c9091cfd059d"
@@ -94,19 +94,39 @@ rule resteex_MNKit {
 		 $s9= "SoftwareMicrosoftWindowsCurrentVersion" fullword wide
 		 $s10= "SOFTWAREMicrosoftWindowsDbxUpdateBT" fullword wide
 		 $s11= "__tmp_rar_sfx_access_check_%u" fullword wide
+		 $a1= "??0830?464:0*)&,.-%(!/+$3>" fullword ascii
+		 $a2= "AINFBF@GNBCLMNOPQRQ UZZZ^YT^U_`aba9ekjhcmdcba`xyrstuvu%ywv|~yp" fullword ascii
+		 $a3= ">B@@BFDDFJHHJNLLNRPPRVTTVZXXZ^\\^b``bfddfxizk|m~oPqRsTuVwXyZ{}^" fullword ascii
+		 $a4= "BDEpAHI|MLMxIPQdUTU`QXYl]]hY`aTedePahimlmXipqDutu@qxyL}|}Hy" fullword ascii
+		 $a5= "Content-Location: file:///C:/23456789/Doc1.files/filelist.xml" fullword ascii
+		 $a6= "Content-Location: file:///C:/23456789/Doc1.files/ocxstg001.mso" fullword ascii
+		 $a7= "DHLDTDBCAGMST]OKTXTDTRSQW]CDM_[dhldtdbcagmst}oktx|tdtrsqw}cdm" fullword ascii
+		 $a8= "=>?HABALEFAHIJKLMNNPQRSTUVUHYZ[]^_aabc4efohijkdmno7g" fullword ascii
+		 $a9= "lXxsaVtwjTpkwKlnpAhc}Ldf~J`ZBv]DtXQIzTVraPIo|LMhzHAeqDEfw@9" fullword ascii
+		 $a10= "sHT`b[_YY^_SQQQZVWZJHFILFOAI@LKDHQG4/47)35-=8#>=%:?6%=6':2$6:" fullword ascii
 
-		 $hex1= {247331303d2022534f}
-		 $hex2= {247331313d20225f5f}
-		 $hex3= {2473313d2022253464}
-		 $hex4= {2473323d2022433a4d}
-		 $hex5= {2473333d2022437279}
-		 $hex6= {2473343d2022437279}
-		 $hex7= {2473353d2022446f63}
-		 $hex8= {2473363d2022255072}
-		 $hex9= {2473373d2022536543}
-		 $hex10= {2473383d2022534f46}
-		 $hex11= {2473393d2022536f66}
+		 $hex1= {246131303d20227348}
+		 $hex2= {2461313d20223f3f30}
+		 $hex3= {2461323d202241494e}
+		 $hex4= {2461333d20223e4240}
+		 $hex5= {2461343d2022424445}
+		 $hex6= {2461353d2022436f6e}
+		 $hex7= {2461363d2022436f6e}
+		 $hex8= {2461373d202244484c}
+		 $hex9= {2461383d20223d3e3f}
+		 $hex10= {2461393d20226c5878}
+		 $hex11= {247331303d2022534f}
+		 $hex12= {247331313d20225f5f}
+		 $hex13= {2473313d2022253464}
+		 $hex14= {2473323d2022433a4d}
+		 $hex15= {2473333d2022437279}
+		 $hex16= {2473343d2022437279}
+		 $hex17= {2473353d2022446f63}
+		 $hex18= {2473363d2022255072}
+		 $hex19= {2473373d2022536543}
+		 $hex20= {2473383d2022534f46}
+		 $hex21= {2473393d2022536f66}
 
 	condition:
-		7 of them
+		14 of them
 }

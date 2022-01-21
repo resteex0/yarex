@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Filmkan 
+   Identifier: vx_underground2_Filmkan 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Filmkan {
+rule resteex_vx_underground2_Filmkan {
 	meta: 
-		 description= "Filmkan Group" 
+		 description= "vx_underground2_Filmkan Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-04-49" 
+		 date = "2022-01-20_21-56-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0151353527d2f2304cff0c342138e5b4"
 		 hash2= "02c2e008fa40fcbb14c04b9f46c77126"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Chapak 
+   Identifier: vx_underground2_Chapak 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Chapak {
+rule resteex_vx_underground2_Chapak {
 	meta: 
-		 description= "Chapak Group" 
+		 description= "vx_underground2_Chapak Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-24" 
+		 date = "2022-01-20_21-53-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00810b59644d1610f9eb57e2d9e175e4"
 		 hash2= "6ec836e7cf86162bb62ed8d3483f770b"

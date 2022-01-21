@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: BasBanke 
+   Identifier: vx_underground2_BasBanke 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_BasBanke {
+rule resteex_vx_underground2_BasBanke {
 	meta: 
-		 description= "BasBanke Group" 
+		 description= "vx_underground2_BasBanke Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-00-51" 
+		 date = "2022-01-20_21-53-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "fb10f2f9b79ed2c21061cec17160fe20"
 
@@ -68,5 +68,5 @@ rule resteex_BasBanke {
 		 $hex24= {2461393d2022726573}
 
 	condition:
-		12 of them
+		16 of them
 }

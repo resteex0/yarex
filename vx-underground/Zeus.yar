@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Zeus 
+   Identifier: vx_underground2_Zeus 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Zeus {
+rule resteex_vx_underground2_Zeus {
 	meta: 
-		 description= "Zeus Group" 
+		 description= "vx_underground2_Zeus Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-25" 
+		 date = "2022-01-20_22-18-06" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0d83a54f6bb735aa81496e24932f448c"
 		 hash2= "13c909eaace915f8b48d39846ce23142"
@@ -55,26 +55,22 @@ rule resteex_Zeus {
 		 $s12= "EGISTRYUSERS-1-5-21-2052111302-484763869-725345543-1003" fullword wide
 		 $s13= "ftwareMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword wide
 		 $s14= "SOFTWAREMicrosoftOzohti" fullword wide
-		 $a1= "EGISTRYUSERS-1-5-21-2052111302-484763869-725345543-1003" fullword ascii
-		 $a2= "ftwareMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword ascii
 
-		 $hex1= {2461313d2022454749}
-		 $hex2= {2461323d2022667477}
-		 $hex3= {247331303d2022433a}
-		 $hex4= {247331313d2022444f}
-		 $hex5= {247331323d20224547}
-		 $hex6= {247331333d20226674}
-		 $hex7= {247331343d2022534f}
-		 $hex8= {2473313d20227b3034}
-		 $hex9= {2473323d20227b3445}
-		 $hex10= {2473333d20227b3631}
-		 $hex11= {2473343d20227b3732}
-		 $hex12= {2473353d20223a6266}
-		 $hex13= {2473363d2022626633}
-		 $hex14= {2473373d20223f433a}
-		 $hex15= {2473383d20223f3f43}
-		 $hex16= {2473393d20223f3f43}
+		 $hex1= {247331303d2022433a}
+		 $hex2= {247331313d2022444f}
+		 $hex3= {247331323d20224547}
+		 $hex4= {247331333d20226674}
+		 $hex5= {247331343d2022534f}
+		 $hex6= {2473313d20227b3034}
+		 $hex7= {2473323d20227b3445}
+		 $hex8= {2473333d20227b3631}
+		 $hex9= {2473343d20227b3732}
+		 $hex10= {2473353d20223a6266}
+		 $hex11= {2473363d2022626633}
+		 $hex12= {2473373d20223f433a}
+		 $hex13= {2473383d20223f3f43}
+		 $hex14= {2473393d20223f3f43}
 
 	condition:
-		10 of them
+		9 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: GuLoader 
+   Identifier: vx_underground2_GuLoader 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_GuLoader {
+rule resteex_vx_underground2_GuLoader {
 	meta: 
-		 description= "GuLoader Group" 
+		 description= "vx_underground2_GuLoader Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-07-24" 
+		 date = "2022-01-20_21-59-40" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "25f7735ff71a70abf4bb508d2711f50b"
 		 hash2= "597eff6540780213008d384ca831852a"

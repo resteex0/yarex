@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: JSocket 
+   Identifier: vx_underground2_JSocket 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_JSocket {
+rule resteex_vx_underground2_JSocket {
 	meta: 
-		 description= "JSocket Group" 
+		 description= "vx_underground2_JSocket Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-09-20" 
+		 date = "2022-01-20_22-02-12" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "002c95ca961b95cd511b7239d4fa6960"
 		 hash2= "0266cce027d3a5eeddc5635a77d6b50c"
@@ -491,84 +491,70 @@ rule resteex_JSocket {
 		 $s50= "Xpin 9053861946540108.jar" fullword wide
 		 $s51= "Xpin 9053861946540108.jar-" fullword wide
 		 $s52= "X-Sender-Id: netnames|x-authuser|zo5138ar7vay" fullword wide
-		 $a1= "20151012192730.EC6362ABDF081004@gmail.com>" fullword ascii
-		 $a2= "C:UsersbabajideAppDataLocalTempLETTER_OF_APPROVAL_.jar" fullword ascii
-		 $a3= "C:UsersbabajideAppDataLocalTempTRANSACTION_ALZ03374_.jar" fullword ascii
-		 $a4= "C:UsersbabajideDesktopLIST_OF_SUSPECTED_TRANSACTIONS_.jar" fullword ascii
-		 $a5= "C:UsersbabajideDesktopTRANSACTION_ALZ03374_.jar" fullword ascii
-		 $a6= "C:UsersbabajideDesktopWU_STEPS_TO_DETECT_SPOOF_EMAILS_.jar" fullword ascii
-		 $a7= "C:UsersbabajideDesktopWU_TRANSACTION_9623626572_.jar" fullword ascii
-		 $a8= "C:UsersHPAppDataLocalTempXpin 9053861946540108.jar" fullword ascii
-		 $a9= "C:UserskuchionDownloadsMicrosoft_office_Expander.jar" fullword ascii
-		 $a10= "D8URCBHQ-OGFW-2GEL-1OHG-K884K17NL5FU@allbriteni.co.uk>" fullword ascii
-		 $a11= "POP://po.inet-shibata.or.jp/1444703251$2e30621$2emx$2cS$3d164812" fullword ascii
-		 $a12= "X-MailChannels-SenderId: netnames|x-authuser|zo5138ar7vay" fullword ascii
+		 $a1= "C:UsersbabajideAppDataLocalTempLETTER_OF_APPROVAL_.jar" fullword ascii
+		 $a2= "C:UsersbabajideAppDataLocalTempTRANSACTION_ALZ03374_.jar" fullword ascii
+		 $a3= "C:UsersbabajideDesktopLIST_OF_SUSPECTED_TRANSACTIONS_.jar" fullword ascii
+		 $a4= "C:UsersbabajideDesktopWU_STEPS_TO_DETECT_SPOOF_EMAILS_.jar" fullword ascii
+		 $a5= "SRS0=awsf=KP=keringproperties.com=sales@mep.pandasecurity.com" fullword ascii
 
-		 $hex1= {246131303d20224438}
-		 $hex2= {246131313d2022504f}
-		 $hex3= {246131323d2022582d}
-		 $hex4= {2461313d2022323031}
-		 $hex5= {2461323d2022433a55}
-		 $hex6= {2461333d2022433a55}
-		 $hex7= {2461343d2022433a55}
-		 $hex8= {2461353d2022433a55}
-		 $hex9= {2461363d2022433a55}
-		 $hex10= {2461373d2022433a55}
-		 $hex11= {2461383d2022433a55}
-		 $hex12= {2461393d2022433a55}
-		 $hex13= {247331303d2022433a}
-		 $hex14= {247331313d2022433a}
-		 $hex15= {247331323d2022433a}
-		 $hex16= {247331333d2022433a}
-		 $hex17= {247331343d2022433a}
-		 $hex18= {247331353d2022433a}
-		 $hex19= {247331363d2022433a}
-		 $hex20= {247331373d2022433a}
-		 $hex21= {247331383d2022433a}
-		 $hex22= {247331393d2022433a}
-		 $hex23= {2473313d2022323031}
-		 $hex24= {247332303d2022433a}
-		 $hex25= {247332313d2022433a}
-		 $hex26= {247332323d2022433a}
-		 $hex27= {247332333d2022433a}
-		 $hex28= {247332343d2022433a}
-		 $hex29= {247332353d2022433a}
-		 $hex30= {247332363d20224438}
-		 $hex31= {247332373d20224465}
-		 $hex32= {247332383d20224469}
-		 $hex33= {247332393d20226967}
-		 $hex34= {2473323d2022616461}
-		 $hex35= {247333303d20226967}
-		 $hex36= {247333313d20226967}
-		 $hex37= {247333323d20226a6f}
-		 $hex38= {247333333d20224c49}
-		 $hex39= {247333343d20224d69}
-		 $hex40= {247333353d20224d69}
-		 $hex41= {247333363d2022504f}
-		 $hex42= {247333373d20225245}
-		 $hex43= {247333383d20227361}
-		 $hex44= {247333393d2022546f}
-		 $hex45= {2473333d2022616461}
-		 $hex46= {247334303d2022546f}
-		 $hex47= {247334313d20225452}
-		 $hex48= {247334323d20225755}
-		 $hex49= {247334333d20225755}
-		 $hex50= {247334343d20225755}
-		 $hex51= {247334353d2022582d}
-		 $hex52= {247334363d2022582d}
-		 $hex53= {247334373d2022582d}
-		 $hex54= {247334383d2022582d}
-		 $hex55= {247334393d2022582d}
-		 $hex56= {2473343d2022436f6e}
-		 $hex57= {247335303d20225870}
-		 $hex58= {247335313d20225870}
-		 $hex59= {247335323d2022582d}
-		 $hex60= {2473353d2022433a55}
-		 $hex61= {2473363d2022433a55}
-		 $hex62= {2473373d2022433a55}
-		 $hex63= {2473383d2022433a55}
-		 $hex64= {2473393d2022433a55}
+		 $hex1= {2461313d2022433a55}
+		 $hex2= {2461323d2022433a55}
+		 $hex3= {2461333d2022433a55}
+		 $hex4= {2461343d2022433a55}
+		 $hex5= {2461353d2022535253}
+		 $hex6= {247331303d2022433a}
+		 $hex7= {247331313d2022433a}
+		 $hex8= {247331323d2022433a}
+		 $hex9= {247331333d2022433a}
+		 $hex10= {247331343d2022433a}
+		 $hex11= {247331353d2022433a}
+		 $hex12= {247331363d2022433a}
+		 $hex13= {247331373d2022433a}
+		 $hex14= {247331383d2022433a}
+		 $hex15= {247331393d2022433a}
+		 $hex16= {2473313d2022323031}
+		 $hex17= {247332303d2022433a}
+		 $hex18= {247332313d2022433a}
+		 $hex19= {247332323d2022433a}
+		 $hex20= {247332333d2022433a}
+		 $hex21= {247332343d2022433a}
+		 $hex22= {247332353d2022433a}
+		 $hex23= {247332363d20224438}
+		 $hex24= {247332373d20224465}
+		 $hex25= {247332383d20224469}
+		 $hex26= {247332393d20226967}
+		 $hex27= {2473323d2022616461}
+		 $hex28= {247333303d20226967}
+		 $hex29= {247333313d20226967}
+		 $hex30= {247333323d20226a6f}
+		 $hex31= {247333333d20224c49}
+		 $hex32= {247333343d20224d69}
+		 $hex33= {247333353d20224d69}
+		 $hex34= {247333363d2022504f}
+		 $hex35= {247333373d20225245}
+		 $hex36= {247333383d20227361}
+		 $hex37= {247333393d2022546f}
+		 $hex38= {2473333d2022616461}
+		 $hex39= {247334303d2022546f}
+		 $hex40= {247334313d20225452}
+		 $hex41= {247334323d20225755}
+		 $hex42= {247334333d20225755}
+		 $hex43= {247334343d20225755}
+		 $hex44= {247334353d2022582d}
+		 $hex45= {247334363d2022582d}
+		 $hex46= {247334373d2022582d}
+		 $hex47= {247334383d2022582d}
+		 $hex48= {247334393d2022582d}
+		 $hex49= {2473343d2022436f6e}
+		 $hex50= {247335303d20225870}
+		 $hex51= {247335313d20225870}
+		 $hex52= {247335323d2022582d}
+		 $hex53= {2473353d2022433a55}
+		 $hex54= {2473363d2022433a55}
+		 $hex55= {2473373d2022433a55}
+		 $hex56= {2473383d2022433a55}
+		 $hex57= {2473393d2022433a55}
 
 	condition:
-		42 of them
+		38 of them
 }

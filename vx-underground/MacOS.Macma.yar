@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Macma 
+   Identifier: vx_underground2_MacOS_Macma 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Macma {
+rule resteex_vx_underground2_MacOS_Macma {
 	meta: 
-		 description= "MacOS_Macma Group" 
+		 description= "vx_underground2_MacOS_Macma Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-29" 
+		 date = "2022-01-20_22-10-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1daba393eee9d8bdaf645157dae83990"
 		 hash2= "282b7cc7884a7592709d88415ee4b9ae"
@@ -604,5 +604,5 @@ rule resteex_MacOS_Macma {
 		 $hex287= {2461393d2022284c61}
 
 	condition:
-		143 of them
+		191 of them
 }

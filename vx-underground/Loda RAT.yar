@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Loda_RAT 
+   Identifier: vx_underground2_Loda_RAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Loda_RAT {
+rule resteex_vx_underground2_Loda_RAT {
 	meta: 
-		 description= "Loda_RAT Group" 
+		 description= "vx_underground2_Loda_RAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-13-12" 
+		 date = "2022-01-20_22-07-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "dc14cd48169a1ab64074a09521fdcf1d"
 

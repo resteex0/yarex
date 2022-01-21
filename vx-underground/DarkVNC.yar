@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: DarkVNC 
+   Identifier: vx_underground2_DarkVNC 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_DarkVNC {
+rule resteex_vx_underground2_DarkVNC {
 	meta: 
-		 description= "DarkVNC Group" 
+		 description= "vx_underground2_DarkVNC Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-02-33" 
+		 date = "2022-01-20_21-54-43" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "04a90cf2b506cf0bd5307d7b83a3a27c"
 		 hash2= "0ce983adc03d11b814c4b6fba6b07e6f"
@@ -33,5 +33,5 @@ rule resteex_DarkVNC {
 		 $hex3= {2473313d2022576f62}
 
 	condition:
-		1 of them
+		2 of them
 }

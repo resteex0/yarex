@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Curator_Ransomware 
+   Identifier: vx_underground2_Curator_Ransomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Curator_Ransomware {
+rule resteex_vx_underground2_Curator_Ransomware {
 	meta: 
-		 description= "Curator_Ransomware Group" 
+		 description= "vx_underground2_Curator_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-59" 
+		 date = "2022-01-20_21-54-24" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4d2c614ba98df43601b6d9551bd26684"
 
@@ -41,32 +41,38 @@ rule resteex_Curator_Ransomware {
 		 $s22= "ithelpnetwork@wholeness.business" fullword wide
 		 $s23= "ReportingServecesService.exe" fullword wide
 		 $s24= "%s|DELIMITER|Name(domain): %s(%s)" fullword wide
+		 $a1= ".?AV?$VariableKeyLength@$0BA@$0BA@$0CA@$07$03$0A@@CryptoPP@@" fullword ascii
+		 $a2= ".?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@" fullword ascii
+		 $a3= ".?AVinvalid_scheduler_policy_thread_specification@Concurrency@@" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20226170}
-		 $hex5= {247331343d20226170}
-		 $hex6= {247331353d20226170}
-		 $hex7= {247331363d2022436f}
-		 $hex8= {247331373d2022433a}
-		 $hex9= {247331383d2022433a}
-		 $hex10= {247331393d20226578}
-		 $hex11= {2473313d2022617069}
-		 $hex12= {247332303d20226578}
-		 $hex13= {247332313d20226974}
-		 $hex14= {247332323d20226974}
-		 $hex15= {247332333d20225265}
-		 $hex16= {247332343d20222573}
-		 $hex17= {2473323d2022617069}
-		 $hex18= {2473333d2022617069}
-		 $hex19= {2473343d2022617069}
-		 $hex20= {2473353d2022617069}
-		 $hex21= {2473363d2022617069}
-		 $hex22= {2473373d2022617069}
-		 $hex23= {2473383d2022617069}
-		 $hex24= {2473393d2022617069}
+		 $hex1= {2461313d20222e3f41}
+		 $hex2= {2461323d20222e3f41}
+		 $hex3= {2461333d20222e3f41}
+		 $hex4= {247331303d20226170}
+		 $hex5= {247331313d20226170}
+		 $hex6= {247331323d20226170}
+		 $hex7= {247331333d20226170}
+		 $hex8= {247331343d20226170}
+		 $hex9= {247331353d20226170}
+		 $hex10= {247331363d2022436f}
+		 $hex11= {247331373d2022433a}
+		 $hex12= {247331383d2022433a}
+		 $hex13= {247331393d20226578}
+		 $hex14= {2473313d2022617069}
+		 $hex15= {247332303d20226578}
+		 $hex16= {247332313d20226974}
+		 $hex17= {247332323d20226974}
+		 $hex18= {247332333d20225265}
+		 $hex19= {247332343d20222573}
+		 $hex20= {2473323d2022617069}
+		 $hex21= {2473333d2022617069}
+		 $hex22= {2473343d2022617069}
+		 $hex23= {2473353d2022617069}
+		 $hex24= {2473363d2022617069}
+		 $hex25= {2473373d2022617069}
+		 $hex26= {2473383d2022617069}
+		 $hex27= {2473393d2022617069}
 
 	condition:
-		16 of them
+		18 of them
 }

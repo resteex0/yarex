@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: ShimRAT 
+   Identifier: vx_underground2_ShimRAT 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_ShimRAT {
+rule resteex_vx_underground2_ShimRAT {
 	meta: 
-		 description= "ShimRAT Group" 
+		 description= "vx_underground2_ShimRAT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-43" 
+		 date = "2022-01-20_22-17-15" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0067bbd63db0a4f5662cdb1633d92444"
 		 hash2= "06cca5013175c5a1c8ff89a494e24245"
@@ -57,18 +57,20 @@ rule resteex_ShimRAT {
 		 $s4= "SoftwareMicrosoftWindowsCurrentVersionInternet Settings" fullword wide
 		 $s5= "SOFTWAREMicrosoftWindows NTCurrentVersionHotfixQ246009" fullword wide
 		 $s6= "SYSTEMCurrentControlSetControlProductOptions" fullword wide
-		 $a1= "SoftwareMicrosoftWindowsCurrentVersionInternet Settings" fullword ascii
-		 $a2= "SOFTWAREMicrosoftWindows NTCurrentVersionHotfixQ246009" fullword ascii
+		 $a1= "47618mqqu?**das`kqpw`i`dwklkb+h`*ru(fjkq`kq*puijdav*lka`}+umu" fullword ascii
+		 $a2= "47619mqqu?**ijbjk+mda(jk`(ojg+fjh*755=*sfdwav*ijb*pv*lka`}+umu" fullword ascii
+		 $a3= "+5>%Rlkajrv%KQ%3+4>%Qwla`kq*0+5," fullword ascii
 
-		 $hex1= {2461313d2022536f66}
-		 $hex2= {2461323d2022534f46}
-		 $hex3= {2473313d202225322e}
-		 $hex4= {2473323d2022433a57}
-		 $hex5= {2473333d2022433a77}
-		 $hex6= {2473343d2022536f66}
-		 $hex7= {2473353d2022534f46}
-		 $hex8= {2473363d2022535953}
+		 $hex1= {2461313d2022343736}
+		 $hex2= {2461323d2022343736}
+		 $hex3= {2461333d20222b353e}
+		 $hex4= {2473313d202225322e}
+		 $hex5= {2473323d2022433a57}
+		 $hex6= {2473333d2022433a77}
+		 $hex7= {2473343d2022536f66}
+		 $hex8= {2473353d2022534f46}
+		 $hex9= {2473363d2022535953}
 
 	condition:
-		5 of them
+		6 of them
 }

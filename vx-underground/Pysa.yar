@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Pysa 
+   Identifier: vx_underground2_Pysa 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Pysa {
+rule resteex_vx_underground2_Pysa {
 	meta: 
-		 description= "Pysa Group" 
+		 description= "vx_underground2_Pysa Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-17-03" 
+		 date = "2022-01-20_22-13-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0b356149cdff77826f11cbcaac9aa98d"
 		 hash2= "339165f63aec8d7fd7798129d0fc68ad"
@@ -54,30 +54,154 @@ rule resteex_Pysa {
 		 $s18= "ext-ms-win-ntuser-windowstation-l1-1-0" fullword wide
 		 $s19= "Fapi-ms-win-appmodel-runtime-l1-1-1" fullword wide
 		 $s20= "spanish-dominican republic" fullword wide
-		 $a1= "!#%')+-/13!#%')+-/13!#%')+-/13!#%')+-/13!#%')+-/13" fullword ascii
+		 $a1= ".?AV?$VariableKeyLength@$0BA@$0BA@$0CA@$07$03$0A@@CryptoPP@@" fullword ascii
+		 $a2= "/code/go/socks/client/src/github.com/armon/go-socks5/auth.go" fullword ascii
+		 $a3= "/code/go/socks/client/src/github.com/armon/go-socks5/request.go" fullword ascii
+		 $a4= "/code/go/socks/client/src/github.com/armon/go-socks5/resolver.go" fullword ascii
+		 $a5= "/code/go/socks/client/src/github.com/armon/go-socks5/ruleset.go" fullword ascii
+		 $a6= "/code/go/socks/client/src/github.com/armon/go-socks5/socks5.go" fullword ascii
+		 $a7= "/code/go/socks/client/src/github.com/hashicorp/yamux/addr.go" fullword ascii
+		 $a8= "/code/go/socks/client/src/github.com/hashicorp/yamux/const.go" fullword ascii
+		 $a9= "/code/go/socks/client/src/github.com/hashicorp/yamux/session.go" fullword ascii
+		 $a10= "/code/go/socks/client/src/github.com/hashicorp/yamux/stream.go" fullword ascii
+		 $a11= "/code/go/socks/client/src/github.com/hashicorp/yamux/util.go" fullword ascii
+		 $a12= "/code/go/socks/client/src/github.com/sevlyar/go-daemon/daemon.go" fullword ascii
+		 $a13= "/code/go/socks/client/src/github.com/sevlyar/go-daemon/signal.go" fullword ascii
+		 $a14= "crypto/tls.(*certificateRequestMsgTLS13).marshal.func1.1.2.1" fullword ascii
+		 $a15= "crypto/tls.(*certificateRequestMsgTLS13).marshal.func1.1.3.1" fullword ascii
+		 $a16= "crypto/tls.(*clientHandshakeStateTLS13).checkServerHelloOrHRR" fullword ascii
+		 $a17= "crypto/tls.(*clientHandshakeStateTLS13).establishHandshakeKeys" fullword ascii
+		 $a18= "crypto/tls.(*clientHandshakeStateTLS13).processHelloRetryRequest" fullword ascii
+		 $a19= "crypto/tls.(*clientHandshakeStateTLS13).readServerCertificate" fullword ascii
+		 $a20= "crypto/tls.(*clientHandshakeStateTLS13).readServerParameters" fullword ascii
+		 $a21= "crypto/tls.(*clientHandshakeStateTLS13).sendClientCertificate" fullword ascii
+		 $a22= "crypto/tls.(*serverHandshakeStateTLS13).readClientCertificate" fullword ascii
+		 $a23= "crypto/tls.(*serverHandshakeStateTLS13).sendServerCertificate" fullword ascii
+		 $a24= "crypto/tls.(*serverHandshakeStateTLS13).sendServerParameters" fullword ascii
+		 $a25= "crypto/tls.(*serverHandshakeStateTLS13).shouldSendSessionTickets" fullword ascii
+		 $a26= "github.com/armon/go-socks5.(*NoAuthAuthenticator).Authenticate" fullword ascii
+		 $a27= "github.com/armon/go-socks5.UserPassAuthenticator.Authenticate" fullword ascii
+		 $a28= "github.com/armon/go-socks5.(*UserPassAuthenticator).Authenticate" fullword ascii
+		 $a29= "internal/x/crypto/chacha20poly1305.(*chacha20poly1305).NonceSize" fullword ascii
+		 $a30= "internal/x/crypto/chacha20poly1305.(*chacha20poly1305).Overhead" fullword ascii
+		 $a31= "internal/x/crypto/cryptobyte.(*Builder).AddUint16LengthPrefixed" fullword ascii
+		 $a32= "internal/x/crypto/cryptobyte.(*Builder).AddUint24LengthPrefixed" fullword ascii
+		 $a33= "internal/x/crypto/cryptobyte.(*Builder).AddUint8LengthPrefixed" fullword ascii
+		 $a34= "internal/x/crypto/cryptobyte.(*Builder).callContinuation.func1" fullword ascii
+		 $a35= "internal/x/crypto/cryptobyte.(*String).ReadUint16LengthPrefixed" fullword ascii
+		 $a36= "internal/x/crypto/cryptobyte.(*String).ReadUint24LengthPrefixed" fullword ascii
+		 $a37= "internal/x/crypto/cryptobyte.(*String).ReadUint8LengthPrefixed" fullword ascii
+		 $a38= "internal/x/crypto/internal/chacha20.(*Cipher).XORKeyStream.func1" fullword ascii
+		 $a39= "internal/x/text/secure/bidirule.(*Transformer).advanceString" fullword ascii
+		 $a40= "internal/x/text/unicode/norm.Properties.nTrailingNonStarters" fullword ascii
+		 $a41= "internal/x/text/unicode/norm.(*reorderBuffer).decomposeHangul" fullword ascii
+		 $a42= "internal/x/text/unicode/norm.(*reorderBuffer).insertDecomposed" fullword ascii
+		 $a43= "type..eq.[6][2]internal/x/text/secure/bidirule.ruleTransition" fullword ascii
+		 $a44= "type..hash.[2]internal/x/text/secure/bidirule.ruleTransition" fullword ascii
+		 $a45= "type..hash.[6][2]internal/x/text/secure/bidirule.ruleTransition" fullword ascii
+		 $a46= "/usr/lib/go-1.12/src/internal/syscall/windows/registry/key.go" fullword ascii
+		 $a47= "/usr/lib/go-1.12/src/internal/syscall/windows/registry/value.go" fullword ascii
+		 $a48= "/usr/lib/go-1.12/src/internal/syscall/windows/sysdll/sysdll.go" fullword ascii
+		 $a49= "/usr/lib/go-1.12/src/internal/x/crypto/cryptobyte/builder.go" fullword ascii
+		 $a50= "/usr/lib/go-1.12/src/internal/x/crypto/curve25519/cswap_amd64.s" fullword ascii
+		 $a51= "/usr/lib/go-1.12/src/internal/x/crypto/curve25519/freeze_amd64.s" fullword ascii
+		 $a52= "/usr/lib/go-1.12/src/internal/x/crypto/curve25519/mul_amd64.s" fullword ascii
+		 $a53= "/usr/lib/go-1.12/src/internal/x/crypto/curve25519/square_amd64.s" fullword ascii
+		 $a54= "/usr/lib/go-1.12/src/internal/x/crypto/internal/chacha20/xor.go" fullword ascii
+		 $a55= "/usr/lib/go-1.12/src/internal/x/crypto/poly1305/sum_amd64.go" fullword ascii
+		 $a56= "/usr/lib/go-1.12/src/internal/x/net/dns/dnsmessage/message.go" fullword ascii
+		 $a57= "/usr/lib/go-1.12/src/internal/x/net/http/httpguts/httplex.go" fullword ascii
+		 $a58= "/usr/lib/go-1.12/src/internal/x/text/secure/bidirule/bidirule.go" fullword ascii
+		 $a59= "/usr/lib/go-1.12/src/internal/x/text/unicode/bidi/trieval.go" fullword ascii
+		 $a60= "/usr/lib/go-1.12/src/internal/x/text/unicode/norm/composition.go" fullword ascii
+		 $a61= "/usr/lib/go-1.12/src/internal/x/text/unicode/norm/forminfo.go" fullword ascii
+		 $a62= "/usr/lib/go-1.12/src/internal/x/text/unicode/norm/normalize.go" fullword ascii
+		 $a63= "/usr/lib/go-1.12/src/internal/x/text/unicode/norm/transform.go" fullword ascii
 
-		 $hex1= {2461313d2022212325}
-		 $hex2= {247331303d20226170}
-		 $hex3= {247331313d20226170}
-		 $hex4= {247331323d20226170}
-		 $hex5= {247331333d20226170}
-		 $hex6= {247331343d20226170}
-		 $hex7= {247331353d20226170}
-		 $hex8= {247331363d20226578}
-		 $hex9= {247331373d20226578}
-		 $hex10= {247331383d20226578}
-		 $hex11= {247331393d20224661}
-		 $hex12= {2473313d2022212325}
-		 $hex13= {247332303d20227370}
-		 $hex14= {2473323d2022617069}
-		 $hex15= {2473333d2022617069}
-		 $hex16= {2473343d2022617069}
-		 $hex17= {2473353d2022617069}
-		 $hex18= {2473363d2022617069}
-		 $hex19= {2473373d2022617069}
-		 $hex20= {2473383d2022617069}
-		 $hex21= {2473393d2022617069}
+		 $hex1= {246131303d20222f63}
+		 $hex2= {246131313d20222f63}
+		 $hex3= {246131323d20222f63}
+		 $hex4= {246131333d20222f63}
+		 $hex5= {246131343d20226372}
+		 $hex6= {246131353d20226372}
+		 $hex7= {246131363d20226372}
+		 $hex8= {246131373d20226372}
+		 $hex9= {246131383d20226372}
+		 $hex10= {246131393d20226372}
+		 $hex11= {2461313d20222e3f41}
+		 $hex12= {246132303d20226372}
+		 $hex13= {246132313d20226372}
+		 $hex14= {246132323d20226372}
+		 $hex15= {246132333d20226372}
+		 $hex16= {246132343d20226372}
+		 $hex17= {246132353d20226372}
+		 $hex18= {246132363d20226769}
+		 $hex19= {246132373d20226769}
+		 $hex20= {246132383d20226769}
+		 $hex21= {246132393d2022696e}
+		 $hex22= {2461323d20222f636f}
+		 $hex23= {246133303d2022696e}
+		 $hex24= {246133313d2022696e}
+		 $hex25= {246133323d2022696e}
+		 $hex26= {246133333d2022696e}
+		 $hex27= {246133343d2022696e}
+		 $hex28= {246133353d2022696e}
+		 $hex29= {246133363d2022696e}
+		 $hex30= {246133373d2022696e}
+		 $hex31= {246133383d2022696e}
+		 $hex32= {246133393d2022696e}
+		 $hex33= {2461333d20222f636f}
+		 $hex34= {246134303d2022696e}
+		 $hex35= {246134313d2022696e}
+		 $hex36= {246134323d2022696e}
+		 $hex37= {246134333d20227479}
+		 $hex38= {246134343d20227479}
+		 $hex39= {246134353d20227479}
+		 $hex40= {246134363d20222f75}
+		 $hex41= {246134373d20222f75}
+		 $hex42= {246134383d20222f75}
+		 $hex43= {246134393d20222f75}
+		 $hex44= {2461343d20222f636f}
+		 $hex45= {246135303d20222f75}
+		 $hex46= {246135313d20222f75}
+		 $hex47= {246135323d20222f75}
+		 $hex48= {246135333d20222f75}
+		 $hex49= {246135343d20222f75}
+		 $hex50= {246135353d20222f75}
+		 $hex51= {246135363d20222f75}
+		 $hex52= {246135373d20222f75}
+		 $hex53= {246135383d20222f75}
+		 $hex54= {246135393d20222f75}
+		 $hex55= {2461353d20222f636f}
+		 $hex56= {246136303d20222f75}
+		 $hex57= {246136313d20222f75}
+		 $hex58= {246136323d20222f75}
+		 $hex59= {246136333d20222f75}
+		 $hex60= {2461363d20222f636f}
+		 $hex61= {2461373d20222f636f}
+		 $hex62= {2461383d20222f636f}
+		 $hex63= {2461393d20222f636f}
+		 $hex64= {247331303d20226170}
+		 $hex65= {247331313d20226170}
+		 $hex66= {247331323d20226170}
+		 $hex67= {247331333d20226170}
+		 $hex68= {247331343d20226170}
+		 $hex69= {247331353d20226170}
+		 $hex70= {247331363d20226578}
+		 $hex71= {247331373d20226578}
+		 $hex72= {247331383d20226578}
+		 $hex73= {247331393d20224661}
+		 $hex74= {2473313d2022212325}
+		 $hex75= {247332303d20227370}
+		 $hex76= {2473323d2022617069}
+		 $hex77= {2473333d2022617069}
+		 $hex78= {2473343d2022617069}
+		 $hex79= {2473353d2022617069}
+		 $hex80= {2473363d2022617069}
+		 $hex81= {2473373d2022617069}
+		 $hex82= {2473383d2022617069}
+		 $hex83= {2473393d2022617069}
 
 	condition:
-		14 of them
+		55 of them
 }

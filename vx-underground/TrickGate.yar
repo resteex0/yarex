@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: TrickGate 
+   Identifier: vx_underground2_TrickGate 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_TrickGate {
+rule resteex_vx_underground2_TrickGate {
 	meta: 
-		 description= "TrickGate Group" 
+		 description= "vx_underground2_TrickGate Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-25-43" 
+		 date = "2022-01-20_22-17-43" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "442f1e3d2825d51810bf9929f46439d2"
 		 hash2= "6e49d82395b641a449c85bfa37dbbbc2"

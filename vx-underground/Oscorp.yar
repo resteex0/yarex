@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Oscorp 
+   Identifier: vx_underground2_Oscorp 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Oscorp {
+rule resteex_vx_underground2_Oscorp {
 	meta: 
-		 description= "Oscorp Group" 
+		 description= "vx_underground2_Oscorp Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-21-18" 
+		 date = "2022-01-20_22-13-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8daf9ba69c0dcf9224fd1e4006c9dad3"
 		 hash2= "c219509f3c95287a6b9900138628e5e1"
@@ -357,5 +357,5 @@ rule resteex_Oscorp {
 		 $hex168= {2461393d20224c616e}
 
 	condition:
-		84 of them
+		112 of them
 }

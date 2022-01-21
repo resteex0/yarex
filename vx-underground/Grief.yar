@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Grief 
+   Identifier: vx_underground2_Grief 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Grief {
+rule resteex_vx_underground2_Grief {
 	meta: 
-		 description= "Grief Group" 
+		 description= "vx_underground2_Grief Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-05-04" 
+		 date = "2022-01-20_21-57-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0c6889688b060544205620fe1fdbfa4d"
 		 hash2= "3eed5f9a1d57b6ae71a5d434ea38814d"

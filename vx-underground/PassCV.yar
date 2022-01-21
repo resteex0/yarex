@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: PassCV 
+   Identifier: vx_underground2_PassCV 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_PassCV {
+rule resteex_vx_underground2_PassCV {
 	meta: 
-		 description= "PassCV Group" 
+		 description= "vx_underground2_PassCV Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-20" 
+		 date = "2022-01-20_22-13-16" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "011858556ad3a5ef1a6bbc6ad9eaae09"
 		 hash2= "027eb2cda9f1c8df00e26641ce4ef12d"
@@ -128,38 +128,36 @@ rule resteex_PassCV {
 		 $s20= "spanish-dominican republic" fullword wide
 		 $s21= "tianshiyed@iaomaomark1#23mark123tokenmarkqwebjiuga664115" fullword wide
 		 $s22= "uninstallerOmigaZip.inst" fullword wide
-		 $a1= "REGISTRYMACHINESYSTEMCurrentControlSetServices" fullword ascii
-		 $a2= "SoftwareMicrosoftWindowsCurrentVersionUninstall" fullword ascii
-		 $a3= "SOFTWAREMicrosoftWindowsCurrentVersionUninstallWinZipper" fullword ascii
-		 $a4= "tianshiyed@iaomaomark1#23mark123tokenmarkqwebjiuga664115" fullword ascii
+		 $a1= "123QRSTUabcdVWXYZHijKLAWDCABDstEFGuvwxyzGHIJklmnopqr234560178912" fullword ascii
+		 $a2= ".?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@" fullword ascii
+		 $a3= ".?AVinvalid_scheduler_policy_thread_specification@Concurrency@@" fullword ascii
 
-		 $hex1= {2461313d2022524547}
-		 $hex2= {2461323d2022536f66}
-		 $hex3= {2461333d2022534f46}
-		 $hex4= {2461343d2022746961}
-		 $hex5= {247331303d20224874}
-		 $hex6= {247331313d20225065}
-		 $hex7= {247331323d20225073}
-		 $hex8= {247331333d20225245}
-		 $hex9= {247331343d20225245}
-		 $hex10= {247331353d20225245}
-		 $hex11= {247331363d2022534f}
-		 $hex12= {247331373d2022536f}
-		 $hex13= {247331383d2022536f}
-		 $hex14= {247331393d2022534f}
-		 $hex15= {2473313d20223a3a7b}
-		 $hex16= {247332303d20227370}
-		 $hex17= {247332313d20227469}
-		 $hex18= {247332323d2022756e}
-		 $hex19= {2473323d2022362e30}
-		 $hex20= {2473333d2022362e30}
-		 $hex21= {2473343d2022362e33}
-		 $hex22= {2473353d2022434c53}
-		 $hex23= {2473363d2022433a50}
-		 $hex24= {2473373d2022433a50}
-		 $hex25= {2473383d2022643177}
-		 $hex26= {2473393d2022663865}
+		 $hex1= {2461313d2022313233}
+		 $hex2= {2461323d20222e3f41}
+		 $hex3= {2461333d20222e3f41}
+		 $hex4= {247331303d20224874}
+		 $hex5= {247331313d20225065}
+		 $hex6= {247331323d20225073}
+		 $hex7= {247331333d20225245}
+		 $hex8= {247331343d20225245}
+		 $hex9= {247331353d20225245}
+		 $hex10= {247331363d2022534f}
+		 $hex11= {247331373d2022536f}
+		 $hex12= {247331383d2022536f}
+		 $hex13= {247331393d2022534f}
+		 $hex14= {2473313d20223a3a7b}
+		 $hex15= {247332303d20227370}
+		 $hex16= {247332313d20227469}
+		 $hex17= {247332323d2022756e}
+		 $hex18= {2473323d2022362e30}
+		 $hex19= {2473333d2022362e30}
+		 $hex20= {2473343d2022362e33}
+		 $hex21= {2473353d2022434c53}
+		 $hex22= {2473363d2022433a50}
+		 $hex23= {2473373d2022433a50}
+		 $hex24= {2473383d2022643177}
+		 $hex25= {2473393d2022663865}
 
 	condition:
-		17 of them
+		16 of them
 }

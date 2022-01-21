@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: DecafRansomware 
+   Identifier: vx_underground2_DecafRansomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_DecafRansomware {
+rule resteex_vx_underground2_DecafRansomware {
 	meta: 
-		 description= "DecafRansomware Group" 
+		 description= "vx_underground2_DecafRansomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-02-41" 
+		 date = "2022-01-20_21-54-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "298b9c281bab03460621171d76476850"
 		 hash2= "46a1325bb01e37e0ee2d2ba37db257f2"
@@ -27,5 +27,5 @@ rule resteex_DecafRansomware {
 		 $hex3= {2461333d20223e6874}
 
 	condition:
-		1 of them
+		2 of them
 }

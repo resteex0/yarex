@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: KRBanker 
+   Identifier: vx_underground2_KRBanker 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_KRBanker {
+rule resteex_vx_underground2_KRBanker {
 	meta: 
-		 description= "KRBanker Group" 
+		 description= "vx_underground2_KRBanker Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-11-15" 
+		 date = "2022-01-20_22-04-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00008c121e0cafc02f658f6ee73ef40c"
 		 hash2= "003aaeecfdb4810ad430748c267e7285"
@@ -1895,45 +1895,99 @@ rule resteex_KRBanker {
 		 $s31= "vsdgyuis4ithsv dfgsrfy5esrgf" fullword wide
 		 $s32= ":WindowsUsersAgreeUpforWiseRu" fullword wide
 		 $s33= "XGLoginUpdater Application" fullword wide
-		 $a1= "EGISTRYUSERS-1-5-21-1844237615-113007714-839522115-1003" fullword ascii
-		 $a2= "HKEY_LOCAL_MACHINESoftwareMicrosoftWindowsCurrentVersionRun" fullword ascii
+		 $a1= "%! *!!'$#-'%+)'-)'-+)/,+/,+4/0432;55;77=98A@?IMOWWWg^`kggwss" fullword ascii
+		 $a2= "*#%0+-7.19/0:,.8.-6/+6),1*+5-.8-0813;36;95@=:C;=EB=FCAGA@J)(P" fullword ascii
+		 $a3= "2=5.88*63+5,)3/*0?7*/-RXMoyh_q``vc" fullword ascii
+		 $a4= "3/" fullword ascii
+		 $a5= "3/;2.>51@73>51" fullword ascii
+		 $a6= "331%%',++$$*876X`i" fullword ascii
+		 $a7= ".36(,-,+//-3)/6./9/3845?69>;:C?>HBBHBGEBCG?BFYS^" fullword ascii
+		 $a8= ":3B62=0.401521535=?;FHFYSM`VSiXUnQMfOLbPMcF@YJD[" fullword ascii
+		 $a9= "3H31=41A" fullword ascii
+		 $a10= "=8AD@FJDOOITZS`SIVI@JXQXhdiwvxqhu" fullword ascii
+		 $a11= "8D96E>8K:8D==K" fullword ascii
+		 $a12= "8@MSVd``ld[WfXY^UQaUU^RPPNZNLZQNXPI[PLSMHZNLTJJSJGRGIRHH" fullword ascii
+		 $a13= "9?94:4/" fullword ascii
+		 $a14= ";A@CKJILKHNNMSSRYYZNMLMLJGFEAAC??F?@@433%&'" fullword ascii
+		 $a15= "{|aY`hahfclUR[VXc]_j^oQQcMKaMM_MM]DFQ58@7;@DGO]Zgcif_b_X[]UV" fullword ascii
+		 $a16= "_c|SWj@@R+/:4/>72A2.9--343701598B>=GQM`QM`WTjXTmMG`EDXJG]ICNH_" fullword ascii
+		 $a17= "E>>D0*I" fullword ascii
+		 $a18= "E?>GDGUABP;=>VNO" fullword ascii
+		 $a19= "eWRvbWFpbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2s+IYBEK8eaZFK7E" fullword ascii
+		 $a20= ">F@>JCBKIGSIHRHDODCLCBLROXXcut}" fullword ascii
+		 $a21= "Fw0yMTEwMzAxMjE4MTJaMIGFMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFTAT" fullword ascii
+		 $a22= "ggkA8QXb15HaocgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQAICP3H" fullword ascii
+		 $a23= "HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVersionRun" fullword ascii
+		 $a24= "iTrRJgp+SIkwjtg0gRtrRPjiqQmZnpfhOfJbnh4oPRdAF5hMM1h/oNqH/qEjfaeN" fullword ascii
+		 $a25= "N.+;50??9D72;0/310432;82=?>NQJ_Vm]WpRNgJG]GDZB;VD>W" fullword ascii
+		 $a26= "^^pMRgAAY>?S22B*+9##/'*2*.9E@O`[jUQ++9&,98>Q>EXLWkU`{NZrc|`h" fullword ascii
+		 $a27= "RTl:>P44F.0:74C75A44:,/4/12-04CFK=;GPMRPcURhQNdGCB@VC?XG>YHBY" fullword ascii
+		 $a28= "Utu*Dh2Lq1Mp-Fh-Hb'5L+0O,4R0>U-;R1?&;V1>^)Bb8Qq5Ux;Uz6Y{4Ru-Je" fullword ascii
+		 $a29= "vPVHxP2/3rxjbgTHh/3wlNO0gOAcNUHBsaTpRsyWaiEysdNQXjYyEotbu32ee+Gq" fullword ascii
 
-		 $hex1= {2461313d2022454749}
-		 $hex2= {2461323d2022484b45}
-		 $hex3= {247331303d20224365}
-		 $hex4= {247331313d20223f43}
-		 $hex5= {247331323d2022433a}
-		 $hex6= {247331333d2022433a}
-		 $hex7= {247331343d20224547}
-		 $hex8= {247331353d20224578}
-		 $hex9= {247331363d2022484b}
-		 $hex10= {247331373d20226874}
-		 $hex11= {247331383d20226874}
-		 $hex12= {247331393d20226874}
-		 $hex13= {2473313d2022322e37}
-		 $hex14= {247332303d20226874}
-		 $hex15= {247332313d20226874}
-		 $hex16= {247332323d20226874}
-		 $hex17= {247332333d20224943}
-		 $hex18= {247332343d20224944}
-		 $hex19= {247332353d20224972}
-		 $hex20= {247332363d20225264}
-		 $hex21= {247332373d20225365}
-		 $hex22= {247332383d2022556e}
-		 $hex23= {247332393d2022566f}
-		 $hex24= {2473323d2022352e31}
-		 $hex25= {247333303d20225672}
-		 $hex26= {247333313d20227673}
-		 $hex27= {247333323d20223a57}
-		 $hex28= {247333333d20225847}
-		 $hex29= {2473333d2022362e31}
-		 $hex30= {2473343d2022362e33}
-		 $hex31= {2473353d2022392e32}
-		 $hex32= {2473363d2022617070}
-		 $hex33= {2473373d2022415845}
-		 $hex34= {2473383d2022426169}
-		 $hex35= {2473393d2022436564}
+		 $hex1= {246131303d20223d38}
+		 $hex2= {246131313d20223844}
+		 $hex3= {246131323d20223840}
+		 $hex4= {246131333d2022393f}
+		 $hex5= {246131343d20223b41}
+		 $hex6= {246131353d20227b7c}
+		 $hex7= {246131363d20225f63}
+		 $hex8= {246131373d2022453e}
+		 $hex9= {246131383d2022453f}
+		 $hex10= {246131393d20226557}
+		 $hex11= {2461313d2022252120}
+		 $hex12= {246132303d20223e46}
+		 $hex13= {246132313d20224677}
+		 $hex14= {246132323d20226767}
+		 $hex15= {246132333d2022484b}
+		 $hex16= {246132343d20226954}
+		 $hex17= {246132353d20224e2e}
+		 $hex18= {246132363d20225e5e}
+		 $hex19= {246132373d20225254}
+		 $hex20= {246132383d20225574}
+		 $hex21= {246132393d20227650}
+		 $hex22= {2461323d20222a2325}
+		 $hex23= {2461333d2022323d35}
+		 $hex24= {2461343d2022332f22}
+		 $hex25= {2461353d2022332f3b}
+		 $hex26= {2461363d2022333331}
+		 $hex27= {2461373d20222e3336}
+		 $hex28= {2461383d20223a3342}
+		 $hex29= {2461393d2022334833}
+		 $hex30= {247331303d20224365}
+		 $hex31= {247331313d20223f43}
+		 $hex32= {247331323d2022433a}
+		 $hex33= {247331333d2022433a}
+		 $hex34= {247331343d20224547}
+		 $hex35= {247331353d20224578}
+		 $hex36= {247331363d2022484b}
+		 $hex37= {247331373d20226874}
+		 $hex38= {247331383d20226874}
+		 $hex39= {247331393d20226874}
+		 $hex40= {2473313d2022322e37}
+		 $hex41= {247332303d20226874}
+		 $hex42= {247332313d20226874}
+		 $hex43= {247332323d20226874}
+		 $hex44= {247332333d20224943}
+		 $hex45= {247332343d20224944}
+		 $hex46= {247332353d20224972}
+		 $hex47= {247332363d20225264}
+		 $hex48= {247332373d20225365}
+		 $hex49= {247332383d2022556e}
+		 $hex50= {247332393d2022566f}
+		 $hex51= {2473323d2022352e31}
+		 $hex52= {247333303d20225672}
+		 $hex53= {247333313d20227673}
+		 $hex54= {247333323d20223a57}
+		 $hex55= {247333333d20225847}
+		 $hex56= {2473333d2022362e31}
+		 $hex57= {2473343d2022362e33}
+		 $hex58= {2473353d2022392e32}
+		 $hex59= {2473363d2022617070}
+		 $hex60= {2473373d2022415845}
+		 $hex61= {2473383d2022426169}
+		 $hex62= {2473393d2022436564}
 
 	condition:
-		23 of them
+		41 of them
 }

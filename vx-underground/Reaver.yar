@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Reaver 
+   Identifier: vx_underground2_Reaver 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Reaver {
+rule resteex_vx_underground2_Reaver {
 	meta: 
-		 description= "Reaver Group" 
+		 description= "vx_underground2_Reaver Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-06" 
+		 date = "2022-01-20_22-15-00" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "06b79a19d510c706df6324a0734c298e"
 		 hash2= "11a5b1901243396984670af7acc6cf72"
@@ -54,34 +54,30 @@ rule resteex_Reaver {
 		 $s18= "[StartListenThread]:WSACreateEvent failed." fullword wide
 		 $s19= "[StartListenThread]:WSAEventSelect failed." fullword wide
 		 $s20= "[ThreadListenProc]:WSAAccept INVALID_SOCKET." fullword wide
-		 $a1= "[BindToCompletionPort]:CreateIoCompletionPort failed." fullword ascii
-		 $a2= "[CreateCompletionPort]:CreateIoCompletionPort failed." fullword ascii
-		 $a3= "SoftWareMicrosoftWindowsCurrentVersionUninstall" fullword ascii
+		 $a1= "SOFTWAREMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword ascii
 
-		 $hex1= {2461313d20225b4269}
-		 $hex2= {2461323d20225b4372}
-		 $hex3= {2461333d2022536f66}
-		 $hex4= {247331303d2022536f}
-		 $hex5= {247331313d20225b53}
-		 $hex6= {247331323d20225b53}
-		 $hex7= {247331333d20225b53}
-		 $hex8= {247331343d20225b53}
-		 $hex9= {247331353d20225b53}
-		 $hex10= {247331363d20225b53}
-		 $hex11= {247331373d20225b53}
-		 $hex12= {247331383d20225b53}
-		 $hex13= {247331393d20225b53}
-		 $hex14= {2473313d20227b3442}
-		 $hex15= {247332303d20225b54}
-		 $hex16= {2473323d20225b4269}
-		 $hex17= {2473333d20225b4269}
-		 $hex18= {2473343d20225b4372}
-		 $hex19= {2473353d20224a6176}
-		 $hex20= {2473363d20225b4f6e}
-		 $hex21= {2473373d2022725b41}
-		 $hex22= {2473383d2022532d31}
-		 $hex23= {2473393d2022257347}
+		 $hex1= {2461313d2022534f46}
+		 $hex2= {247331303d2022536f}
+		 $hex3= {247331313d20225b53}
+		 $hex4= {247331323d20225b53}
+		 $hex5= {247331333d20225b53}
+		 $hex6= {247331343d20225b53}
+		 $hex7= {247331353d20225b53}
+		 $hex8= {247331363d20225b53}
+		 $hex9= {247331373d20225b53}
+		 $hex10= {247331383d20225b53}
+		 $hex11= {247331393d20225b53}
+		 $hex12= {2473313d20227b3442}
+		 $hex13= {247332303d20225b54}
+		 $hex14= {2473323d20225b4269}
+		 $hex15= {2473333d20225b4269}
+		 $hex16= {2473343d20225b4372}
+		 $hex17= {2473353d20224a6176}
+		 $hex18= {2473363d20225b4f6e}
+		 $hex19= {2473373d2022725b41}
+		 $hex20= {2473383d2022532d31}
+		 $hex21= {2473393d2022257347}
 
 	condition:
-		15 of them
+		14 of them
 }

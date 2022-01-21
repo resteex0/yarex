@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Zuru 
+   Identifier: vx_underground2_MacOS_Zuru 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Zuru {
+rule resteex_vx_underground2_MacOS_Zuru {
 	meta: 
-		 description= "MacOS_Zuru Group" 
+		 description= "vx_underground2_MacOS_Zuru Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-48" 
+		 date = "2022-01-20_22-10-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2786ebc3b917866d30e622325fc6f5f3"
 		 hash2= "47d774e5307215c7c11151211c8d3ce2"
@@ -161,5 +161,5 @@ rule resteex_MacOS_Zuru {
 		 $hex68= {2461393d20222d5b41}
 
 	condition:
-		34 of them
+		45 of them
 }

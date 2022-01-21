@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Fareit 
+   Identifier: vx_underground2_Fareit 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Fareit {
+rule resteex_vx_underground2_Fareit {
 	meta: 
-		 description= "Fareit Group" 
+		 description= "vx_underground2_Fareit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-04-33" 
+		 date = "2022-01-20_21-56-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00b4e93b616c9cc97a9c0f26106b94e0"
 		 hash2= "019e7b13c35a587ef278f6a7c79f65e3"

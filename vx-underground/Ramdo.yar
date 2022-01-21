@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Ramdo 
+   Identifier: vx_underground2_Ramdo 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Ramdo {
+rule resteex_vx_underground2_Ramdo {
 	meta: 
-		 description= "Ramdo Group" 
+		 description= "vx_underground2_Ramdo Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-17-11" 
+		 date = "2022-01-20_22-14-00" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0006523e5249d7a9c6ac01cf0c317be9"
 		 hash2= "00a48e2c5c8732cb52e3dab8faaf44c8"
@@ -853,111 +853,99 @@ rule resteex_Ramdo {
 		 $s63= "U_i=V`j>Wak?Xbl@YcmAZdnB[eoCfpD]gq" fullword wide
 		 $s64= "ZipFolder_BuildEnumerator" fullword wide
 		 $s65= "ZipFolder_WizardExtractAll" fullword wide
-		 $a1= "http://data-cdn.mbamupdates.com/v0/program/data/mbam-setup-" fullword ascii
-		 $a2= "http://data-cdn.mbamupdates.com/v0/program/mbam.check.program" fullword ascii
-		 $a3= "%ProgramData%MicrosoftWindowsStart MenuPrograms" fullword ascii
-		 $a4= "RegistryMachineSoftwareMalwarebytes Anti-Malware" fullword ascii
-		 $a5= "RegistryMachineSoftwareWow6432NodeMalwarebytes Anti-Malware" fullword ascii
-		 $a6= "RegistryMACHINESYSTEMCONTROLSET*SERVICESMBAMProtector" fullword ascii
-		 $a7= "RegistryMACHINESYSTEMCONTROLSET*SERVICESMBAMScheduler" fullword ascii
-		 $a8= "RegistryMACHINESYSTEMCONTROLSET*SERVICESMBAMService" fullword ascii
-		 $a9= "RegistryMachineSystemCurrentControlSetControlWindows" fullword ascii
-		 $a10= "RegistryMACHINESYSTEMCURRENTCONTROLSETSERVICES" fullword ascii
-		 $a11= "RegistryMACHINESYSTEMCURRENTCONTROLSETSERVICESMBAMService" fullword ascii
-		 $a12= "SoftwareMicrosoftSystemCertificatesDisallowedCertificates" fullword ascii
-		 $a13= "SoftwareMicrosoftWindowsCurrentVersionUninstall" fullword ascii
-		 $a14= "SOFTWAREMicrosoftWindows NTCurrentVersionWinPE" fullword ascii
-		 $a15= "SOFTWAREPoliciesMicrosoftWindowssafercodeidentifiers" fullword ascii
-		 $a16= "SOFTWAREPoliciesMicrosoftWindowssafercodeidentifiers" fullword ascii
-		 $a17= "SYSTEMCurrentControlSetControlServiceGroupOrder" fullword ascii
-		 $a18= "SYSTEMCurrentControlSetservicesEventLogsystem" fullword ascii
-		 $a19= "%SystemDrive%Users*desktopMalwarebytes Anti-Malware.lnk" fullword ascii
+		 $a1= "1i1Y$11yY11H1Y3Y1@Y+Y%1Y!1Y-YYYe11YY1e1]Y=1Y01Y2Y1Y&1Ye11pY)Y" fullword ascii
+		 $a2= ",'=33.#//&: >+(>.5(-:14&!,4()!)2945::#6+54$(4&.1#$&" fullword ascii
+		 $a3= "ciVbE\\A6_YlK\\^_eL\\s\\W_B/GN\\2DL^4L\\DrQ^J*\\N" fullword ascii
+		 $a4= "DelIniIfMatched {windir}Inf{InfFile},Version,Class,{ClassType}" fullword ascii
+		 $a5= "hihhnjhRwhayhKSihhiKlhX7ig@iirihii@ah{ohP/ivGiihhpyi@Jh{wi]Ghiih" fullword ascii
+		 $a6= ">http://www.microsoft.com/pki/certs/MicCodSigPCA_08-31-2010.crt0" fullword ascii
+		 $a7= ">http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0" fullword ascii
+		 $a8= ">http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0" fullword ascii
+		 $a9= "http://www.microsoft.com/pki/certs/MicrosoftTimeStampPCA.crt0" fullword ascii
+		 $a10= ">http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0" fullword ascii
+		 $a11= "KK" fullword ascii
+		 $a12= "KtKKKDKKeKhK}KBKKK:KK,KqKAK5KKKqKK KCK$K" fullword ascii
+		 $a13= "uhhh6luhiiy#=hiVq{hiia$xii" fullword ascii
 
-		 $hex1= {246131303d20225265}
-		 $hex2= {246131313d20225265}
-		 $hex3= {246131323d2022536f}
-		 $hex4= {246131333d2022536f}
-		 $hex5= {246131343d2022534f}
-		 $hex6= {246131353d2022534f}
-		 $hex7= {246131363d2022534f}
-		 $hex8= {246131373d20225359}
-		 $hex9= {246131383d20225359}
-		 $hex10= {246131393d20222553}
-		 $hex11= {2461313d2022687474}
-		 $hex12= {2461323d2022687474}
-		 $hex13= {2461333d2022255072}
-		 $hex14= {2461343d2022526567}
-		 $hex15= {2461353d2022526567}
-		 $hex16= {2461363d2022526567}
-		 $hex17= {2461373d2022526567}
-		 $hex18= {2461383d2022526567}
-		 $hex19= {2461393d2022526567}
-		 $hex20= {247331303d2022362e}
-		 $hex21= {247331313d2022372e}
-		 $hex22= {247331323d20224368}
-		 $hex23= {247331333d2022436f}
-		 $hex24= {247331343d20222e44}
-		 $hex25= {247331353d2022446f}
-		 $hex26= {247331363d2022484b}
-		 $hex27= {247331373d2022484b}
-		 $hex28= {247331383d2022484b}
-		 $hex29= {247331393d2022484b}
-		 $hex30= {2473313d202231302e}
-		 $hex31= {247332303d2022484b}
-		 $hex32= {247332313d2022484b}
-		 $hex33= {247332323d20226874}
-		 $hex34= {247332333d20226874}
-		 $hex35= {247332343d20226874}
-		 $hex36= {247332353d20224d61}
-		 $hex37= {247332363d20226d62}
-		 $hex38= {247332373d20224d69}
-		 $hex39= {247332383d20224e41}
-		 $hex40= {247332393d20224e41}
-		 $hex41= {2473323d2022312e30}
-		 $hex42= {247333303d20224e41}
-		 $hex43= {247333313d20225072}
-		 $hex44= {247333323d20222550}
-		 $hex45= {247333333d20225265}
-		 $hex46= {247333343d20225265}
-		 $hex47= {247333353d20225265}
-		 $hex48= {247333363d20225265}
-		 $hex49= {247333373d20225265}
-		 $hex50= {247333383d20225265}
-		 $hex51= {247333393d20225265}
-		 $hex52= {2473333d2022352e31}
-		 $hex53= {247334303d20225265}
-		 $hex54= {247334313d20225265}
-		 $hex55= {247334323d20225265}
-		 $hex56= {247334333d20225250}
-		 $hex57= {247334343d20225274}
-		 $hex58= {247334353d20224053}
-		 $hex59= {247334363d20225365}
-		 $hex60= {247334373d2022536f}
-		 $hex61= {247334383d2022536f}
-		 $hex62= {247334393d2022536f}
-		 $hex63= {2473343d2022352e31}
-		 $hex64= {247335303d2022534f}
-		 $hex65= {247335313d2022536f}
-		 $hex66= {247335323d2022534f}
-		 $hex67= {247335333d2022534f}
-		 $hex68= {247335343d2022534f}
-		 $hex69= {247335353d20225374}
-		 $hex70= {247335363d20225359}
-		 $hex71= {247335373d20225359}
-		 $hex72= {247335383d20225359}
-		 $hex73= {247335393d20225359}
-		 $hex74= {2473353d2022352e31}
-		 $hex75= {247336303d20225359}
-		 $hex76= {247336313d20222553}
-		 $hex77= {247336323d20222553}
-		 $hex78= {247336333d2022555f}
-		 $hex79= {247336343d20225a69}
-		 $hex80= {247336353d20225a69}
-		 $hex81= {2473363d2022352e31}
-		 $hex82= {2473373d2022362e30}
-		 $hex83= {2473383d2022362e31}
-		 $hex84= {2473393d2022362e31}
+		 $hex1= {246131303d20223e68}
+		 $hex2= {246131313d20224b4b}
+		 $hex3= {246131323d20224b74}
+		 $hex4= {246131333d20227568}
+		 $hex5= {2461313d2022316931}
+		 $hex6= {2461323d20222c273d}
+		 $hex7= {2461333d2022636956}
+		 $hex8= {2461343d202244656c}
+		 $hex9= {2461353d2022686968}
+		 $hex10= {2461363d20223e6874}
+		 $hex11= {2461373d20223e6874}
+		 $hex12= {2461383d20223e6874}
+		 $hex13= {2461393d2022687474}
+		 $hex14= {247331303d2022362e}
+		 $hex15= {247331313d2022372e}
+		 $hex16= {247331323d20224368}
+		 $hex17= {247331333d2022436f}
+		 $hex18= {247331343d20222e44}
+		 $hex19= {247331353d2022446f}
+		 $hex20= {247331363d2022484b}
+		 $hex21= {247331373d2022484b}
+		 $hex22= {247331383d2022484b}
+		 $hex23= {247331393d2022484b}
+		 $hex24= {2473313d202231302e}
+		 $hex25= {247332303d2022484b}
+		 $hex26= {247332313d2022484b}
+		 $hex27= {247332323d20226874}
+		 $hex28= {247332333d20226874}
+		 $hex29= {247332343d20226874}
+		 $hex30= {247332353d20224d61}
+		 $hex31= {247332363d20226d62}
+		 $hex32= {247332373d20224d69}
+		 $hex33= {247332383d20224e41}
+		 $hex34= {247332393d20224e41}
+		 $hex35= {2473323d2022312e30}
+		 $hex36= {247333303d20224e41}
+		 $hex37= {247333313d20225072}
+		 $hex38= {247333323d20222550}
+		 $hex39= {247333333d20225265}
+		 $hex40= {247333343d20225265}
+		 $hex41= {247333353d20225265}
+		 $hex42= {247333363d20225265}
+		 $hex43= {247333373d20225265}
+		 $hex44= {247333383d20225265}
+		 $hex45= {247333393d20225265}
+		 $hex46= {2473333d2022352e31}
+		 $hex47= {247334303d20225265}
+		 $hex48= {247334313d20225265}
+		 $hex49= {247334323d20225265}
+		 $hex50= {247334333d20225250}
+		 $hex51= {247334343d20225274}
+		 $hex52= {247334353d20224053}
+		 $hex53= {247334363d20225365}
+		 $hex54= {247334373d2022536f}
+		 $hex55= {247334383d2022536f}
+		 $hex56= {247334393d2022536f}
+		 $hex57= {2473343d2022352e31}
+		 $hex58= {247335303d2022534f}
+		 $hex59= {247335313d2022536f}
+		 $hex60= {247335323d2022534f}
+		 $hex61= {247335333d2022534f}
+		 $hex62= {247335343d2022534f}
+		 $hex63= {247335353d20225374}
+		 $hex64= {247335363d20225359}
+		 $hex65= {247335373d20225359}
+		 $hex66= {247335383d20225359}
+		 $hex67= {247335393d20225359}
+		 $hex68= {2473353d2022352e31}
+		 $hex69= {247336303d20225359}
+		 $hex70= {247336313d20222553}
+		 $hex71= {247336323d20222553}
+		 $hex72= {247336333d2022555f}
+		 $hex73= {247336343d20225a69}
+		 $hex74= {247336353d20225a69}
+		 $hex75= {2473363d2022352e31}
+		 $hex76= {2473373d2022362e30}
+		 $hex77= {2473383d2022362e31}
+		 $hex78= {2473393d2022362e31}
 
 	condition:
-		56 of them
+		52 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Blackhole_EK 
+   Identifier: vx_underground2_Blackhole_EK 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Blackhole_EK {
+rule resteex_vx_underground2_Blackhole_EK {
 	meta: 
-		 description= "Blackhole_EK Group" 
+		 description= "vx_underground2_Blackhole_EK Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-01-07" 
+		 date = "2022-01-20_21-53-46" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02d8e6daef5a4723621c25cfb766a23d"
 		 hash2= "06997228f2769859ef5e4cd8a454d650"
@@ -93,5 +93,5 @@ rule resteex_Blackhole_EK {
 		 $hex3= {2473313d2022403130}
 
 	condition:
-		1 of them
+		2 of them
 }

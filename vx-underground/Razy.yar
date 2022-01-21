@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Razy 
+   Identifier: vx_underground2_Razy 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Razy {
+rule resteex_vx_underground2_Razy {
 	meta: 
-		 description= "Razy Group" 
+		 description= "vx_underground2_Razy Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-05" 
+		 date = "2022-01-20_22-14-59" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1e936aa4e23a8a846c873fc0b8a5e13e"
 		 hash2= "2f858b2cdd1332777a75cb98481fe425"

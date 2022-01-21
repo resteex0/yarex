@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: SmokeLoader 
+   Identifier: vx_underground2_SmokeLoader 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_SmokeLoader {
+rule resteex_vx_underground2_SmokeLoader {
 	meta: 
-		 description= "SmokeLoader Group" 
+		 description= "vx_underground2_SmokeLoader Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-47" 
+		 date = "2022-01-20_22-17-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "66a2a7f0d83b797068895f9fcd2c886c"
 		 hash2= "96428fec8fcdc425c07cb6874bfdfa74"
@@ -24,12 +24,16 @@ rule resteex_SmokeLoader {
 		 $s2= "SEJUWUSIZABUTUXAKAYUPIGIGEYOKAHA" fullword wide
 		 $s3= "Tilonodagokolul roduvacexir" fullword wide
 		 $s4= "tixetusepobirabuxawevomepenetis" fullword wide
+		 $a1= "cahenokejocijugujinugacokimugizirafehewisamiwetutonuwacogohatudo" fullword ascii
+		 $a2= "C:juxisemiv6sefehoy-foyifugew36tadimoviyoruzwosal1.pdb" fullword ascii
 
-		 $hex1= {2473313d2022706f64}
-		 $hex2= {2473323d202253454a}
-		 $hex3= {2473333d202254696c}
-		 $hex4= {2473343d2022746978}
+		 $hex1= {2461313d2022636168}
+		 $hex2= {2461323d2022433a6a}
+		 $hex3= {2473313d2022706f64}
+		 $hex4= {2473323d202253454a}
+		 $hex5= {2473333d202254696c}
+		 $hex6= {2473343d2022746978}
 
 	condition:
-		2 of them
+		4 of them
 }

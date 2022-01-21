@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Virlock 
+   Identifier: vx_underground2_Virlock 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Virlock {
+rule resteex_vx_underground2_Virlock {
 	meta: 
-		 description= "Virlock Group" 
+		 description= "vx_underground2_Virlock Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-25-50" 
+		 date = "2022-01-20_22-17-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "009580224a928379b801eff9062b3fd5"
 		 hash2= "00a14cec7de23fe480857b99f29f9eea"
@@ -100,5 +100,5 @@ rule resteex_Virlock {
 		 $hex7= {2461373d20225a4d54}
 
 	condition:
-		3 of them
+		4 of them
 }

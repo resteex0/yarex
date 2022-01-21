@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: SkypeWorm 
+   Identifier: vx_underground2_SkypeWorm 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_SkypeWorm {
+rule resteex_vx_underground2_SkypeWorm {
 	meta: 
-		 description= "SkypeWorm Group" 
+		 description= "vx_underground2_SkypeWorm Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-18-45" 
+		 date = "2022-01-20_22-17-18" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4bdbb78ef4f1197929085619c0ba7619"
 		 hash2= "94a261b4c1a4c47bdb3eb1f5dc16f91c"

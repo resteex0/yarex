@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Daserf 
+   Identifier: vx_underground2_Daserf 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Daserf {
+rule resteex_vx_underground2_Daserf {
 	meta: 
-		 description= "Daserf Group" 
+		 description= "vx_underground2_Daserf Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-02-18" 
+		 date = "2022-01-20_21-54-44" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0793e40192cb5916d1aeb03e045ddd58"
 		 hash2= "1142d535d2616fb8d9136bb7ae787122"

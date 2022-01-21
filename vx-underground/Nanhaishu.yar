@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Nanhaishu 
+   Identifier: vx_underground2_Nanhaishu 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Nanhaishu {
+rule resteex_vx_underground2_Nanhaishu {
 	meta: 
-		 description= "Nanhaishu Group" 
+		 description= "vx_underground2_Nanhaishu Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-47" 
+		 date = "2022-01-20_22-11-47" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "97da0784fddfef932d7d31884f088b40"
 		 hash2= "c0326d13c9619ebf6ee302cebda6cbfe"

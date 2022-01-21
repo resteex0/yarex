@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: BotenaGo 
+   Identifier: vx_underground2_BotenaGo 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_BotenaGo {
+rule resteex_vx_underground2_BotenaGo {
 	meta: 
-		 description= "BotenaGo Group" 
+		 description= "vx_underground2_BotenaGo Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-01-11" 
+		 date = "2022-01-20_21-53-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "29cb03edd8b97afe1d3d95c0fc6fa249"
 
@@ -50,5 +50,5 @@ rule resteex_BotenaGo {
 		 $hex15= {2461393d202276656e}
 
 	condition:
-		7 of them
+		10 of them
 }

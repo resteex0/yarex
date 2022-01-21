@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Mirai 
+   Identifier: vx_underground2_Mirai 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Mirai {
+rule resteex_vx_underground2_Mirai {
 	meta: 
-		 description= "Mirai Group" 
+		 description= "vx_underground2_Mirai Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-19-37" 
+		 date = "2022-01-20_22-11-31" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0255c6d7b88947c7bc82c9b06169e69d"
 		 hash2= "04877c5d79df37e33c0e238712f377e8"
@@ -146,5 +146,5 @@ rule resteex_Mirai {
 		 $hex3= {2473313d2022576f62}
 
 	condition:
-		1 of them
+		2 of them
 }

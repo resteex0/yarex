@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Werdlod 
+   Identifier: vx_underground2_Werdlod 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Werdlod {
+rule resteex_vx_underground2_Werdlod {
 	meta: 
-		 description= "Werdlod Group" 
+		 description= "vx_underground2_Werdlod Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-25-55" 
+		 date = "2022-01-20_22-17-56" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0f2830c242ad43268ef1165b020dc2ef"
 		 hash2= "221a1377ccd41553b16ba2a09546683c"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Coinvault 
+   Identifier: vx_underground2_Coinvault 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Coinvault {
+rule resteex_vx_underground2_Coinvault {
 	meta: 
-		 description= "Coinvault Group" 
+		 description= "vx_underground2_Coinvault Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-45" 
+		 date = "2022-01-20_21-54-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0154e37a91e3c6b00d1c7186042ca2fd"
 		 hash2= "0bf70d0622c92c445bc291d1b270c579"
@@ -87,66 +87,64 @@ rule resteex_Coinvault {
 		 $s46= "VOLugpcBBEttmofPfXoLwuZVv" fullword wide
 		 $s47= "wBufZPHNgpyCCnZXOZPkkjWeJ" fullword wide
 		 $s48= "yOxABQQTpXdGkBBQzzuzIvQlm" fullword wide
-		 $a1= "HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionRun" fullword ascii
-		 $a2= "http://www.nirsoft.net/utils/outlook_nk2_edit.html" fullword ascii
-		 $a3= "SOFTWAREMicrosoftOffice%d.0OutlookAutoNameCheck" fullword ascii
-		 $a4= "SOFTWAREMicrosoftWindowsCurrentVersionApp PathsOUTLOOK.EXE" fullword ascii
-		 $a5= "SoftwareMicrosoftWindowsCurrentVersionExplorerShell Folders" fullword ascii
+		 $a1= "\\192.168.0.10c$ProjectsVS2005NK2EditReleaseNK2Edit.pdb" fullword ascii
+		 $a2= "kAdNSWHBmgFixTs`WKOokntSskAmLSWIMmgBhxTpbWKOeanuQskAdJS&H'maF" fullword ascii
+		 $a3= "MIiAaVDfFxlDorGOx{nvYqYSG@IhA`WTfoxlEjsEOpkeVIqvVGA@iCaADlGhl" fullword ascii
+		 $a4= "TZUiNVzmqEUJyYPOj]PipUNiLYZTiOWjmXEUK|XRObM[I`UalLXSUkNAzgpUU" fullword ascii
 
-		 $hex1= {2461313d2022484b45}
-		 $hex2= {2461323d2022687474}
-		 $hex3= {2461333d2022534f46}
-		 $hex4= {2461343d2022534f46}
-		 $hex5= {2461353d2022536f66}
-		 $hex6= {247331303d20224669}
-		 $hex7= {247331313d20224765}
-		 $hex8= {247331323d20222f68}
-		 $hex9= {247331333d2022484b}
-		 $hex10= {247331343d20226874}
-		 $hex11= {247331353d20226874}
-		 $hex12= {247331363d20226874}
-		 $hex13= {247331373d20226874}
-		 $hex14= {247331383d20226874}
-		 $hex15= {247331393d20226941}
-		 $hex16= {2473313d20222e2534}
-		 $hex17= {247332303d20224950}
-		 $hex18= {247332313d20226a64}
-		 $hex19= {247332323d20224c6f}
-		 $hex20= {247332333d20224c53}
-		 $hex21= {247332343d20224d61}
-		 $hex22= {247332353d20224d69}
-		 $hex23= {247332363d20224e4b}
-		 $hex24= {247332373d20224e4b}
-		 $hex25= {247332383d20224e4b}
-		 $hex26= {247332393d20224e4b}
-		 $hex27= {2473323d2022393631}
-		 $hex28= {247333303d20224e4b}
-		 $hex29= {247333313d20224e4b}
-		 $hex30= {247333323d2022726d}
-		 $hex31= {247333333d2022536b}
-		 $hex32= {247333343d2022536f}
-		 $hex33= {247333353d2022534f}
-		 $hex34= {247333363d2022534f}
-		 $hex35= {247333373d2022534f}
-		 $hex36= {247333383d2022534f}
-		 $hex37= {247333393d2022534f}
-		 $hex38= {2473333d2022417070}
-		 $hex39= {247334303d2022534f}
-		 $hex40= {247334313d2022536f}
-		 $hex41= {247334323d2022536f}
-		 $hex42= {247334333d20225569}
-		 $hex43= {247334343d2022554c}
-		 $hex44= {247334353d20225573}
-		 $hex45= {247334363d2022564f}
-		 $hex46= {247334373d20227742}
-		 $hex47= {247334383d2022794f}
-		 $hex48= {2473343d2022617070}
-		 $hex49= {2473353d2022656376}
-		 $hex50= {2473363d2022656558}
-		 $hex51= {2473373d202246696e}
-		 $hex52= {2473383d202246696e}
-		 $hex53= {2473393d202246696e}
+		 $hex1= {2461313d2022313932}
+		 $hex2= {2461323d20226b4164}
+		 $hex3= {2461333d20224d4969}
+		 $hex4= {2461343d2022545a55}
+		 $hex5= {247331303d20224669}
+		 $hex6= {247331313d20224765}
+		 $hex7= {247331323d20222f68}
+		 $hex8= {247331333d2022484b}
+		 $hex9= {247331343d20226874}
+		 $hex10= {247331353d20226874}
+		 $hex11= {247331363d20226874}
+		 $hex12= {247331373d20226874}
+		 $hex13= {247331383d20226874}
+		 $hex14= {247331393d20226941}
+		 $hex15= {2473313d20222e2534}
+		 $hex16= {247332303d20224950}
+		 $hex17= {247332313d20226a64}
+		 $hex18= {247332323d20224c6f}
+		 $hex19= {247332333d20224c53}
+		 $hex20= {247332343d20224d61}
+		 $hex21= {247332353d20224d69}
+		 $hex22= {247332363d20224e4b}
+		 $hex23= {247332373d20224e4b}
+		 $hex24= {247332383d20224e4b}
+		 $hex25= {247332393d20224e4b}
+		 $hex26= {2473323d2022393631}
+		 $hex27= {247333303d20224e4b}
+		 $hex28= {247333313d20224e4b}
+		 $hex29= {247333323d2022726d}
+		 $hex30= {247333333d2022536b}
+		 $hex31= {247333343d2022536f}
+		 $hex32= {247333353d2022534f}
+		 $hex33= {247333363d2022534f}
+		 $hex34= {247333373d2022534f}
+		 $hex35= {247333383d2022534f}
+		 $hex36= {247333393d2022534f}
+		 $hex37= {2473333d2022417070}
+		 $hex38= {247334303d2022534f}
+		 $hex39= {247334313d2022536f}
+		 $hex40= {247334323d2022536f}
+		 $hex41= {247334333d20225569}
+		 $hex42= {247334343d2022554c}
+		 $hex43= {247334353d20225573}
+		 $hex44= {247334363d2022564f}
+		 $hex45= {247334373d20227742}
+		 $hex46= {247334383d2022794f}
+		 $hex47= {2473343d2022617070}
+		 $hex48= {2473353d2022656376}
+		 $hex49= {2473363d2022656558}
+		 $hex50= {2473373d202246696e}
+		 $hex51= {2473383d202246696e}
+		 $hex52= {2473393d202246696e}
 
 	condition:
-		35 of them
+		34 of them
 }

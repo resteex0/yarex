@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: ProjectSauron 
+   Identifier: vx_underground2_ProjectSauron 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_ProjectSauron {
+rule resteex_vx_underground2_ProjectSauron {
 	meta: 
-		 description= "ProjectSauron Group" 
+		 description= "vx_underground2_ProjectSauron Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-17-02" 
+		 date = "2022-01-20_22-13-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "01ac1cd4064b44cdfa24bf4eb40290e7"
 		 hash2= "1d9d7d05ab7c68bdc257afb1c086fb88"

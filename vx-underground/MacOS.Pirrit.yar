@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Pirrit 
+   Identifier: vx_underground2_MacOS_Pirrit 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Pirrit {
+rule resteex_vx_underground2_MacOS_Pirrit {
 	meta: 
-		 description= "MacOS_Pirrit Group" 
+		 description= "vx_underground2_MacOS_Pirrit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-36" 
+		 date = "2022-01-20_22-10-19" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "bd5f8ce198b71c6748603c8479652a7c"
 		 hash2= "d478bed781fdb3b68293f8c042ae8ec8"
@@ -59,5 +59,5 @@ rule resteex_MacOS_Pirrit {
 		 $hex19= {2461393d20225f5f5a}
 
 	condition:
-		9 of them
+		12 of them
 }

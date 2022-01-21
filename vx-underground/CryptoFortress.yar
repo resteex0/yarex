@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: CryptoFortress 
+   Identifier: vx_underground2_CryptoFortress 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_CryptoFortress {
+rule resteex_vx_underground2_CryptoFortress {
 	meta: 
-		 description= "CryptoFortress Group" 
+		 description= "vx_underground2_CryptoFortress Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-01-54" 
+		 date = "2022-01-20_21-54-20" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "26f13c4ad8c1ccf81e80a556cf6db0af"
 		 hash2= "7551c8026938b4acd149b1551393715f"
@@ -62,59 +62,51 @@ rule resteex_CryptoFortress {
 		 $s41= "f:ddvctoolscrt_bldself_x86crtsrcxtoa.c" fullword wide
 		 $s42= "http://www.softwareok.com" fullword wide
 		 $s43= "isleadbyte(_dbcsBuffer(fh))" fullword wide
-		 $a1= "f:ddvctoolscrt_bldself_x86crtprebuildehtypname.cpp" fullword ascii
-		 $a2= "f:ddvctoolscrt_bldself_x86crtsrctcscat_s.inl" fullword ascii
-		 $a3= "f:ddvctoolscrt_bldself_x86crtsrctcscpy_s.inl" fullword ascii
-		 $a4= "f:ddvctoolscrt_bldself_x86crtsrctcsncpy_s.inl" fullword ascii
 
-		 $hex1= {2461313d2022663a64}
-		 $hex2= {2461323d2022663a64}
-		 $hex3= {2461333d2022663a64}
-		 $hex4= {2461343d2022663a64}
-		 $hex5= {247331303d2022663a}
-		 $hex6= {247331313d2022663a}
-		 $hex7= {247331323d2022663a}
-		 $hex8= {247331333d2022663a}
-		 $hex9= {247331343d2022663a}
-		 $hex10= {247331353d2022663a}
-		 $hex11= {247331363d2022663a}
-		 $hex12= {247331373d2022663a}
-		 $hex13= {247331383d2022663a}
-		 $hex14= {247331393d2022663a}
-		 $hex15= {2473313d202231312e}
-		 $hex16= {247332303d2022663a}
-		 $hex17= {247332313d2022663a}
-		 $hex18= {247332323d2022663a}
-		 $hex19= {247332333d2022663a}
-		 $hex20= {247332343d2022663a}
-		 $hex21= {247332353d2022663a}
-		 $hex22= {247332363d2022663a}
-		 $hex23= {247332373d2022663a}
-		 $hex24= {247332383d2022663a}
-		 $hex25= {247332393d2022663a}
-		 $hex26= {2473323d20227b3838}
-		 $hex27= {247333303d2022663a}
-		 $hex28= {247333313d2022663a}
-		 $hex29= {247333323d2022663a}
-		 $hex30= {247333333d2022663a}
-		 $hex31= {247333343d2022663a}
-		 $hex32= {247333353d2022663a}
-		 $hex33= {247333363d2022663a}
-		 $hex34= {247333373d2022663a}
-		 $hex35= {247333383d2022663a}
-		 $hex36= {247333393d2022663a}
-		 $hex37= {2473333d202242663a}
-		 $hex38= {247334303d2022663a}
-		 $hex39= {247334313d2022663a}
-		 $hex40= {247334323d20226874}
-		 $hex41= {247334333d20226973}
-		 $hex42= {2473343d20225f424c}
-		 $hex43= {2473353d202263663a}
-		 $hex44= {2473363d2022436f6e}
-		 $hex45= {2473373d20225f4372}
-		 $hex46= {2473383d2022663a64}
-		 $hex47= {2473393d2022663a64}
+		 $hex1= {247331303d2022663a}
+		 $hex2= {247331313d2022663a}
+		 $hex3= {247331323d2022663a}
+		 $hex4= {247331333d2022663a}
+		 $hex5= {247331343d2022663a}
+		 $hex6= {247331353d2022663a}
+		 $hex7= {247331363d2022663a}
+		 $hex8= {247331373d2022663a}
+		 $hex9= {247331383d2022663a}
+		 $hex10= {247331393d2022663a}
+		 $hex11= {2473313d202231312e}
+		 $hex12= {247332303d2022663a}
+		 $hex13= {247332313d2022663a}
+		 $hex14= {247332323d2022663a}
+		 $hex15= {247332333d2022663a}
+		 $hex16= {247332343d2022663a}
+		 $hex17= {247332353d2022663a}
+		 $hex18= {247332363d2022663a}
+		 $hex19= {247332373d2022663a}
+		 $hex20= {247332383d2022663a}
+		 $hex21= {247332393d2022663a}
+		 $hex22= {2473323d20227b3838}
+		 $hex23= {247333303d2022663a}
+		 $hex24= {247333313d2022663a}
+		 $hex25= {247333323d2022663a}
+		 $hex26= {247333333d2022663a}
+		 $hex27= {247333343d2022663a}
+		 $hex28= {247333353d2022663a}
+		 $hex29= {247333363d2022663a}
+		 $hex30= {247333373d2022663a}
+		 $hex31= {247333383d2022663a}
+		 $hex32= {247333393d2022663a}
+		 $hex33= {2473333d202242663a}
+		 $hex34= {247334303d2022663a}
+		 $hex35= {247334313d2022663a}
+		 $hex36= {247334323d20226874}
+		 $hex37= {247334333d20226973}
+		 $hex38= {2473343d20225f424c}
+		 $hex39= {2473353d202263663a}
+		 $hex40= {2473363d2022436f6e}
+		 $hex41= {2473373d20225f4372}
+		 $hex42= {2473383d2022663a64}
+		 $hex43= {2473393d2022663a64}
 
 	condition:
-		31 of them
+		28 of them
 }

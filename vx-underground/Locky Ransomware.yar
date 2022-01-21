@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Locky_Ransomware 
+   Identifier: vx_underground2_Locky_Ransomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Locky_Ransomware {
+rule resteex_vx_underground2_Locky_Ransomware {
 	meta: 
-		 description= "Locky_Ransomware Group" 
+		 description= "vx_underground2_Locky_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-13-11" 
+		 date = "2022-01-20_22-07-04" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0708745aa6cb07941ce21ccd08f2f052"
 		 hash2= "0993d209ab4bc09588679a76af1c4748"

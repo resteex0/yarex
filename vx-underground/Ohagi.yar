@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Ohagi 
+   Identifier: vx_underground2_Ohagi 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Ohagi {
+rule resteex_vx_underground2_Ohagi {
 	meta: 
-		 description= "Ohagi Group" 
+		 description= "vx_underground2_Ohagi Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-13" 
+		 date = "2022-01-20_22-13-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02ef06286c4058691b56a25991687c27"
 		 hash2= "03a3c78b1d81bcf559ded1b148711584"
@@ -262,10 +262,22 @@ rule resteex_Ohagi {
 	
  		 $s1= "CurrentHorizontalResolution" fullword wide
 		 $s2= "CurrentVerticalResolution" fullword wide
+		 $a1= "/usr/src/debug/mingw64-i686-gcc-4.8.3-1/i686-w64-mingw32/libgcc" fullword ascii
+		 $a2= "/usr/src/debug/mingw64-i686-runtime-3.3.0-1/crt/crt_handler.c" fullword ascii
+		 $a3= "/usr/src/debug/mingw64-i686-runtime-3.3.0-1/crt/gs_support.c" fullword ascii
+		 $a4= "/usr/src/debug/mingw64-i686-runtime-3.3.0-1/crt/mingw_helpers.c" fullword ascii
+		 $a5= "/usr/src/debug/mingw64-i686-runtime-3.3.0-1/crt/pseudo-reloc.c" fullword ascii
+		 $a6= "/usr/src/debug/mingw64-i686-runtime-3.3.0-1/misc/mingw_matherr.c" fullword ascii
 
-		 $hex1= {2473313d2022437572}
-		 $hex2= {2473323d2022437572}
+		 $hex1= {2461313d20222f7573}
+		 $hex2= {2461323d20222f7573}
+		 $hex3= {2461333d20222f7573}
+		 $hex4= {2461343d20222f7573}
+		 $hex5= {2461353d20222f7573}
+		 $hex6= {2461363d20222f7573}
+		 $hex7= {2473313d2022437572}
+		 $hex8= {2473323d2022437572}
 
 	condition:
-		1 of them
+		5 of them
 }

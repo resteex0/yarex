@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Phorpiex 
+   Identifier: vx_underground2_Phorpiex 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Phorpiex {
+rule resteex_vx_underground2_Phorpiex {
 	meta: 
-		 description= "Phorpiex Group" 
+		 description= "vx_underground2_Phorpiex Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-32" 
+		 date = "2022-01-20_22-13-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0a49900b4492f43b68331af062731f33"
 		 hash2= "1f6e817f7722e3d830d1bfe27386c346"
@@ -46,20 +46,16 @@ rule resteex_Phorpiex {
 		 $s6= "urn:schemas-upnp-org:service:WANIPConnection:1" fullword wide
 		 $s7= "urn:schemas-upnp-org:service:WANPPPConnection:1" fullword wide
 		 $s8= "%windir%system32cmd.exe" fullword wide
-		 $a1= "SoftwareMicrosoftWindowsCurrentVersionPoliciesExplorer" fullword ascii
-		 $a2= "urn:schemas-upnp-org:device:InternetGatewayDevice:1" fullword ascii
 
-		 $hex1= {2461313d2022536f66}
-		 $hex2= {2461323d202275726e}
-		 $hex3= {2473313d2022536f66}
-		 $hex4= {2473323d2022536f66}
-		 $hex5= {2473333d202275726e}
-		 $hex6= {2473343d202275726e}
-		 $hex7= {2473353d202275726e}
-		 $hex8= {2473363d202275726e}
-		 $hex9= {2473373d202275726e}
-		 $hex10= {2473383d2022257769}
+		 $hex1= {2473313d2022536f66}
+		 $hex2= {2473323d2022536f66}
+		 $hex3= {2473333d202275726e}
+		 $hex4= {2473343d202275726e}
+		 $hex5= {2473353d202275726e}
+		 $hex6= {2473363d202275726e}
+		 $hex7= {2473373d202275726e}
+		 $hex8= {2473383d2022257769}
 
 	condition:
-		6 of them
+		5 of them
 }

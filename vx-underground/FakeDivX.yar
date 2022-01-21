@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: FakeDivX 
+   Identifier: vx_underground2_FakeDivX 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_FakeDivX {
+rule resteex_vx_underground2_FakeDivX {
 	meta: 
-		 description= "FakeDivX Group" 
+		 description= "vx_underground2_FakeDivX Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-04-05" 
+		 date = "2022-01-20_21-56-10" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "00bdd194328c2fe873260970da585d84"
 		 hash2= "052ae7410594c5c0522afd89eccb85a7"
@@ -87,70 +87,44 @@ rule resteex_FakeDivX {
 		 $s34= "SOFTWAREMozillaMozilla Firefox" fullword wide
 		 $s35= "wchar_t>::base64_decode: Exception" fullword wide
 		 $s36= "wchar_t>::base64_encode: Exception" fullword wide
-		 $a1= "abcdwxyzstuvrqponmijklefghABCDWXYZSTUVMNOPQRIJKLEFGH9876543210+/" fullword ascii
-		 $a2= "CChromeBrandInstaller::InstallBrand_CleanFiles(%s): %s" fullword ascii
-		 $a3= "CChromeBrandInstaller::InstallBrand_CopyFiles(%s): %s" fullword ascii
-		 $a4= "CFireFoxInstaller::RunFFCommand: (profile=%s,user=%s)" fullword ascii
-		 $a5= "CIEPluginModule::AddCommonRGSReplacements: CLSID='%s'" fullword ascii
-		 $a6= "CIEPluginModule::AddCommonRGSReplacements: PluginShortName='%s'" fullword ascii
-		 $a7= "CIEPluginModule::AddCommonRGSReplacements: ProgID='%s'" fullword ascii
-		 $a8= "DCChromeBrandInstaller::SetNodeValue: SetNodeValue(" fullword ascii
-		 $a9= "mini::ini_section::set_from_command_line: (lpCmdLine==NULL)" fullword ascii
-		 $a10= "SOFTWAREMicrosoftWindowsCurrentVersionUninstall" fullword ascii
-		 $a11= "SOFTWAREMicrosoftWindows NTCurrentVersionProfileList" fullword ascii
-		 $a12= "wchar_t>::base64_decode: Exception" fullword ascii
-		 $a13= "wchar_t>::base64_encode: Exception" fullword ascii
 
-		 $hex1= {246131303d2022534f}
-		 $hex2= {246131313d2022534f}
-		 $hex3= {246131323d20227763}
-		 $hex4= {246131333d20227763}
-		 $hex5= {2461313d2022616263}
-		 $hex6= {2461323d2022434368}
-		 $hex7= {2461333d2022434368}
-		 $hex8= {2461343d2022434669}
-		 $hex9= {2461353d2022434945}
-		 $hex10= {2461363d2022434945}
-		 $hex11= {2461373d2022434945}
-		 $hex12= {2461383d2022444343}
-		 $hex13= {2461393d20226d696e}
-		 $hex14= {247331303d20224368}
-		 $hex15= {247331313d20224368}
-		 $hex16= {247331323d20224349}
-		 $hex17= {247331333d20224349}
-		 $hex18= {247331343d20224349}
-		 $hex19= {247331353d20224349}
-		 $hex20= {247331363d2022433a}
-		 $hex21= {247331373d20224443}
-		 $hex22= {247331383d2022496e}
-		 $hex23= {247331393d20226a73}
-		 $hex24= {2473313d2022352e31}
-		 $hex25= {247332303d20226a73}
-		 $hex26= {247332313d20226d69}
-		 $hex27= {247332323d20226d69}
-		 $hex28= {247332333d20226d69}
-		 $hex29= {247332343d20226d69}
-		 $hex30= {247332353d20226d69}
-		 $hex31= {247332363d20226d69}
-		 $hex32= {247332373d20226d69}
-		 $hex33= {247332383d20224d6f}
-		 $hex34= {247332393d20227069}
-		 $hex35= {2473323d2022616263}
-		 $hex36= {247333303d20227072}
-		 $hex37= {247333313d2022534f}
-		 $hex38= {247333323d2022534f}
-		 $hex39= {247333333d2022534f}
-		 $hex40= {247333343d2022534f}
-		 $hex41= {247333353d20227763}
-		 $hex42= {247333363d20227763}
-		 $hex43= {2473333d2022434368}
-		 $hex44= {2473343d2022434368}
-		 $hex45= {2473353d2022434669}
-		 $hex46= {2473363d202243476c}
-		 $hex47= {2473373d202243476c}
-		 $hex48= {2473383d202243476c}
-		 $hex49= {2473393d202243476c}
+		 $hex1= {247331303d20224368}
+		 $hex2= {247331313d20224368}
+		 $hex3= {247331323d20224349}
+		 $hex4= {247331333d20224349}
+		 $hex5= {247331343d20224349}
+		 $hex6= {247331353d20224349}
+		 $hex7= {247331363d2022433a}
+		 $hex8= {247331373d20224443}
+		 $hex9= {247331383d2022496e}
+		 $hex10= {247331393d20226a73}
+		 $hex11= {2473313d2022352e31}
+		 $hex12= {247332303d20226a73}
+		 $hex13= {247332313d20226d69}
+		 $hex14= {247332323d20226d69}
+		 $hex15= {247332333d20226d69}
+		 $hex16= {247332343d20226d69}
+		 $hex17= {247332353d20226d69}
+		 $hex18= {247332363d20226d69}
+		 $hex19= {247332373d20226d69}
+		 $hex20= {247332383d20224d6f}
+		 $hex21= {247332393d20227069}
+		 $hex22= {2473323d2022616263}
+		 $hex23= {247333303d20227072}
+		 $hex24= {247333313d2022534f}
+		 $hex25= {247333323d2022534f}
+		 $hex26= {247333333d2022534f}
+		 $hex27= {247333343d2022534f}
+		 $hex28= {247333353d20227763}
+		 $hex29= {247333363d20227763}
+		 $hex30= {2473333d2022434368}
+		 $hex31= {2473343d2022434368}
+		 $hex32= {2473353d2022434669}
+		 $hex33= {2473363d202243476c}
+		 $hex34= {2473373d202243476c}
+		 $hex35= {2473383d202243476c}
+		 $hex36= {2473393d202243476c}
 
 	condition:
-		32 of them
+		24 of them
 }

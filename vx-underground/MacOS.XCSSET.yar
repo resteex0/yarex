@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_XCSSET 
+   Identifier: vx_underground2_MacOS_XCSSET 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_XCSSET {
+rule resteex_vx_underground2_MacOS_XCSSET {
 	meta: 
-		 description= "MacOS_XCSSET Group" 
+		 description= "vx_underground2_MacOS_XCSSET Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-14-47" 
+		 date = "2022-01-20_22-10-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2f7d8e7c6be2ffecd4b6a48c3d4f73df"
 		 hash2= "3b0257a1a7e8b7e66840888db18be1cd"

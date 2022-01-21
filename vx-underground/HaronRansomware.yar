@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: HaronRansomware 
+   Identifier: vx_underground2_HaronRansomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_HaronRansomware {
+rule resteex_vx_underground2_HaronRansomware {
 	meta: 
-		 description= "HaronRansomware Group" 
+		 description= "vx_underground2_HaronRansomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-07-25" 
+		 date = "2022-01-20_21-59-41" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "dedad693898bba0e4964e6c9a749d380"
 

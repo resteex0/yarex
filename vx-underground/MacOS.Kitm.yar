@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: MacOS_Kitm 
+   Identifier: vx_underground2_MacOS_Kitm 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_MacOS_Kitm {
+rule resteex_vx_underground2_MacOS_Kitm {
 	meta: 
-		 description= "MacOS_Kitm Group" 
+		 description= "vx_underground2_MacOS_Kitm Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-18-28" 
+		 date = "2022-01-20_22-10-07" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3aa9c558d4d5f1b2a6d3ce47aa26315f"
 		 hash2= "6b06baec43171a3f1c6ac9c3fb143a06"
@@ -36,5 +36,5 @@ rule resteex_MacOS_Kitm {
 		 $hex5= {2461353d202254402c}
 
 	condition:
-		2 of them
+		3 of them
 }

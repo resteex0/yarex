@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: PIVY 
+   Identifier: vx_underground2_PIVY 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_PIVY {
+rule resteex_vx_underground2_PIVY {
 	meta: 
-		 description= "PIVY Group" 
+		 description= "vx_underground2_PIVY Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-16-33" 
+		 date = "2022-01-20_22-13-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0cb6fd43d5d29ce891454a510ff38bd5"
 		 hash2= "11eccf2c247dd4f9df730354b3e0947d"
@@ -49,22 +49,24 @@ rule resteex_PIVY {
 		 $s13= "WMDM/MediaOriginalChannel" fullword wide
 		 $s14= "WMDM/SupportedDeviceProperties" fullword wide
 		 $s15= "WPD/PassthroughPropertyValues" fullword wide
+		 $a1= "C:buildsourcerndevicedbbuilderrel32rndevicedbbuilder.pdb" fullword ascii
 
-		 $hex1= {247331303d2022574d}
-		 $hex2= {247331313d2022574d}
-		 $hex3= {247331323d2022574d}
-		 $hex4= {247331333d2022574d}
-		 $hex5= {247331343d2022574d}
-		 $hex6= {247331353d20225750}
-		 $hex7= {2473313d2022236249}
-		 $hex8= {2473323d20222b6742}
-		 $hex9= {2473333d2022675d44}
-		 $hex10= {2473343d20222d6c47}
-		 $hex11= {2473353d20226d6a6c}
-		 $hex12= {2473363d2022574d44}
-		 $hex13= {2473373d2022574d44}
-		 $hex14= {2473383d2022574d44}
-		 $hex15= {2473393d2022574d44}
+		 $hex1= {2461313d2022433a62}
+		 $hex2= {247331303d2022574d}
+		 $hex3= {247331313d2022574d}
+		 $hex4= {247331323d2022574d}
+		 $hex5= {247331333d2022574d}
+		 $hex6= {247331343d2022574d}
+		 $hex7= {247331353d20225750}
+		 $hex8= {2473313d2022236249}
+		 $hex9= {2473323d20222b6742}
+		 $hex10= {2473333d2022675d44}
+		 $hex11= {2473343d20222d6c47}
+		 $hex12= {2473353d20226d6a6c}
+		 $hex13= {2473363d2022574d44}
+		 $hex14= {2473373d2022574d44}
+		 $hex15= {2473383d2022574d44}
+		 $hex16= {2473393d2022574d44}
 
 	condition:
 		10 of them

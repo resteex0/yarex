@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: LockerGoga 
+   Identifier: vx_underground2_LockerGoga 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_LockerGoga {
+rule resteex_vx_underground2_LockerGoga {
 	meta: 
-		 description= "LockerGoga Group" 
+		 description= "vx_underground2_LockerGoga Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-13-06" 
+		 date = "2022-01-20_22-07-00" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "164f72dfb729ca1e15f99d456b7cf811"
 		 hash2= "16bcc3b7f32c41e7c7222bf37fe39fe6"
@@ -76,48 +76,68 @@ rule resteex_LockerGoga {
 		 $s38= "sLLvt@jiYzI[FhsILQtCjoYrIsLesMJh@D3$S" fullword wide
 		 $s39= "spanish-dominican republic" fullword wide
 		 $s40= "Unknown Analyzing Installer" fullword wide
+		 $a1= ".?AV?$TwoBases@VBlockCipher@CryptoPP@@URC6_Info@2@@CryptoPP@@" fullword ascii
+		 $a2= ".?AV?$value_semantic_codecvt_helper@D@program_options@boost@@" fullword ascii
+		 $a3= ".?AV?$value_semantic_codecvt_helper@_W@program_options@boost@@" fullword ascii
+		 $a4= ".?AV?$VariableKeyLength@$0BA@$0BA@$0CA@$07$03$0A@@CryptoPP@@" fullword ascii
+		 $a5= ".?AV?$VariableKeyLength@$0BA@$0BA@$0CA@$07$03$0A@@GijWRdG_@@" fullword ascii
+		 $a6= ".?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@" fullword ascii
+		 $a7= ".?AVinvalid_scheduler_policy_thread_specification@Concurrency@@" fullword ascii
+		 $a8= ".?AVtoo_many_positional_options_error@program_options@boost@@" fullword ascii
+		 $a9= ";http://crl.comodoca.com/COMODORSACertificationAuthority.crl0q" fullword ascii
+		 $a10= "Namespace3http://www.smartassembly.com/webservices/Reporting/L" fullword ascii
 
-		 $hex1= {247331303d20226170}
-		 $hex2= {247331313d20226170}
-		 $hex3= {247331323d20226170}
-		 $hex4= {247331333d20226170}
-		 $hex5= {247331343d20226170}
-		 $hex6= {247331353d20226170}
-		 $hex7= {247331363d20226170}
-		 $hex8= {247331373d20226170}
-		 $hex9= {247331383d20224170}
-		 $hex10= {247331393d2022436f}
-		 $hex11= {2473313d2022262527}
-		 $hex12= {247332303d20225f5f}
-		 $hex13= {247332313d20225f5f}
-		 $hex14= {247332323d20226578}
-		 $hex15= {247332333d20226578}
-		 $hex16= {247332343d20226578}
-		 $hex17= {247332353d20224961}
-		 $hex18= {247332363d20224961}
-		 $hex19= {247332373d20226a61}
-		 $hex20= {247332383d20226a60}
-		 $hex21= {247332393d20224c52}
-		 $hex22= {2473323d20227b3039}
-		 $hex23= {247333303d20224c52}
-		 $hex24= {247333313d20226d69}
-		 $hex25= {247333323d20224d4d}
-		 $hex26= {247333333d20222e4e}
-		 $hex27= {247333343d20224f61}
-		 $hex28= {247333353d20224f61}
-		 $hex29= {247333363d20227069}
-		 $hex30= {247333373d20225363}
-		 $hex31= {247333383d2022734c}
-		 $hex32= {247333393d20227370}
-		 $hex33= {2473333d2022416262}
-		 $hex34= {247334303d2022556e}
-		 $hex35= {2473343d2022617069}
-		 $hex36= {2473353d2022617069}
-		 $hex37= {2473363d2022617069}
-		 $hex38= {2473373d2022617069}
-		 $hex39= {2473383d2022617069}
-		 $hex40= {2473393d2022617069}
+		 $hex1= {246131303d20224e61}
+		 $hex2= {2461313d20222e3f41}
+		 $hex3= {2461323d20222e3f41}
+		 $hex4= {2461333d20222e3f41}
+		 $hex5= {2461343d20222e3f41}
+		 $hex6= {2461353d20222e3f41}
+		 $hex7= {2461363d20222e3f41}
+		 $hex8= {2461373d20222e3f41}
+		 $hex9= {2461383d20222e3f41}
+		 $hex10= {2461393d20223b6874}
+		 $hex11= {247331303d20226170}
+		 $hex12= {247331313d20226170}
+		 $hex13= {247331323d20226170}
+		 $hex14= {247331333d20226170}
+		 $hex15= {247331343d20226170}
+		 $hex16= {247331353d20226170}
+		 $hex17= {247331363d20226170}
+		 $hex18= {247331373d20226170}
+		 $hex19= {247331383d20224170}
+		 $hex20= {247331393d2022436f}
+		 $hex21= {2473313d2022262527}
+		 $hex22= {247332303d20225f5f}
+		 $hex23= {247332313d20225f5f}
+		 $hex24= {247332323d20226578}
+		 $hex25= {247332333d20226578}
+		 $hex26= {247332343d20226578}
+		 $hex27= {247332353d20224961}
+		 $hex28= {247332363d20224961}
+		 $hex29= {247332373d20226a61}
+		 $hex30= {247332383d20226a60}
+		 $hex31= {247332393d20224c52}
+		 $hex32= {2473323d20227b3039}
+		 $hex33= {247333303d20224c52}
+		 $hex34= {247333313d20226d69}
+		 $hex35= {247333323d20224d4d}
+		 $hex36= {247333333d20222e4e}
+		 $hex37= {247333343d20224f61}
+		 $hex38= {247333353d20224f61}
+		 $hex39= {247333363d20227069}
+		 $hex40= {247333373d20225363}
+		 $hex41= {247333383d2022734c}
+		 $hex42= {247333393d20227370}
+		 $hex43= {2473333d2022416262}
+		 $hex44= {247334303d2022556e}
+		 $hex45= {2473343d2022617069}
+		 $hex46= {2473353d2022617069}
+		 $hex47= {2473363d2022617069}
+		 $hex48= {2473373d2022617069}
+		 $hex49= {2473383d2022617069}
+		 $hex50= {2473393d2022617069}
 
 	condition:
-		26 of them
+		33 of them
 }

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Nanocore 
+   Identifier: vx_underground2_Nanocore 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Nanocore {
+rule resteex_vx_underground2_Nanocore {
 	meta: 
-		 description= "Nanocore Group" 
+		 description= "vx_underground2_Nanocore Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-15-47" 
+		 date = "2022-01-20_22-11-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "15a6502124a4b7573c45d96f041b950f"
 		 hash2= "6a0ca26944e0c0e44d2b37796c7eaf36"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Tinba 
+   Identifier: vx_underground2_Tinba 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Tinba {
+rule resteex_vx_underground2_Tinba {
 	meta: 
-		 description= "Tinba Group" 
+		 description= "vx_underground2_Tinba Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-07" 
+		 date = "2022-01-20_22-17-41" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "04a9c0fb139c55b2a491c6594f2c314b"
 		 hash2= "082ece4939954ae3aa1924487a34644d"
@@ -46,21 +46,19 @@ rule resteex_Tinba {
 		 $s10= "rationales practicalities" fullword wide
 		 $s11= "RovingsRadishSpectrometric.exe" fullword wide
 		 $s12= "U_i=V`j>Wak?Xbl@YcmAZdnB[eoCfpD]gq" fullword wide
-		 $a1= "@http://ibf-cmi-1938953175.us-east-1.elb.amazonaws.com" fullword ascii
 
-		 $hex1= {2461313d2022406874}
-		 $hex2= {247331303d20227261}
-		 $hex3= {247331313d2022526f}
-		 $hex4= {247331323d2022555f}
-		 $hex5= {2473313d20227b3838}
-		 $hex6= {2473323d2022436f6e}
-		 $hex7= {2473333d2022457870}
-		 $hex8= {2473343d2022467265}
-		 $hex9= {2473353d2022406874}
-		 $hex10= {2473363d2022497c49}
-		 $hex11= {2473373d2022496c6c}
-		 $hex12= {2473383d20224c616e}
-		 $hex13= {2473393d2022506572}
+		 $hex1= {247331303d20227261}
+		 $hex2= {247331313d2022526f}
+		 $hex3= {247331323d2022555f}
+		 $hex4= {2473313d20227b3838}
+		 $hex5= {2473323d2022436f6e}
+		 $hex6= {2473333d2022457870}
+		 $hex7= {2473343d2022467265}
+		 $hex8= {2473353d2022406874}
+		 $hex9= {2473363d2022497c49}
+		 $hex10= {2473373d2022496c6c}
+		 $hex11= {2473383d20224c616e}
+		 $hex12= {2473393d2022506572}
 
 	condition:
 		8 of them

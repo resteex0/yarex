@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Tor2Mine 
+   Identifier: vx_underground2_Tor2Mine 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Tor2Mine {
+rule resteex_vx_underground2_Tor2Mine {
 	meta: 
-		 description= "Tor2Mine Group" 
+		 description= "vx_underground2_Tor2Mine Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-15_00-19-09" 
+		 date = "2022-01-20_22-17-42" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1f9ff22965274cbaa410139d1dfd0d1e"
 		 hash2= "1ff598510ed92bc4f36038b25ca1eed9"

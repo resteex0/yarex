@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: DearCry_Ransomware 
+   Identifier: vx_underground2_DearCry_Ransomware 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_DearCry_Ransomware {
+rule resteex_vx_underground2_DearCry_Ransomware {
 	meta: 
-		 description= "DearCry_Ransomware Group" 
+		 description= "vx_underground2_DearCry_Ransomware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_11-02-40" 
+		 date = "2022-01-20_21-54-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0e55ead3b8fd305d9a54f78c7b56741a"
 
@@ -26,5 +26,5 @@ rule resteex_DearCry_Ransomware {
 		 $hex3= {2461333d2022566448}
 
 	condition:
-		1 of them
+		2 of them
 }
