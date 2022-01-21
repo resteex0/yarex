@@ -4,7 +4,7 @@ yarex is new face of uniq yara rule and is the YARA signature and IOC database f
 
 yarex is a project created to make the possibility of static malware analysis open and available to the public. yarex the objective to achivement the zero risk with conduct yarex in threat hunting or incident response or researching .
 
-## Focus of yarex
+## Focus of Yarex
 
 1. High quality YARA rules and IOCs with minimal false positives
 2. Clear structure
