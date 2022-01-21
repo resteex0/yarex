@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Shamoon 
+   Identifier: theZoo_Shamoon 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Shamoon {
+rule resteex_theZoo_Shamoon {
 	meta: 
-		 description= "Shamoon Group" 
+		 description= "theZoo_Shamoon Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-43-25" 
+		 date = "2022-01-20_21-35-29" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "b14299fd4d1cbfb4cc7486d978398214"
 		 hash2= "d214c717a357fe3a455610b197c390aa"

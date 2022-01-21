@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win64_NukeSped 
+   Identifier: theZoo_Win64_NukeSped 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win64_NukeSped {
+rule resteex_theZoo_Win64_NukeSped {
 	meta: 
-		 description= "Win64_NukeSped Group" 
+		 description= "theZoo_Win64_NukeSped Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-18" 
+		 date = "2022-01-20_21-37-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "379d680a2accaa48444524968d1aa782"
 		 hash2= "cebc3a9192d6b516e7937038acb689b0"

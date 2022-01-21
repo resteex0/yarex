@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_LuckyCat 
+   Identifier: theZoo_Win32_LuckyCat 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_LuckyCat {
+rule resteex_theZoo_Win32_LuckyCat {
 	meta: 
-		 description= "Win32_LuckyCat Group" 
+		 description= "theZoo_Win32_LuckyCat Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-44-36" 
+		 date = "2022-01-20_21-36-42" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9f9723c5ff4ec1b7f08eb2005632b8b1"
 		 hash2= "c1d73ce5bf0559a86bae0f9045a82e0a"

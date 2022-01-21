@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Surtr 
+   Identifier: theZoo_Surtr 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Surtr {
+rule resteex_theZoo_Surtr {
 	meta: 
-		 description= "Surtr Group" 
+		 description= "theZoo_Surtr Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-43-28" 
+		 date = "2022-01-20_21-35-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "36e194f7df2f2fd020e3800ab77f7e82"
 		 hash2= "4f03b86e4d6631c26ff5fffc7332be1d"
@@ -28,12 +28,10 @@ rule resteex_Surtr {
 	
  		 $a1= "paperw12240paperh15840margl666margr133margt666margb173" fullword ascii
 		 $a2= "SoftwareMicrosoftWindowsCurrentVersionPoliciesExplorerrun" fullword ascii
-		 $a3= "SoftwareMicrosoftWindows NTCurrentVersionWinlogon" fullword ascii
 
 		 $hex1= {2461313d2022706170}
 		 $hex2= {2461323d2022536f66}
-		 $hex3= {2461333d2022536f66}
 
 	condition:
-		2 of them
+		1 of them
 }

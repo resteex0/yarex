@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_XAgent 
+   Identifier: theZoo_Win32_XAgent 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_XAgent {
+rule resteex_theZoo_Win32_XAgent {
 	meta: 
-		 description= "Win32_XAgent Group" 
+		 description= "theZoo_Win32_XAgent Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-14" 
+		 date = "2022-01-20_21-37-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2f6d1bed602a3ad749301e7aa3800139"
 

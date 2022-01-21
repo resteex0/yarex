@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_KerrDown 
+   Identifier: theZoo_Win32_KerrDown 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_KerrDown {
+rule resteex_theZoo_Win32_KerrDown {
 	meta: 
-		 description= "Win32_KerrDown Group" 
+		 description= "theZoo_Win32_KerrDown Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-44-32" 
+		 date = "2022-01-20_21-36-36" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "518f52aabd9a059d181bfe864097091e"
 		 hash2= "6aa3115fa1f3adb8f0539e93d2cf21ca"

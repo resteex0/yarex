@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Ransomware_Thanos 
+   Identifier: theZoo_Ransomware_Thanos 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Ransomware_Thanos {
+rule resteex_theZoo_Ransomware_Thanos {
 	meta: 
-		 description= "Ransomware_Thanos Group" 
+		 description= "theZoo_Ransomware_Thanos Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-43-18" 
+		 date = "2022-01-20_21-35-23" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "03b76a5130d0df8134a6bdea7fe97bcd"
 		 hash2= "be60e389a0108b2871dff12dfbb542ac"

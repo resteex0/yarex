@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Poweliks 
+   Identifier: theZoo_Poweliks 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Poweliks {
+rule resteex_theZoo_Poweliks {
 	meta: 
-		 description= "Poweliks Group" 
+		 description= "theZoo_Poweliks Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-42-48" 
+		 date = "2022-01-20_21-35-13" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0181850239cd26b8fb8b72afb0e95eac"
 		 hash2= "02884b95d5c3fde46c8ecd6ca409abd4"
@@ -25,14 +25,10 @@ rule resteex_Poweliks {
 	
  		 $s1= "%windir%system32rundll32.exe" fullword wide
 		 $a1= "Cesscoryshodpyro0hazynthgunsraga1-0-.Combawedsati_takeyap_._" fullword ascii
-		 $a2= "type=%s&version=1.0&aid=%s&builddate=%s&id=%s&os=%s_%s" fullword ascii
-		 $a3= "%windir%system32windowspowershellv1.0powershell.exe" fullword ascii
 
 		 $hex1= {2461313d2022436573}
-		 $hex2= {2461323d2022747970}
-		 $hex3= {2461333d2022257769}
-		 $hex4= {2473313d2022257769}
+		 $hex2= {2473313d2022257769}
 
 	condition:
-		2 of them
+		1 of them
 }

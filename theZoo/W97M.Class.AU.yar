@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: W97M_Class_AU 
+   Identifier: theZoo_W97M_Class_AU 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_W97M_Class_AU {
+rule resteex_theZoo_W97M_Class_AU {
 	meta: 
-		 description= "W97M_Class_AU Group" 
+		 description= "theZoo_W97M_Class_AU Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-44-08" 
+		 date = "2022-01-20_21-36-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "345e5ed6361e5f0f6ed521c3f2f3881c"
 		 hash2= "58f3e1cb3d85ec986263cc61ea1cfec7"

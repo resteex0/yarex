@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: WMIGhost 
+   Identifier: theZoo_WMIGhost 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_WMIGhost {
+rule resteex_theZoo_WMIGhost {
 	meta: 
-		 description= "WMIGhost Group" 
+		 description= "theZoo_WMIGhost Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-24" 
+		 date = "2022-01-20_21-37-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0df40b226a4913a57668b83b7c7b443c"
 		 hash2= "0e7db6b6a6e4993a01a01df578d65bf0"
@@ -40,27 +40,13 @@ rule resteex_WMIGhost {
 		 $s3= "__EventFilter.Name='ProbeScriptFint'" fullword wide
 		 $s4= "__FilterToConsumerBinding" fullword wide
 		 $s5= "__IntervalTimerInstruction" fullword wide
-		 $a1= "3.3}vd3RpgzevKqyvpg;4^@K^_!=W^W|pf~v}g= =#4:(|K~" fullword ascii
-		 $a2= ";4;48p|}grz}vaHzN=gvkg84:4:=p|~~r}w(nnzu;p|~~r}w`2.}f" fullword ascii
-		 $a3= ":(n?Tvg@Z}u|)3uf}pgz|};:hera3v.}vd3V}f~varg|a;7=D^Z;4@v" fullword ascii
-		 $a4= "vpg393ua|~3Dz} !LCa|pv``3d{vav3]r~v.4`pap|}`=vkv41::(d{z" fullword ascii
-		 $a5= "vpg393ua|~3Dz} !L]vgd|axRwrcgva3d{vav3C]CWvezpvZW3" fullword ascii
-		 $a6= "v}tg{:N(qavrx(nnprgp{;v:hnn7=|[ggc=cv};4C@G4?7=`K~" fullword ascii
-		 $a7= "v}tg{(z88:hera3zgv~.zgv~`HzN(era3g~c`ga.zgv~=uza`gP{z" fullword ascii
 
-		 $hex1= {2461313d2022332e33}
-		 $hex2= {2461323d20223b343b}
-		 $hex3= {2461333d20223a286e}
-		 $hex4= {2461343d2022767067}
-		 $hex5= {2461353d2022767067}
-		 $hex6= {2461363d2022767d74}
-		 $hex7= {2461373d2022767d74}
-		 $hex8= {2473313d2022416374}
-		 $hex9= {2473323d2022416374}
-		 $hex10= {2473333d20225f5f45}
-		 $hex11= {2473343d20225f5f46}
-		 $hex12= {2473353d20225f5f49}
+		 $hex1= {2473313d2022416374}
+		 $hex2= {2473323d2022416374}
+		 $hex3= {2473333d20225f5f45}
+		 $hex4= {2473343d20225f5f46}
+		 $hex5= {2473353d20225f5f49}
 
 	condition:
-		8 of them
+		3 of them
 }

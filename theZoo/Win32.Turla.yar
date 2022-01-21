@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_Turla 
+   Identifier: theZoo_Win32_Turla 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_Turla {
+rule resteex_theZoo_Win32_Turla {
 	meta: 
-		 description= "Win32_Turla Group" 
+		 description= "theZoo_Win32_Turla Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-08" 
+		 date = "2022-01-20_21-37-00" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2b47ad7df9902aaa19474723064ee76f"
 		 hash2= "3c1a8991e96f4c56ae3e90fb6f0ae679"

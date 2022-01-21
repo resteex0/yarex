@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_Unclassified 
+   Identifier: theZoo_Win32_Unclassified 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_Unclassified {
+rule resteex_theZoo_Win32_Unclassified {
 	meta: 
-		 description= "Win32_Unclassified Group" 
+		 description= "theZoo_Win32_Unclassified Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-09" 
+		 date = "2022-01-20_21-37-01" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1c234a8879840da21f197b2608a164c9"
 

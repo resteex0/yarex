@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Artemis 
+   Identifier: theZoo_Artemis 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Artemis {
+rule resteex_theZoo_Artemis {
 	meta: 
-		 description= "Artemis Group" 
+		 description= "theZoo_Artemis Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-42-11" 
+		 date = "2022-01-20_21-34-44" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "caff801a280d42dbd1ad6b1266d3c43a"
 

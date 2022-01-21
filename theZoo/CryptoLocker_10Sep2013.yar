@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: CryptoLocker_10Sep2013 
+   Identifier: theZoo_CryptoLocker_10Sep2013 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_CryptoLocker_10Sep2013 {
+rule resteex_theZoo_CryptoLocker_10Sep2013 {
 	meta: 
-		 description= "CryptoLocker_10Sep2013 Group" 
+		 description= "theZoo_CryptoLocker_10Sep2013 Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-42-18" 
+		 date = "2022-01-20_21-34-51" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "04fb36199787f2e3e2135611a38321eb"
 

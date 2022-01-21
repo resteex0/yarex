@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Ransomware_TeslaCrypt 
+   Identifier: theZoo_Ransomware_TeslaCrypt 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Ransomware_TeslaCrypt {
+rule resteex_theZoo_Ransomware_TeslaCrypt {
 	meta: 
-		 description= "Ransomware_TeslaCrypt Group" 
+		 description= "theZoo_Ransomware_TeslaCrypt Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-43-18" 
+		 date = "2022-01-20_21-35-22" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "209a288c68207d57e0ce6e60ebf60729"
 		 hash2= "6d3d62a4cff19b4f2cc7ce9027c33be8"

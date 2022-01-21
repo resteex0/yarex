@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: Win32_APT28_SekoiaRootkit 
+   Identifier: theZoo_Win32_APT28_SekoiaRootkit 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_Win32_APT28_SekoiaRootkit {
+rule resteex_theZoo_Win32_APT28_SekoiaRootkit {
 	meta: 
-		 description= "Win32_APT28_SekoiaRootkit Group" 
+		 description= "theZoo_Win32_APT28_SekoiaRootkit Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-44-12" 
+		 date = "2022-01-20_21-36-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f8c8f6456c5a52ef24aa426e6b121685"
 

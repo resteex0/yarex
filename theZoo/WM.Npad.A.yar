@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: WM_Npad_A 
+   Identifier: theZoo_WM_Npad_A 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_WM_Npad_A {
+rule resteex_theZoo_WM_Npad_A {
 	meta: 
-		 description= "WM_Npad_A Group" 
+		 description= "theZoo_WM_Npad_A Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-01-20_04-45-26" 
+		 date = "2022-01-20_21-37-15" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "23d06213fe8c8e879261f4b630810b2b"
 		 hash2= "37c36a83e92e891b997c11be555bb340"
