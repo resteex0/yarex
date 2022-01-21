@@ -97,7 +97,7 @@ after option 2 as first should be have detect as some :
 my project is very uniq yara rules in the world.
 we was lunch until now this branch.
 
-1- theZoo https://otx.alienvault.com/pulse/61e9398ebae4e81ca56713a2<br>
+1- theZoo https://otx.alienvault.com/pulse/61ea1ee4e71f59a454d5b0f3<br>
 2- vx-underground https://otx.alienvault.com/pulse/61e2696b21b826d5a5ac6719<br>
 
 
