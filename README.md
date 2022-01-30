@@ -97,10 +97,12 @@ after option 2 as first should be have detect as some :
 my project is very uniq yara rules in the world.
 we was lunch until now this branch.
 
-1- theZoo https://otx.alienvault.com/pulse/61ea1ee4e71f59a454d5b0f3<br>
-2- vx-underground https://otx.alienvault.com/pulse/61e2696b21b826d5a5ac6719<br>
-3- malware-sample-library https://otx.alienvault.com/pulse/61ea44d19102056f62733697<br>
-4- Malware-Feed https://otx.alienvault.com/pulse/61ea9c061eb0c62aef1df72d
+1- yarex_theZoo https://otx.alienvault.com/pulse/61ea1ee4e71f59a454d5b0f3<br>
+2- yarex_vx-underground https://otx.alienvault.com/pulse/61e2696b21b826d5a5ac6719<br>
+3- yarex_malware-sample-library https://otx.alienvault.com/pulse/61ea44d19102056f62733697<br>
+4- yarex_Malware-Feed https://otx.alienvault.com/pulse/61ea9c061eb0c62aef1df72d<br>
+5- yarex_APTMalware https://otx.alienvault.com/pulse/61ebb686fb654ea04bf28cd4<br>
+6- yarex_APT-Sample https://otx.alienvault.com/pulse/61ec8f270e57ec3c02764e51<br>
 
 
 
