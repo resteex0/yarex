@@ -92,7 +92,7 @@ after option 2 as first should be have detect as some :
 
 <a href="https://asciinema.org/a/461995" target="_blank"><img src="https://asciinema.org/a/461995.svg" /></a>
 
-## achievements of project to now
+## achievements of project untile now
 
 my project is very uniq yara rules in the world.
 we was lunch until now this branch.
@@ -176,6 +176,14 @@ https://avatars.githubusercontent.com/u/2851492?v=4 as inspiring style of yara r
 https://github.com/ytisf/theZoo big thanx alot for ytisf team as big effort and benchmark in malware researching.
 
 https://www.vx-underground.org/ thanks to database collection of malware
+
+https://github.com/mstfknn/malware-sample-library 
+
+https://github.com/MalwareSamples/Malware-Feed
+
+https://github.com/cyber-research/APTMalware
+
+https://github.com/Cherishao/APT-Sample
 
 ## releases
 
