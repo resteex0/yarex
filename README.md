@@ -10,7 +10,7 @@ yarex is a project created to make the possibility of static malware analysis op
 2. Clear structure
 3. Consistent rule format
 
-## free High Quality YARA Rules Feed and **yarex is open and welcoming visitors!** [CODE-OF-CONDUCT][https://github.com/resteex0/yarex/blob/main/CONTRIBUTING.md]
+# free High Quality YARA Rules Feed and **yarex is open and welcoming visitors!** [CODE-OF-CONDUCT][https://github.com/resteex0/yarex/blob/main/CONTRIBUTING.md]
 
 If you are about to interact with our community please make sure to read our `CODE-OF-CONDUCT.md` prior to doing so. If you plan to contribute, first - thank you. However, do make sure to follow the standards on `CONTRIBUTING.md
 
