@@ -187,7 +187,7 @@ https://github.com/Cherishao/APT-Sample
 
 ## releases
 
-Yarex v0.20220115 https://github.com/resteex0/yarex/releases/tag/%23yarex
+Yarex v0.20220115 https://github.com/resteex0/yarex/releases/tag/%23yarex<br>
 Yarex v1.0.0  Jan 30, 2022 https://github.com/resteex0/yarex/releases/tag/%23Yarex1.0.0
 
 ## License
