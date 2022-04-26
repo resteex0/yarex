@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Greenbug_bin 
+   Identifier: APT_Sample_GreenbugAPT_Greenbug_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Greenbug_bin {
+rule resteex_APT_Sample_GreenbugAPT_Greenbug_bin {
 	meta: 
-		 description= "APT_Sample_Greenbug_bin Group" 
+		 description= "APT_Sample_GreenbugAPT_Greenbug_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-42" 
+		 date = "2022-04-26_03-22-47" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "39ae8ced52d5b7b93e79c8727b5dd51c"
 

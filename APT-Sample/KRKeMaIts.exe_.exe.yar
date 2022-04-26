@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_KRKeMaIts_exe__exe 
+   Identifier: APT_Sample_GoziGroup_KRKeMaIts_exe__exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_KRKeMaIts_exe__exe {
+rule resteex_APT_Sample_GoziGroup_KRKeMaIts_exe__exe {
 	meta: 
-		 description= "APT_Sample_KRKeMaIts_exe__exe Group" 
+		 description= "APT_Sample_GoziGroup_KRKeMaIts_exe__exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-42" 
+		 date = "2022-04-26_03-25-46" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "531bfea83204df3fab21f07a9751bcb7"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_DarkHydrus_bin 
+   Identifier: APT_Sample_DarkHydrus_DarkHydrus_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_DarkHydrus_bin {
+rule resteex_APT_Sample_DarkHydrus_DarkHydrus_bin {
 	meta: 
-		 description= "APT_Sample_DarkHydrus_bin Group" 
+		 description= "APT_Sample_DarkHydrus_DarkHydrus_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-42" 
+		 date = "2022-04-26_03-21-15" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "21e9451af7c59a4a136f4046d036352a"
 

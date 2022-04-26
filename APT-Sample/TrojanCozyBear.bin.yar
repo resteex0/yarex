@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_TrojanCozyBear_bin 
+   Identifier: APT_Sample_APT29_TrojanCozyBear_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_TrojanCozyBear_bin {
+rule resteex_APT_Sample_APT29_TrojanCozyBear_bin {
 	meta: 
-		 description= "APT_Sample_TrojanCozyBear_bin Group" 
+		 description= "APT_Sample_APT29_TrojanCozyBear_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-41-04" 
+		 date = "2022-04-26_03-22-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "3d3363598f87c78826c859077606e514"
 

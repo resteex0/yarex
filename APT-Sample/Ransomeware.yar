@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Ransomeware {
 	meta: 
 		 description= "APT_Sample_Ransomeware Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-49-51" 
+		 date = "2022-04-26_02-23-51" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0805cb0e64e34711530c95e58e38c11f"
 		 hash2= "27a75b8bdbaaf7ebe18bca7aadd0a4dd"

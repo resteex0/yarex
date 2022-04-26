@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_APT28Implant_bin 
+   Identifier: APT_Sample_APT28_APT28Implant_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_APT28Implant_bin {
+rule resteex_APT_Sample_APT28_APT28Implant_bin {
 	meta: 
-		 description= "APT_Sample_APT28Implant_bin Group" 
+		 description= "APT_Sample_APT28_APT28Implant_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-16" 
+		 date = "2022-04-26_03-22-04" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6e52b4466cf1dcedf82c8f7463114469"
 

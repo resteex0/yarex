@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_DoubleFantasyInstaller_bin 
+   Identifier: APT_Sample_EquationGroup_DoubleFantasyInstaller_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_DoubleFantasyInstaller_bin {
+rule resteex_APT_Sample_EquationGroup_DoubleFantasyInstaller_bin {
 	meta: 
-		 description= "APT_Sample_DoubleFantasyInstaller_bin Group" 
+		 description= "APT_Sample_EquationGroup_DoubleFantasyInstaller_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-05" 
+		 date = "2022-04-26_03-21-42" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2a12630ff976ba0994143ca93fecd17f"
 

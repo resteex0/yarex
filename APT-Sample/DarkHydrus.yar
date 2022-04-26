@@ -10,7 +10,7 @@ rule resteex_APT_Sample_DarkHydrus {
 	meta: 
 		 description= "APT_Sample_DarkHydrus Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-47-55" 
+		 date = "2022-04-26_02-20-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1a57c63942d049b222f9b0179f5216fd"
 		 hash2= "21e9451af7c59a4a136f4046d036352a"

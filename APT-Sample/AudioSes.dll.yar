@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_AudioSes_dll 
+   Identifier: APT_Sample_APT29_AudioSes_dll 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_AudioSes_dll {
+rule resteex_APT_Sample_APT29_AudioSes_dll {
 	meta: 
-		 description= "APT_Sample_AudioSes_dll Group" 
+		 description= "APT_Sample_APT29_AudioSes_dll Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-41-04" 
+		 date = "2022-04-26_03-22-25" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "16bbc967a8b6a365871a05c74a4f345b"
 

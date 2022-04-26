@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_TrojanUPXPacked_bin 
+   Identifier: APT_Sample_UPXsamples_TrojanUPXPacked_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_TrojanUPXPacked_bin {
+rule resteex_APT_Sample_UPXsamples_TrojanUPXPacked_bin {
 	meta: 
-		 description= "APT_Sample_TrojanUPXPacked_bin Group" 
+		 description= "APT_Sample_UPXsamples_TrojanUPXPacked_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-39" 
+		 date = "2022-04-26_03-20-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "863c8c36f10ad0e033584990f2d4bce6"
 

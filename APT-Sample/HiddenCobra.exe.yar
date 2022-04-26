@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_HiddenCobra_exe 
+   Identifier: APT_Sample_DPRK_HiddenCobra_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_HiddenCobra_exe {
+rule resteex_APT_Sample_DPRK_HiddenCobra_exe {
 	meta: 
-		 description= "APT_Sample_HiddenCobra_exe Group" 
+		 description= "APT_Sample_DPRK_HiddenCobra_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-56" 
+		 date = "2022-04-26_03-22-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "143cb4f16dcfc16a02812718acd32c8f"
 

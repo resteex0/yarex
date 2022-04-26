@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Final1stspy,Dropper_bin 
+   Identifier: APT_Sample_APT37_Final1stspy_Dropper_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Final1stspy,Dropper_bin {
+rule resteex_APT_Sample_APT37_Final1stspy_Dropper_bin {
 	meta: 
-		 description= "APT_Sample_Final1stspy,Dropper_bin Group" 
+		 description= "APT_Sample_APT37_Final1stspy_Dropper_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-46" 
+		 date = "2022-04-26_03-26-19" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0dd50c4a5aa9899504cb4cf95acd981e"
 

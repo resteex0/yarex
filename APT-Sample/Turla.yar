@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Turla {
 	meta: 
 		 description= "APT_Sample_Turla Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-50-04" 
+		 date = "2022-04-26_02-24-07" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "25ad1d40b05d9b6978d352b490e7b93f"
 		 hash2= "2ced6205942be2349da93af07170bdfd"

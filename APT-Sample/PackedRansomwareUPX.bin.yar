@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_PackedRansomwareUPX_bin 
+   Identifier: APT_Sample_UPXsamples_PackedRansomwareUPX_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_PackedRansomwareUPX_bin {
+rule resteex_APT_Sample_UPXsamples_PackedRansomwareUPX_bin {
 	meta: 
-		 description= "APT_Sample_PackedRansomwareUPX_bin Group" 
+		 description= "APT_Sample_UPXsamples_PackedRansomwareUPX_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-38" 
+		 date = "2022-04-26_03-20-28" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9e0fd09ae20af32dfb66d844c6de9418"
 

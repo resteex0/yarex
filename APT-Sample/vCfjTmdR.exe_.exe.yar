@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_vCfjTmdR_exe__exe 
+   Identifier: APT_Sample_GoziGroup_vCfjTmdR_exe__exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_vCfjTmdR_exe__exe {
+rule resteex_APT_Sample_GoziGroup_vCfjTmdR_exe__exe {
 	meta: 
-		 description= "APT_Sample_vCfjTmdR_exe__exe Group" 
+		 description= "APT_Sample_GoziGroup_vCfjTmdR_exe__exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-43" 
+		 date = "2022-04-26_03-25-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f947d58595fc0567fb9bfa3c7f609ebc"
 

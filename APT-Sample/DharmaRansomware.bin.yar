@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_DharmaRansomware_bin 
+   Identifier: APT_Sample_Ransomeware_DharmaRansomware_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_DharmaRansomware_bin {
+rule resteex_APT_Sample_Ransomeware_DharmaRansomware_bin {
 	meta: 
-		 description= "APT_Sample_DharmaRansomware_bin Group" 
+		 description= "APT_Sample_Ransomeware_DharmaRansomware_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-02" 
+		 date = "2022-04-26_03-25-09" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9f3ea1850f9d879de8a36dc778dfffba"
 

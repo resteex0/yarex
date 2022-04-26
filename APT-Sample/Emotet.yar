@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Emotet {
 	meta: 
 		 description= "APT_Sample_Emotet Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-14" 
+		 date = "2022-04-26_02-21-17" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0ef5ed6cd6b1917807ad2ed87e377540"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_yodascrypterUPX_bin 
+   Identifier: APT_Sample_UPXsamples_yodascrypterUPX_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_yodascrypterUPX_bin {
+rule resteex_APT_Sample_UPXsamples_yodascrypterUPX_bin {
 	meta: 
-		 description= "APT_Sample_yodascrypterUPX_bin Group" 
+		 description= "APT_Sample_UPXsamples_yodascrypterUPX_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-36" 
+		 date = "2022-04-26_03-20-27" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "744cd119a11d72765f0688498c75ea66"
 

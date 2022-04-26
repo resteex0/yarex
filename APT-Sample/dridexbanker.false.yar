@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_dridexbanker_false 
+   Identifier: APT_Sample_Dridex_dridexbanker_false 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_dridexbanker_false {
+rule resteex_APT_Sample_Dridex_dridexbanker_false {
 	meta: 
-		 description= "APT_Sample_dridexbanker_false Group" 
+		 description= "APT_Sample_Dridex_dridexbanker_false Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-44" 
+		 date = "2022-04-26_03-20-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "dbf96ab40b728c12951d317642fbd9da"
 

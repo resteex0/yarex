@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_MatrixRansomware_bin 
+   Identifier: APT_Sample_Ransomeware_MatrixRansomware_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_MatrixRansomware_bin {
+rule resteex_APT_Sample_Ransomeware_MatrixRansomware_bin {
 	meta: 
-		 description= "APT_Sample_MatrixRansomware_bin Group" 
+		 description= "APT_Sample_Ransomeware_MatrixRansomware_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-03" 
+		 date = "2022-04-26_03-25-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a93bd199d34d21cc9102600c6ce782cf"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_WannaCry2_exe 
+   Identifier: APT_Sample_Ransomeware_WannaCry2_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_WannaCry2_exe {
+rule resteex_APT_Sample_Ransomeware_WannaCry2_exe {
 	meta: 
-		 description= "APT_Sample_WannaCry2_exe Group" 
+		 description= "APT_Sample_Ransomeware_WannaCry2_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-07" 
+		 date = "2022-04-26_03-24-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0805cb0e64e34711530c95e58e38c11f"
 

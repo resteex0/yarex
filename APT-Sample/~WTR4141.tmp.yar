@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_~WTR4141_tmp 
+   Identifier: APT_Sample_Stuxnet_Malware_~WTR4141_tmp 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_~WTR4141_tmp {
+rule resteex_APT_Sample_Stuxnet_Malware_~WTR4141_tmp {
 	meta: 
-		 description= "APT_Sample_~WTR4141_tmp Group" 
+		 description= "APT_Sample_Stuxnet_Malware_~WTR4141_tmp Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-58" 
+		 date = "2022-04-26_03-22-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4589ef6876e9c8c05dcf4db00a54887b"
 

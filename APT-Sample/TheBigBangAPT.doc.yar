@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_TheBigBangAPT_doc 
+   Identifier: APT_Sample_GazaAPTGroup_TheBigBangAPT_doc 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_TheBigBangAPT_doc {
+rule resteex_APT_Sample_GazaAPTGroup_TheBigBangAPT_doc {
 	meta: 
-		 description= "APT_Sample_TheBigBangAPT_doc Group" 
+		 description= "APT_Sample_GazaAPTGroup_TheBigBangAPT_doc Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-33" 
+		 date = "2022-04-26_03-26-27" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a3dc31c456508df7dfac8349eb0d2b65"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_APT28,NATOPAPER,SOFACY2004_bin 
+   Identifier: APT_Sample_APT28_APT28_NATOPAPER_SOFACY2004_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_APT28,NATOPAPER,SOFACY2004_bin {
+rule resteex_APT_Sample_APT28_APT28_NATOPAPER_SOFACY2004_bin {
 	meta: 
-		 description= "APT_Sample_APT28,NATOPAPER,SOFACY2004_bin Group" 
+		 description= "APT_Sample_APT28_APT28_NATOPAPER_SOFACY2004_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-41" 
+		 date = "2022-04-26_03-21-53" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "7f564a6a8910b513a851b2616af8d7ee"
 

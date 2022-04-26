@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_ZekapabImplant_bin 
+   Identifier: APT_Sample_APT28_ZekapabImplant_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_ZekapabImplant_bin {
+rule resteex_APT_Sample_APT28_ZekapabImplant_bin {
 	meta: 
-		 description= "APT_Sample_ZekapabImplant_bin Group" 
+		 description= "APT_Sample_APT28_ZekapabImplant_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-34" 
+		 date = "2022-04-26_03-22-15" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "8c2f9832b38b4c10f3b5b7924379d599"
 

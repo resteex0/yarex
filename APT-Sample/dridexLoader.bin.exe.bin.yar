@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_dridexLoader_bin_exe_bin 
+   Identifier: APT_Sample_Dridex_dridexLoader_bin_exe_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_dridexLoader_bin_exe_bin {
+rule resteex_APT_Sample_Dridex_dridexLoader_bin_exe_bin {
 	meta: 
-		 description= "APT_Sample_dridexLoader_bin_exe_bin Group" 
+		 description= "APT_Sample_Dridex_dridexLoader_bin_exe_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-55" 
+		 date = "2022-04-26_03-20-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c26203af4b3e9c81a9e634178b603601"
 

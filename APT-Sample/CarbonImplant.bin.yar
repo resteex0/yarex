@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_CarbonImplant_bin 
+   Identifier: APT_Sample_Turla_CarbonImplant_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_CarbonImplant_bin {
+rule resteex_APT_Sample_Turla_CarbonImplant_bin {
 	meta: 
-		 description= "APT_Sample_CarbonImplant_bin Group" 
+		 description= "APT_Sample_Turla_CarbonImplant_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-24" 
+		 date = "2022-04-26_03-20-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "38ff4b9747c1e6462d8fc31d5455cca2"
 

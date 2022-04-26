@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_ScarabRansomwareUPX_exe 
+   Identifier: APT_Sample_UPXsamples_ScarabRansomwareUPX_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_ScarabRansomwareUPX_exe {
+rule resteex_APT_Sample_UPXsamples_ScarabRansomwareUPX_exe {
 	meta: 
-		 description= "APT_Sample_ScarabRansomwareUPX_exe Group" 
+		 description= "APT_Sample_UPXsamples_ScarabRansomwareUPX_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-35" 
+		 date = "2022-04-26_03-20-30" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "cc74e57fa7575573e12255a4ef6d77e3"
 

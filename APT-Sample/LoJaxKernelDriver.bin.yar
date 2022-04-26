@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_LoJaxKernelDriver_bin 
+   Identifier: APT_Sample_APT28_LoJaxKernelDriver_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_LoJaxKernelDriver_bin {
+rule resteex_APT_Sample_APT28_LoJaxKernelDriver_bin {
 	meta: 
-		 description= "APT_Sample_LoJaxKernelDriver_bin Group" 
+		 description= "APT_Sample_APT28_LoJaxKernelDriver_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-29" 
+		 date = "2022-04-26_03-22-12" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "60e84516c6ec6dfdae7b422d1f7cab06"
 

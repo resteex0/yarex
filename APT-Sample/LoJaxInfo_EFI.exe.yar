@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_LoJaxInfo_EFI_exe 
+   Identifier: APT_Sample_APT28_LoJaxInfo_EFI_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_LoJaxInfo_EFI_exe {
+rule resteex_APT_Sample_APT28_LoJaxInfo_EFI_exe {
 	meta: 
-		 description= "APT_Sample_LoJaxInfo_EFI_exe Group" 
+		 description= "APT_Sample_APT28_LoJaxInfo_EFI_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-26" 
+		 date = "2022-04-26_03-21-51" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e00216958f15f1db6371b583a3ea438a"
 

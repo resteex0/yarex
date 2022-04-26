@@ -10,7 +10,7 @@ rule resteex_APT_Sample_DustSquad {
 	meta: 
 		 description= "APT_Sample_DustSquad Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-11" 
+		 date = "2022-04-26_02-21-13" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1610cddb80d1be5d711feb46610f8a77"
 		 hash2= "979eff03faeaeea5310df53ee1a2fc8e"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_ISMDoorx64_bin 
+   Identifier: APT_Sample_GreenbugAPT_ISMDoorx64_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_ISMDoorx64_bin {
+rule resteex_APT_Sample_GreenbugAPT_ISMDoorx64_bin {
 	meta: 
-		 description= "APT_Sample_ISMDoorx64_bin Group" 
+		 description= "APT_Sample_GreenbugAPT_ISMDoorx64_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-40" 
+		 date = "2022-04-26_03-22-43" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e0175eecf8d31a6f32da076d22ecbdff"
 

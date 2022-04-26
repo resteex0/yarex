@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_samsamRansomware_bin 
+   Identifier: APT_Sample_Ransomeware_samsamRansomware_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_samsamRansomware_bin {
+rule resteex_APT_Sample_Ransomeware_samsamRansomware_bin {
 	meta: 
-		 description= "APT_Sample_samsamRansomware_bin Group" 
+		 description= "APT_Sample_Ransomeware_samsamRansomware_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-09" 
+		 date = "2022-04-26_03-25-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "58b39bb94660958b6180588109c34f51"
 

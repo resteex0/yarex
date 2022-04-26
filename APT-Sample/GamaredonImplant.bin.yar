@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_GamaredonImplant_bin 
+   Identifier: APT_Sample_GamaredonGroup_GamaredonImplant_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_GamaredonImplant_bin {
+rule resteex_APT_Sample_GamaredonGroup_GamaredonImplant_bin {
 	meta: 
-		 description= "APT_Sample_GamaredonImplant_bin Group" 
+		 description= "APT_Sample_GamaredonGroup_GamaredonImplant_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-01" 
+		 date = "2022-04-26_03-20-25" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c7bda65e820338a42a02eb0c1e20d961"
 

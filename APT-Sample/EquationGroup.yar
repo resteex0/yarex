@@ -10,7 +10,7 @@ rule resteex_APT_Sample_EquationGroup {
 	meta: 
 		 description= "APT_Sample_EquationGroup Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-30" 
+		 date = "2022-04-26_02-22-12" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "03718676311de33dd0b8f4f18cffd488"
 		 hash2= "0a209ac0de4ac033f31d6ba9191a8f7a"

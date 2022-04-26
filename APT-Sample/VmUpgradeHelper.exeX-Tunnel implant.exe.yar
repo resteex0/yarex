@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_VmUpgradeHelper_exeX_Tunnel_implant_exe 
+   Identifier: APT_Sample_APT28_VmUpgradeHelper_exeX_Tunnel_implant_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_VmUpgradeHelper_exeX_Tunnel_implant_exe {
+rule resteex_APT_Sample_APT28_VmUpgradeHelper_exeX_Tunnel_implant_exe {
 	meta: 
-		 description= "APT_Sample_VmUpgradeHelper_exeX_Tunnel_implant_exe Group" 
+		 description= "APT_Sample_APT28_VmUpgradeHelper_exeX_Tunnel_implant_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-30" 
+		 date = "2022-04-26_03-21-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9e7053a4b6c9081220a694ec93211b4e"
 

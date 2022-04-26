@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_OilRigThreeDollars_bin 
+   Identifier: APT_Sample_APT34_OilRigThreeDollars_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_OilRigThreeDollars_bin {
+rule resteex_APT_Sample_APT34_OilRigThreeDollars_bin {
 	meta: 
-		 description= "APT_Sample_OilRigThreeDollars_bin Group" 
+		 description= "APT_Sample_APT34_OilRigThreeDollars_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-58" 
+		 date = "2022-04-26_03-21-24" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "02306d629ca4092551081c4ebcbbd9b4"
 

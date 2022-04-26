@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_FormbookStealer_false 
+   Identifier: APT_Sample_Trojans_FormbookStealer_false 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_FormbookStealer_false {
+rule resteex_APT_Sample_Trojans_FormbookStealer_false {
 	meta: 
-		 description= "APT_Sample_FormbookStealer_false Group" 
+		 description= "APT_Sample_Trojans_FormbookStealer_false Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-09" 
+		 date = "2022-04-26_03-24-25" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "38634ac90a7a6cc51024fc9e81facddd"
 

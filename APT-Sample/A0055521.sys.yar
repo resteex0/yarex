@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_A0055521_sys 
+   Identifier: APT_Sample_Stuxnet_Malware_A0055521_sys 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_A0055521_sys {
+rule resteex_APT_Sample_Stuxnet_Malware_A0055521_sys {
 	meta: 
-		 description= "APT_Sample_A0055521_sys Group" 
+		 description= "APT_Sample_Stuxnet_Malware_A0055521_sys Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-59" 
+		 date = "2022-04-26_03-22-51" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f8153747bae8b4ae48837ee17172151e"
 

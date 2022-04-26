@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_DoquDropper_bin 
+   Identifier: APT_Sample_DoquAPT_DoquDropper_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_DoquDropper_bin {
+rule resteex_APT_Sample_DoquAPT_DoquDropper_bin {
 	meta: 
-		 description= "APT_Sample_DoquDropper_bin Group" 
+		 description= "APT_Sample_DoquAPT_DoquDropper_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-32" 
+		 date = "2022-04-26_03-21-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e8eaec1f021a564b82b824af1dbe6c4d"
 

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_GreyEnergyAPT {
 	meta: 
 		 description= "APT_Sample_GreyEnergyAPT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-47" 
+		 date = "2022-04-26_02-22-33" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1cb35f4340a37e75aff1f901629b59f3"
 		 hash2= "446d226cedf08866dbe528868cba2007"

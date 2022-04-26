@@ -10,7 +10,7 @@ rule resteex_APT_Sample_DPRK {
 	meta: 
 		 description= "APT_Sample_DPRK Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-47-57" 
+		 date = "2022-04-26_02-20-57" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "143cb4f16dcfc16a02812718acd32c8f"
 		 hash2= "234b42fb42080176c6ffd240145f2c0c"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_TurlaDropper_bin 
+   Identifier: APT_Sample_Turla_TurlaDropper_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_TurlaDropper_bin {
+rule resteex_APT_Sample_Turla_TurlaDropper_bin {
 	meta: 
-		 description= "APT_Sample_TurlaDropper_bin Group" 
+		 description= "APT_Sample_Turla_TurlaDropper_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-25" 
+		 date = "2022-04-26_03-21-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ff8c3f362d7c9b9a19cfa09b4b3cfc75"
 

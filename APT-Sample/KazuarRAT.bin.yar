@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_KazuarRAT_bin 
+   Identifier: APT_Sample_Turla_KazuarRAT_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_KazuarRAT_bin {
+rule resteex_APT_Sample_Turla_KazuarRAT_bin {
 	meta: 
-		 description= "APT_Sample_KazuarRAT_bin Group" 
+		 description= "APT_Sample_Turla_KazuarRAT_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-20" 
+		 date = "2022-04-26_03-20-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "edfd33d319af1cce7baa1b15b52940e7"
 

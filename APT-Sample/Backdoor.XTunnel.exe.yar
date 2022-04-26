@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Backdoor_XTunnel_exe 
+   Identifier: APT_Sample_APT28_Backdoor_XTunnel_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Backdoor_XTunnel_exe {
+rule resteex_APT_Sample_APT28_Backdoor_XTunnel_exe {
 	meta: 
-		 description= "APT_Sample_Backdoor_XTunnel_exe Group" 
+		 description= "APT_Sample_APT28_Backdoor_XTunnel_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-39" 
+		 date = "2022-04-26_03-21-55" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9e7053a4b6c9081220a694ec93211b4e"
 

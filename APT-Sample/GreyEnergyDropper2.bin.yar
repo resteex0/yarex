@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_GreyEnergyDropper2_bin 
+   Identifier: APT_Sample_GreyEnergyAPT_GreyEnergyDropper2_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_GreyEnergyDropper2_bin {
+rule resteex_APT_Sample_GreyEnergyAPT_GreyEnergyDropper2_bin {
 	meta: 
-		 description= "APT_Sample_GreyEnergyDropper2_bin Group" 
+		 description= "APT_Sample_GreyEnergyAPT_GreyEnergyDropper2_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-38" 
+		 date = "2022-04-26_03-24-40" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "446d226cedf08866dbe528868cba2007"
 

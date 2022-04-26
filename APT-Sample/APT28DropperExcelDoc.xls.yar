@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_APT28DropperExcelDoc_xls 
+   Identifier: APT_Sample_APT28_APT28DropperExcelDoc_xls 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_APT28DropperExcelDoc_xls {
+rule resteex_APT_Sample_APT28_APT28DropperExcelDoc_xls {
 	meta: 
-		 description= "APT_Sample_APT28DropperExcelDoc_xls Group" 
+		 description= "APT_Sample_APT28_APT28DropperExcelDoc_xls Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-23" 
+		 date = "2022-04-26_03-22-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "5debb3535cba6615526c64e44d0f5e2b"
 

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_GamaredonGroup {
 	meta: 
 		 description= "APT_Sample_GamaredonGroup Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-32" 
+		 date = "2022-04-26_02-22-14" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "04449f25e64ba893acdcba5f1694cd41"
 		 hash2= "19ddb00f3eaa750c1316bd615b3d1622"

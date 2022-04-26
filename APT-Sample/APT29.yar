@@ -10,7 +10,7 @@ rule resteex_APT_Sample_APT29 {
 	meta: 
 		 description= "APT_Sample_APT29 Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-47-41" 
+		 date = "2022-04-26_02-20-38" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "004b55a66b3a86a1ce0a0b9b69b95976"
 		 hash2= "3d3363598f87c78826c859077606e514"

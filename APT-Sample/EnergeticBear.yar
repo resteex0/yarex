@@ -10,7 +10,7 @@ rule resteex_APT_Sample_EnergeticBear {
 	meta: 
 		 description= "APT_Sample_EnergeticBear Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-26" 
+		 date = "2022-04-26_02-22-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "122543722bbbeb4cec9ee977157a59da"
 		 hash2= "f7c5d117c91bd22fa17d2d5444ff7ab7"

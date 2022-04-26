@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_GandcrabV5_0_5_bin 
+   Identifier: APT_Sample_GandCrab_GandcrabV5_0_5_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_GandcrabV5_0_5_bin {
+rule resteex_APT_Sample_GandCrab_GandcrabV5_0_5_bin {
 	meta: 
-		 description= "APT_Sample_GandcrabV5_0_5_bin Group" 
+		 description= "APT_Sample_GandCrab_GandcrabV5_0_5_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-54" 
+		 date = "2022-04-26_03-22-58" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "c805528f6844d7caf5793c025b56f67d"
 

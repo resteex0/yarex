@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Lazarus {
 	meta: 
 		 description= "APT_Sample_Lazarus Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-49" 
+		 date = "2022-04-26_02-22-36" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4f6b0be2dbd49871ff32e8388b011d90"
 		 hash2= "5f9a6b47e1d2f0ad1494504398877c10"

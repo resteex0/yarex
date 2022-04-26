@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_lsPEcswsco_exe__exe 
+   Identifier: APT_Sample_GoziGroup_lsPEcswsco_exe__exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_lsPEcswsco_exe__exe {
+rule resteex_APT_Sample_GoziGroup_lsPEcswsco_exe__exe {
 	meta: 
-		 description= "APT_Sample_lsPEcswsco_exe__exe Group" 
+		 description= "APT_Sample_GoziGroup_lsPEcswsco_exe__exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-36-41" 
+		 date = "2022-04-26_03-25-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "68c00c7706169601ead8a0383a812525"
 

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_OlympicDestroyer {
 	meta: 
 		 description= "APT_Sample_OlympicDestroyer Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-49-49" 
+		 date = "2022-04-26_02-23-49" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ca0eaca077aa67f2609f612cefe7f1f3"
 		 hash2= "cfdd16225e67471f5ef54cab9b3a5558"

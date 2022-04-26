@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_EquationLaserInstaller_bin 
+   Identifier: APT_Sample_EquationGroup_EquationLaserInstaller_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_EquationLaserInstaller_bin {
+rule resteex_APT_Sample_EquationGroup_EquationLaserInstaller_bin {
 	meta: 
-		 description= "APT_Sample_EquationLaserInstaller_bin Group" 
+		 description= "APT_Sample_EquationGroup_EquationLaserInstaller_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-01" 
+		 date = "2022-04-26_03-21-45" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "752af597e6d9fd70396accc0b9013dbe"
 

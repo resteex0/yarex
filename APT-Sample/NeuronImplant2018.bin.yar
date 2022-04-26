@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_NeuronImplant2018_bin 
+   Identifier: APT_Sample_Turla_NeuronImplant2018_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_NeuronImplant2018_bin {
+rule resteex_APT_Sample_Turla_NeuronImplant2018_bin {
 	meta: 
-		 description= "APT_Sample_NeuronImplant2018_bin Group" 
+		 description= "APT_Sample_Turla_NeuronImplant2018_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-27" 
+		 date = "2022-04-26_03-20-58" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2ced6205942be2349da93af07170bdfd"
 

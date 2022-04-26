@@ -10,7 +10,7 @@ rule resteex_APT_Sample_GandCrab {
 	meta: 
 		 description= "APT_Sample_GandCrab Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-34" 
+		 date = "2022-04-26_02-22-17" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0301296543c91492d49847ae636857a4"
 		 hash2= "2d351d67eab01124b7189c02cff7595f"

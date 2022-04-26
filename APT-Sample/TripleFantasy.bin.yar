@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_TripleFantasy_bin 
+   Identifier: APT_Sample_EquationGroup_TripleFantasy_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_TripleFantasy_bin {
+rule resteex_APT_Sample_EquationGroup_TripleFantasy_bin {
 	meta: 
-		 description= "APT_Sample_TripleFantasy_bin Group" 
+		 description= "APT_Sample_EquationGroup_TripleFantasy_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-04" 
+		 date = "2022-04-26_03-21-46" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "9180d5affe1e5df0717d7385e7f54386"
 

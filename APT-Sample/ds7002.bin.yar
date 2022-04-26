@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_ds7002_bin 
+   Identifier: APT_Sample_APT29_ds7002_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_ds7002_bin {
+rule resteex_APT_Sample_APT29_ds7002_bin {
 	meta: 
-		 description= "APT_Sample_ds7002_bin Group" 
+		 description= "APT_Sample_APT29_ds7002_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-41-05" 
+		 date = "2022-04-26_03-22-19" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6ed0020b0851fb71d5b0076f4ee95f3c"
 

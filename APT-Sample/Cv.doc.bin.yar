@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Cv_doc_bin 
+   Identifier: APT_Sample_MuddyWaterAPT_Cv_doc_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Cv_doc_bin {
+rule resteex_APT_Sample_MuddyWaterAPT_Cv_doc_bin {
 	meta: 
-		 description= "APT_Sample_Cv_doc_bin Group" 
+		 description= "APT_Sample_MuddyWaterAPT_Cv_doc_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-40-53" 
+		 date = "2022-04-26_03-26-34" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "ca9230a54f40a6a0fe52d7379459189c"
 

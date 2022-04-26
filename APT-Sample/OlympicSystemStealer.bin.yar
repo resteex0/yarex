@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_OlympicSystemStealer_bin 
+   Identifier: APT_Sample_OlympicDestroyer_OlympicSystemStealer_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_OlympicSystemStealer_bin {
+rule resteex_APT_Sample_OlympicDestroyer_OlympicSystemStealer_bin {
 	meta: 
-		 description= "APT_Sample_OlympicSystemStealer_bin Group" 
+		 description= "APT_Sample_OlympicDestroyer_OlympicSystemStealer_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-40-42" 
+		 date = "2022-04-26_03-26-38" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "d9c37b937ffde812ae15de885913e101"
 

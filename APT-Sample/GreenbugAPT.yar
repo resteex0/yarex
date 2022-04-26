@@ -10,7 +10,7 @@ rule resteex_APT_Sample_GreenbugAPT {
 	meta: 
 		 description= "APT_Sample_GreenbugAPT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-43" 
+		 date = "2022-04-26_02-22-29" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "39ae8ced52d5b7b93e79c8727b5dd51c"
 		 hash2= "73b2cfc5590ca3f431c8482d27f8e268"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Trickbotpwgrab_bin 
+   Identifier: APT_Sample_Trojans_Trickbotpwgrab_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Trickbotpwgrab_bin {
+rule resteex_APT_Sample_Trojans_Trickbotpwgrab_bin {
 	meta: 
-		 description= "APT_Sample_Trickbotpwgrab_bin Group" 
+		 description= "APT_Sample_Trojans_Trickbotpwgrab_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-14" 
+		 date = "2022-04-26_03-24-23" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "548a63e9162fbe13dda1dcda1ffda2b6"
 

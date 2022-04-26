@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_EquationDrugLUTEUSOBSTOS 
+   Identifier: APT_Sample_EquationGroup_EquationDrugLUTEUSOBSTOS 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_EquationDrugLUTEUSOBSTOS {
+rule resteex_APT_Sample_EquationGroup_EquationDrugLUTEUSOBSTOS {
 	meta: 
-		 description= "APT_Sample_EquationDrugLUTEUSOBSTOS Group" 
+		 description= "APT_Sample_EquationGroup_EquationDrugLUTEUSOBSTOS Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-04" 
+		 date = "2022-04-26_03-21-43" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4556ce5eb007af1de5bd3b457f0b216d"
 

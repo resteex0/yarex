@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_GrokKeylogger 
+   Identifier: APT_Sample_EquationGroup_GrokKeylogger 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_GrokKeylogger {
+rule resteex_APT_Sample_EquationGroup_GrokKeylogger {
 	meta: 
-		 description= "APT_Sample_GrokKeylogger Group" 
+		 description= "APT_Sample_EquationGroup_GrokKeylogger Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-07" 
+		 date = "2022-04-26_03-21-38" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "24a6ec8ebf9c0867ed1c097f4a653b8d"
 

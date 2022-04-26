@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_LazarusMacOS_bin_xltd 
+   Identifier: APT_Sample_Lazarus_LazarusMacOS_bin_xltd 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_LazarusMacOS_bin_xltd {
+rule resteex_APT_Sample_Lazarus_LazarusMacOS_bin_xltd {
 	meta: 
-		 description= "APT_Sample_LazarusMacOS_bin_xltd Group" 
+		 description= "APT_Sample_Lazarus_LazarusMacOS_bin_xltd Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-43" 
+		 date = "2022-04-26_03-23-08" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "4f6b0be2dbd49871ff32e8388b011d90"
 

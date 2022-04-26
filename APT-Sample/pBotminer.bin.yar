@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_pBotminer_bin 
+   Identifier: APT_Sample_Coinminers_pBotminer_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_pBotminer_bin {
+rule resteex_APT_Sample_Coinminers_pBotminer_bin {
 	meta: 
-		 description= "APT_Sample_pBotminer_bin Group" 
+		 description= "APT_Sample_Coinminers_pBotminer_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-40-46" 
+		 date = "2022-04-26_03-24-16" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "a50ea10ce3e08bf5095c12503ccc5d95"
 

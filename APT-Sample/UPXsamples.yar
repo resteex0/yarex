@@ -10,7 +10,7 @@ rule resteex_APT_Sample_UPXsamples {
 	meta: 
 		 description= "APT_Sample_UPXsamples Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-50-06" 
+		 date = "2022-04-26_02-24-10" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "2469c7e897b343350b6277171e7e0dcf"
 		 hash2= "347cf9b4bb4e99bbea45fcede0ef4063"

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_APT28wmsApplication_exe 
+   Identifier: APT_Sample_APT28_APT28wmsApplication_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_APT28wmsApplication_exe {
+rule resteex_APT_Sample_APT28_APT28wmsApplication_exe {
 	meta: 
-		 description= "APT_Sample_APT28wmsApplication_exe Group" 
+		 description= "APT_Sample_APT28_APT28wmsApplication_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-17" 
+		 date = "2022-04-26_03-22-00" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "92b90b0208805daaa8ab45fa19d36b14"
 

@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_ctlnetw_bin 
+   Identifier: APT_Sample_APT28_ctlnetw_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_ctlnetw_bin {
+rule resteex_APT_Sample_APT28_ctlnetw_bin {
 	meta: 
-		 description= "APT_Sample_ctlnetw_bin Group" 
+		 description= "APT_Sample_APT28_ctlnetw_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-38" 
+		 date = "2022-04-26_03-21-54" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e8e1fcf757fe06be13bead43eaa1338c"
 

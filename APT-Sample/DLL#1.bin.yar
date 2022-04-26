@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_DLL#1_bin 
+   Identifier: APT_Sample_DPRK_DLL#1_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_DLL#1_bin {
+rule resteex_APT_Sample_DPRK_DLL#1_bin {
 	meta: 
-		 description= "APT_Sample_DLL#1_bin Group" 
+		 description= "APT_Sample_DPRK_DLL#1_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-52" 
+		 date = "2022-04-26_03-22-32" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e86c2f4fc88918246bf697b6a404c3ea"
 

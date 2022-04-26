@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_PasswordStealer_NET_bin 
+   Identifier: APT_Sample_Trojans_PasswordStealer_NET_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_PasswordStealer_NET_bin {
+rule resteex_APT_Sample_Trojans_PasswordStealer_NET_bin {
 	meta: 
-		 description= "APT_Sample_PasswordStealer_NET_bin Group" 
+		 description= "APT_Sample_Trojans_PasswordStealer_NET_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-15" 
+		 date = "2022-04-26_03-24-27" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "fb2ca93f987313108abdd4a6d687783a"
 

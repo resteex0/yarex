@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_OctopusDelphi_exe 
+   Identifier: APT_Sample_DustSquad_OctopusDelphi_exe 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_OctopusDelphi_exe {
+rule resteex_APT_Sample_DustSquad_OctopusDelphi_exe {
 	meta: 
-		 description= "APT_Sample_OctopusDelphi_exe Group" 
+		 description= "APT_Sample_DustSquad_OctopusDelphi_exe Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-40-55" 
+		 date = "2022-04-26_03-21-26" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1610cddb80d1be5d711feb46610f8a77"
 

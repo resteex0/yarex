@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_APT28DecoyDocument_doc 
+   Identifier: APT_Sample_APT28_APT28DecoyDocument_doc 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_APT28DecoyDocument_doc {
+rule resteex_APT_Sample_APT28_APT28DecoyDocument_doc {
 	meta: 
-		 description= "APT_Sample_APT28DecoyDocument_doc Group" 
+		 description= "APT_Sample_APT28_APT28DecoyDocument_doc Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-37" 
+		 date = "2022-04-26_03-22-05" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "085be1b8b8f3e90be00f6a3bcea2879f"
 

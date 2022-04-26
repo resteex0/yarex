@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_MoneroNorthKoreaPyongynag_bin 
+   Identifier: APT_Sample_DPRK_MoneroNorthKoreaPyongynag_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_MoneroNorthKoreaPyongynag_bin {
+rule resteex_APT_Sample_DPRK_MoneroNorthKoreaPyongynag_bin {
 	meta: 
-		 description= "APT_Sample_MoneroNorthKoreaPyongynag_bin Group" 
+		 description= "APT_Sample_DPRK_MoneroNorthKoreaPyongynag_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-49" 
+		 date = "2022-04-26_03-22-30" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6a261443299788af1467142d5f538b2c"
 

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Coinminers {
 	meta: 
 		 description= "APT_Sample_Coinminers Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-47-52" 
+		 date = "2022-04-26_02-20-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "1ef7d145bf7153292ea33fe7c900ece9"
 		 hash2= "71404815f6a0171a29de46846e78a079"

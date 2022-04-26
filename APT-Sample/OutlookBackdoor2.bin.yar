@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_OutlookBackdoor2_bin 
+   Identifier: APT_Sample_Turla_OutlookBackdoor2_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_OutlookBackdoor2_bin {
+rule resteex_APT_Sample_Turla_OutlookBackdoor2_bin {
 	meta: 
-		 description= "APT_Sample_OutlookBackdoor2_bin Group" 
+		 description= "APT_Sample_Turla_OutlookBackdoor2_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-25" 
+		 date = "2022-04-26_03-21-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "7009af646c6c3e6abc0af744152ca968"
 

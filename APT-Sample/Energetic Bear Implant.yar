@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_Energetic_Bear_Implant 
+   Identifier: APT_Sample_EnergeticBear_Energetic_Bear_Implant 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_Energetic_Bear_Implant {
+rule resteex_APT_Sample_EnergeticBear_Energetic_Bear_Implant {
 	meta: 
-		 description= "APT_Sample_Energetic_Bear_Implant Group" 
+		 description= "APT_Sample_EnergeticBear_Energetic_Bear_Implant Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-34" 
+		 date = "2022-04-26_03-21-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f901c645188f9c80afa8f49174f065ce"
 

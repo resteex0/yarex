@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Trojans {
 	meta: 
 		 description= "APT_Sample_Trojans Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-50-00" 
+		 date = "2022-04-26_02-24-03" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "22de52ac8f1e5c5c9741c606a352dc21"
 		 hash2= "38634ac90a7a6cc51024fc9e81facddd"

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_DoquAPT {
 	meta: 
 		 description= "APT_Sample_DoquAPT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-47-56" 
+		 date = "2022-04-26_02-20-56" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e8eaec1f021a564b82b824af1dbe6c4d"
 

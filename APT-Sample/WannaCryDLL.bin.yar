@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_WannaCryDLL_bin 
+   Identifier: APT_Sample_Ransomeware_WannaCryDLL_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_WannaCryDLL_bin {
+rule resteex_APT_Sample_Ransomeware_WannaCryDLL_bin {
 	meta: 
-		 description= "APT_Sample_WannaCryDLL_bin Group" 
+		 description= "APT_Sample_Ransomeware_WannaCryDLL_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-38-59" 
+		 date = "2022-04-26_03-25-03" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "30fe2f9a048d7a734c8d9233f64810ba"
 

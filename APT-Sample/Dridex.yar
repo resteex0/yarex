@@ -10,7 +10,7 @@ rule resteex_APT_Sample_Dridex {
 	meta: 
 		 description= "APT_Sample_Dridex Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-48-00" 
+		 date = "2022-04-26_02-21-02" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "6164228ed2cc0eceba9ce1828d87d827"
 		 hash2= "925da3a10f7dde802c8d87047b14fda6"

@@ -10,7 +10,7 @@ rule resteex_APT_Sample_MuddyWaterAPT {
 	meta: 
 		 description= "APT_Sample_MuddyWaterAPT Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-49-48" 
+		 date = "2022-04-26_02-23-48" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "0cf25597343240f88358c694d7ae7e0a"
 		 hash2= "5b5b3cb0948ee56ea761ed31d53c29ad"

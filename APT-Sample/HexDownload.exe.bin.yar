@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_HexDownload_exe_bin 
+   Identifier: APT_Sample_APTC23_HexDownload_exe_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_HexDownload_exe_bin {
+rule resteex_APT_Sample_APTC23_HexDownload_exe_bin {
 	meta: 
-		 description= "APT_Sample_HexDownload_exe_bin Group" 
+		 description= "APT_Sample_APTC23_HexDownload_exe_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-41-13" 
+		 date = "2022-04-26_03-24-50" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "e121531a15f2eaa34dce89f3fec70cfd"
 

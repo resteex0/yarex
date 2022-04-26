@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_BackdoorHiddenCobra_bin 
+   Identifier: APT_Sample_DPRK_BackdoorHiddenCobra_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_BackdoorHiddenCobra_bin {
+rule resteex_APT_Sample_DPRK_BackdoorHiddenCobra_bin {
 	meta: 
-		 description= "APT_Sample_BackdoorHiddenCobra_bin Group" 
+		 description= "APT_Sample_DPRK_BackdoorHiddenCobra_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-37-51" 
+		 date = "2022-04-26_03-22-35" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "eb9db98914207815d763e2e5cfbe96b9"
 

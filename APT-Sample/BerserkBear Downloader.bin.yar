@@ -2,15 +2,15 @@
 /*
    YARA Rule Set
    Author: resteex
-   Identifier: APT_Sample_BerserkBear_Downloader_bin 
+   Identifier: APT_Sample_EnergeticBear_BerserkBear_Downloader_bin 
    /
 /* Rule Set ----------------------------------------------------------------- */
 
-rule resteex_APT_Sample_BerserkBear_Downloader_bin {
+rule resteex_APT_Sample_EnergeticBear_BerserkBear_Downloader_bin {
 	meta: 
-		 description= "APT_Sample_BerserkBear_Downloader_bin Group" 
+		 description= "APT_Sample_EnergeticBear_BerserkBear_Downloader_bin Group" 
 		 author = "Resteex Generator" 
-		 date = "2022-03-29_06-39-33" 
+		 date = "2022-04-26_03-21-46" 
 		 license = "https://github.com/resteex0/yarex"
 		 hash1= "f7c5d117c91bd22fa17d2d5444ff7ab7"
 
